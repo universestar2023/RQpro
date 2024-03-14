@@ -38,9 +38,9 @@ const ComponentLayout = () => {
         </div>
       </div>
 
-      <a href="#" className="button">
+      <center><a href="#" className="custom-button">
         Sign Up Now
-      </a>
+      </a></center>
     </div>
   );
 };
