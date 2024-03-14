@@ -1,0 +1,57 @@
+.container {
+    max-width: 800px; /* Adjust max-width for laptop view */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 28px; /* Increase font size for heading */
+    font-weight: bold;
+    margin-bottom: 20px; /* Increase margin for spacing */
+    text-align: center; /* Center align heading */
+}
+
+.text {
+    font-size: 18px; /* Increase font size for text */
+    margin-bottom: 30px; /* Increase margin for spacing */
+    text-align: center; /* Center align text */
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around; /* Adjust icon spacing */
+    align-items: center;
+    margin-bottom: 40px; /* Increase margin for spacing */
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon-img {
+    width: 80px; /* Adjust icon size */
+    height: 80px; /* Adjust icon size */
+    margin-bottom: 10px;
+}
+
+.icon-heading {
+    font-size: 16px; /* Adjust font size for icon heading */
+    font-weight: bold;
+    margin-top: 10px; /* Increase margin for spacing */
+    text-align: center; /* Center align icon heading */
+}
+
+.button {
+    display: block;
+    width: 200px; /* Increase button width */
+    padding: 15px 30px; /* Increase padding for button */
+    margin: 0 auto; /* Center align button */
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px; /* Increase font size for button */
+    text-align: center; /* Center align button text */
+}
