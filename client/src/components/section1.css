@@ -1,7 +1,7 @@
 /* Custom Button Styles */
 .custom-button {
     display: inline-block;
-    padding: 6px 16px;
+    padding: 10px 20px;
     border-radius: 25px;
     border: 1px solid black; /* Green border */
     background-color: black; /* Green background */
