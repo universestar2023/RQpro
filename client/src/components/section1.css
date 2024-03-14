@@ -1,0 +1,27 @@
+/* Custom Button Styles */
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid black; /* Green border */
+    background-color: black; /* Green background */
+    color: white; /* White text color */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  /* Hover effect */
+  .custom-button:hover {
+    background-color: #45a049; /* Darker green */
+    border-color: #45a049; /* Darker green */
+  }
+  
+  /* Active effect */
+  .custom-button:active {
+    background-color: #3e8e41; /* Even darker green */
+    border-color: #3e8e41; /* Even darker green */
+  }
+  
