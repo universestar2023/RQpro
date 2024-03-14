@@ -45,5 +45,23 @@
     font-size: xx-large;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+  
+  .card{
+    width: 10rem;
+    height: 145px;
+    border-radius: 35px;
+    background: rgba(245, 196, 60, 0.781);
+    
+  }
+  /* section1.css */
+
+/* Centering the SVG horizontally */
+.card svg {
+  display: block;
+  margin: 0 auto;
+}
+
+
+  
 
   
