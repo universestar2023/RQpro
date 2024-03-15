@@ -1,0 +1,62 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(212, 230, 237);
+  padding: 20px;
+}
+
+.image-container img {
+  width: 150px; /* Adjust according to your image size */
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  border: 5px solid gray;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.bold-text {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.small-text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Custom Button Styles */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid black; /* Green border */
+    background-color: black; /* Green background */
+    color: white; /* White text color */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #45a049; /* Darker green */
+    border-color: #45a049; /* Darker green */
+  }
+  
+  /* Active effect */
+  button2:active {
+    background-color: #3e8e41; /* Even darker green */
+    border-color: #3e8e41; /* Even darker green */
+  }
+  
