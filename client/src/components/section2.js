@@ -1,5 +1,5 @@
 import React from "react";
-import "./section1.css";
+
 import "./section2.css";
 
 class Section2 extends React.Component {
@@ -8,18 +8,18 @@ class Section2 extends React.Component {
     return (
       <div className="sec2">
         <section className="container mt-4">
-          <div className="row align-items-center">
-            <div className="col-md-6">
+          
+            <div className="text1">
               {/* Information content goes here */}
-              <h2 className="head">Explore Our Courses</h2>
-              <p className="section-paragraph">
+              <h2 className="head2">Explore Our Courses</h2>
+              <p className="section-paragraph2">
                 Interactive Learning Modules
                 <br /> Discover how our courses can empower you with legal
                 knowledge
                 <br />
                 <h4>Discover the world of legal literacy.</h4>
               </p>
-            </div>
+           
           </div>
           <div className="row">
             <div className="col-md-4">
