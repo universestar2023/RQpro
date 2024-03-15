@@ -1,49 +1,66 @@
 /* section1.css */
-
-/* Style for the card */
 .card {
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 30px;
-    padding: 20px;
-    margin-left: 95px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 20px;
+  /* Adjusted margin to center the cards */
+  margin: 20px auto;
+}
+.section-paragraph2{
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.head2{
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style for the SVG icons */
+.card svg {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+/* Style for the custom buttons */
+.custom-but {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #5a5f5d;
+  background-color: #444744;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Center the text inside the card body */
+.card-body {
+  text-align: center;
+}
+
+/* Center the SVG horizontally */
+.svg-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* Background color for section 2 */
+.sec2 {
+  background: rgb(255, 254, 208);
+}
+
+/* Media query for laptop view */
+@media (min-width: 992px) {
+  .card {
+    margin: 20px;
   }
-  
-  /* Style for the SVG icons */
-  .card svg {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 10px;
-  }
-  
-  /* Style for the custom buttons */
-  .custom-but {
-    display: inline-block;
-    padding: 10px 20px;
-    border: 2px solid #5a5f5d;
-    background-color: #444744;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-  }
-  
-  
-  
-  /* Center the text inside the card body */
-  .card-body {
-    text-align: center;
-  }
-  
-  /* Center the SVG horizontally */
-  .svg-center {
-    display: flex;
-    justify-content: center;
-  }
-  .sec2{
-    background: rgb(255, 254, 208);
-  }
-  
+}

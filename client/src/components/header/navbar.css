@@ -1,46 +1,65 @@
 /* Navbar Background and Font */
 .navbar {
-    background-color: #000000; /* Change background color */
-    font-family: Arial, sans-serif; /* Change font */
-    height: 50px;
-  }
-  
-  .navbar-brand {
-    font-weight: bold; /* Change font weight */
-  }
-  
-  .nav-link {
-    color: #e6dfdf; /* Change font color */
-  }
-  
-  /* Navbar Hover Effect */
-  .nav-link:hover {
-    color: #ffffff; /* Change font color on hover */
-  }
-  
-  /* Navbar Dropdown Background and Font */
-  .dropdown-menu {
-    background-color: #343a40; /* Change dropdown background color */
-    font-family: Arial, sans-serif; /* Change dropdown font */
-  }
-  
-  .dropdown-item {
-    color: #ffffff; /* Change dropdown font color */
-  }
-  
-  .dropdown-item:hover {
-    background-color: #fcedc0; /* Change dropdown background color on hover */
-    color: #343a40; /* Change dropdown font color on hover */
-  }
-  .home-link{
-    color: white;
-  }
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  height: 59px;
+}
+
+.navbar-brand {
+  font-weight: bold; /* Change font weight */
+}
+
+.nav-link {
+  color: #e6dfdf; /* Change font color */
+}
+
+/* Navbar Hover Effect */
+.nav-link:hover {
+  color: #ffffff; /* Change font color on hover */
+}
+
+/* Navbar Dropdown Background and Font */
+.dropdown-menu {
+  background-color: #343a40; /* Change dropdown background color */
+  font-family: Arial, sans-serif; /* Change dropdown font */
+}
+
+.dropdown-item {
+  color: #ffffff; /* Change dropdown font color */
+}
+
+.dropdown-item:hover {
+  background-color: #fcedc0; /* Change dropdown background color on hover */
+  color: #343a40; /* Change dropdown font color on hover */
+}
+
+.home-link {
+  color: white;
+}
+
 /* CSS for adjusting the size and position of the logo */
 .navbar-logo {
-    width: 105px; /* Adjust the width as needed */
-    height: 105px; /* Maintain aspect ratio */
-    margin-top: 20px; 
-    position: relative;
-    
+  width: 117px;
+  height: 118px;
+  margin-top: 20px;
+  position: relative;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto; /* Adjust height for mobile */
   }
+
+  .navbar-brand {
+    margin-bottom: 15px; /* Add margin for spacing */
+  }
+
   
+.navbar-logo {
+    width: 128px;
+    height: 125px;
+    margin-top: 0;
+    margin-bottom: -28px;
+}
+}
