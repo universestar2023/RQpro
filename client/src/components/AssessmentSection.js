@@ -31,7 +31,7 @@ const AssessmentSection = () => {
             <h3>Games</h3>
           </div>
         </div>
-        <button className="get-started-button">Get Started</button>
+        <center><button className="custom-button">Get Started</button></center>
       </section>
     );
   };

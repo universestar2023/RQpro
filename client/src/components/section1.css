@@ -24,4 +24,44 @@
     background-color: #3e8e41; /* Even darker green */
     border-color: #3e8e41; /* Even darker green */
   }
+  .section-img{
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Maintain aspect ratio */
+    margin-top: 20px; 
+    position: relative;
+    border-radius: 75px;
+    border: 5px solid rgb(179, 168, 168);
+    box-shadow: 0 8px 16px black;
+  }
+  .section-paragraph{
+    text-align: justify;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .head{
+    text-align: justify;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card{
+    width: 10rem;
+    height: 145px;
+    border-radius: 35px;
+    background: rgba(245, 196, 60, 0.781);
+    
+  }
+  /* section1.css */
+
+/* Centering the SVG horizontally */
+.card svg {
+  display: block;
+  margin: 0 auto;
+}
+
+
+  
+
   
