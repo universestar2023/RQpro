@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import logo from "./logo.png";
+import { Link } from "react-router-dom";
 
 class Navbar extends React.Component {
   // state = {  }
@@ -26,9 +27,10 @@ class Navbar extends React.Component {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <a className="nav-link home-link" aria-current="page" href="#">
+                {/* <a className="nav-link home-link" aria-current="page" href="#">
                   Home
-                </a>
+                </a> */}
+                <Link to='/'>Home</Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
@@ -41,9 +43,7 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Watch
-                </a>
+              <Link to='/watch'>Watch</Link>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -76,9 +76,7 @@ class Navbar extends React.Component {
             </ul>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Login
-                </a>
+                <Link to='/login'>Login</Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
