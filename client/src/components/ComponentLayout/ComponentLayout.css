@@ -1,20 +1,27 @@
 .container {
-    max-width: 800px; /* Adjust max-width for laptop view */
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    display: grid;
+    align-items: center;
+    height: 577px;
+    width: 100%;
+}
+.second{
+   border:1px solid grey;
 }
 
 .heading {
-    font-size: 28px; /* Increase font size for heading */
+    font-size: 46px;
     font-weight: bold;
-    margin-bottom: 20px; /* Increase margin for spacing */
-    text-align: center; /* Center align heading */
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .text {
-    font-size: 20px; /* Increase font size for text */
-    margin-bottom: 30px; /* Increase margin for spacing */
-    text-align: center; /* Center align text */
+    font-size: 29px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .icons {

@@ -1,11 +1,12 @@
 import './App.css';
-import Navbar from './components/header/navbar';
-import Section from './components/section1';
-import Section2 from './components/section2';
-import FreeSignUp from './components/freeSignUp';
-import Footer from './components/footer';
-import AssessmentSection from './components/AssessmentSection';
-import ComponentLayout from './components/ComponentLayout/ComponentLayout';
+import Navbar from './components/header/navbar.js';
+import Section from './components/firstandsecondPage/section1.js';
+import Section2 from './components/firstandsecondPage/section2.js';
+import FreeSignUp from './components/FreesignUp/freeSignUp.js';
+import Footer from './components/footer/footer.js';
+import AssessmentSection from './components/AssessmentPage/AssessmentSection.js';
+import ComponentLayout from './components/ComponentLayout/ComponentLayout.js';
+import InsightComponent from './components/Insight/insight.js';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
    <Navbar/>
     <Section/>
     <Section2/>
+    <InsightComponent/>
     <AssessmentSection /> 
     <ComponentLayout/>
     <FreeSignUp/>

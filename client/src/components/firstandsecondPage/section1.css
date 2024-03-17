@@ -1,4 +1,9 @@
 /* Custom Button Styles */
+.first {
+  background: linear-gradient(to right, #439fed, #bbf2bd);
+  margin-bottom: -23px;
+  height: 623px;
+}
 .custom-button {
     display: inline-block;
     padding: 10px 20px;
@@ -28,6 +33,7 @@
     width: 200px; /* Adjust the width as needed */
     height: 200px; /* Maintain aspect ratio */
     margin-top: 20px; 
+    margin-left: 100px;
     position: relative;
     border-radius: 75px;
     border: 5px solid rgb(179, 168, 168);
@@ -35,17 +41,22 @@
   }
   .section-paragraph{
     text-align: justify;
-    font-weight: bold;
-    font-size: large;
+    font-weight: 400;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
   }
+  .col-md-6{
+    margin-left: 0px;
+  }
   .head{
-    text-align: justify;
+    text-align: left;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 50px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  
+  .row{
+    margin-top: 132px;
+}
   .card{
     width: 10rem;
     height: 145px;
