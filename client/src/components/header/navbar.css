@@ -2,9 +2,37 @@
 .navbar {
     background-color: #000000; /* Change background color */
     font-family: Arial, sans-serif; /* Change font */
-    height: 50px;
+    height: 70px;
   }
-  
+/* navbar.css */
+
+/* Style for Home and Login links */
+.nav-item a {
+  color: white; /* Set font color to white */
+  text-decoration: none; /* Remove underline */
+}
+
+.nav-item a:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: #ccc; /* Change font color on hover */
+}
+
+/* Align Home and Login links with other items */
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Adjust spacing between items */
+}
+
+/* Align items in navbar */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  margin-right: 10px; /* Adjust spacing between logo and other items */
+}
+
+
   .navbar-brand {
     font-weight: bold; /* Change font weight */
   }
