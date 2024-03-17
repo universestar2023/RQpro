@@ -1,12 +1,12 @@
 import './App.css';
-import Navbar from './components/header/navbar.js';
-import Section from './components/firstandsecondPage/section1.js';
-import Section2 from './components/firstandsecondPage/section2.js';
-import FreeSignUp from './components/FreesignUp/freeSignUp.js';
-import Footer from './components/footer/footer.js';
-import AssessmentSection from './components/AssessmentPage/AssessmentSection.js';
-import ComponentLayout from './components/ComponentLayout/ComponentLayout.js';
-import InsightComponent from './components/Insight/insight.js';
+import Navbar from './components/LandingPage/header/navbar.js';
+import Section from './components/LandingPage/firstandsecondPage/section1.js';
+import Section2 from './components/LandingPage/firstandsecondPage/section2.js';
+import FreeSignUp from './components/LandingPage/FreesignUp/freeSignUp.js';
+import Footer from './components/LandingPage/footer/footer.js';
+import AssessmentSection from './components/LandingPage/AssessmentPage/AssessmentSection.js';
+import ComponentLayout from './components/LandingPage/ComponentLayout/ComponentLayout.js';
+import InsightComponent from './components/LandingPage/Insight/insight.js';
 
 function App() {
   return (
