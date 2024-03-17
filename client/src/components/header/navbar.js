@@ -7,7 +7,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <nav  className="navbar navbar-expand-lg ">
-        <div className="container-fluid">
+        
         <img src={logo} alt="Logo" className="navbar-brand navbar-logo" /> {/* Logo */}
           {/* <a className="navbar-brand" href="#">
             RightsQuest
@@ -87,7 +87,7 @@ class Navbar extends React.Component {
               </li>
             </ul>
           </div>
-        </div>
+        
       </nav>
     );
   }

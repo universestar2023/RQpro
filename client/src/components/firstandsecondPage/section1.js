@@ -1,14 +1,14 @@
 import React from "react";
 import "./section1.css";
-import labor from "./labor.jpg";
+import labor from "../images/labor.jpg";
 
 class Section extends React.Component {
   // state = {  }
   render() {
     return (
-      <div>
+      <div className="first">
         <section className="container mt-4">
-          <div className="row align-items-center">
+          <div className=" row align-items-center">
             <div className="col-md-6">
               {/* Information content goes here */}
               <h2 className="head">Welcome!</h2>
