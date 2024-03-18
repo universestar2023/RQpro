@@ -1,6 +1,6 @@
 import React from "react";
 import "./section1.css";
-import kid from ".../images/p.png";
+import kid from "../images/p.png";
 
 class Section extends React.Component {
   render() {
