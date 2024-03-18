@@ -16,10 +16,10 @@ const ComponentLayout = () => {
             width="50"
             height="50"
             fill="currentColor"
-            class="bi bi-chat-right-text-fill"
+            class="bi bi-chat-left-text-fill"
             viewBox="0 0 16 16"
           >
-            <path d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353zM3.5 3h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1m0 2.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1m0 2.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1" />
+            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z" />
           </svg>
           <h2 className="icon-heading">Community Support</h2>
         </div>
@@ -38,9 +38,11 @@ const ComponentLayout = () => {
         </div>
       </div>
 
-      <center><a href="#" className="custom-button">
-        Sign Up Now
-      </a></center>
+      <center>
+        <a href="#" className="custom-button">
+          Sign Up Now
+        </a>
+      </center>
     </div>
   );
 };
