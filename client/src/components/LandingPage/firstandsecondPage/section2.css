@@ -18,11 +18,12 @@
   font-size: large;
   font-family: 'Times New Roman', Times, serif;
 }
-.head2{
-  text-align: center;
-  font-weight: bold;
-  font-size: xx-large;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.head2 {
+    text-align: center;
+    margin-top: 27px;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Style for the SVG icons */
@@ -51,7 +52,9 @@
 .card-body {
   text-align: center;
 }
-
+.row{
+  margin-top: 10px;
+}
 /* Center the SVG horizontally */
 .svg-center {
   display: flex;
@@ -108,6 +111,10 @@
   }
   .sec2{
     background: rgb(255, 254, 208);
+<<<<<<< HEAD:client/src/components/section2.css
   }
   
 }
+=======
+  }}
+>>>>>>> 20e17fcb664d63bca0e3b2144518d5d19adeadb0:client/src/components/LandingPage/firstandsecondPage/section2.css
