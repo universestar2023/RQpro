@@ -1,8 +1,8 @@
 import React from 'react';
-import assessmentImage1 from '../images/assessment1.jpg'; // Import your assessment images
-import assessmentImage2 from '../images/assessment2.jpg';
-import assessmentImage3 from '../images/assessment3.jpg';
-import assessmentImage4 from '../images/assessment4.jpg';
+import assessmentImage1 from './components/images/assessment1.jpg'// Import your assessment images
+import assessmentImage2 from './components/images/assessment2.jpg';
+import assessmentImage3 from './components/images/assessment3.jpg';
+import assessmentImage4 from './components/images/assessment4.jpg';
 import './AssessmentSection.css'; // Import CSS file
 
 
