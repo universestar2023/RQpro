@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Login from './Loginpage/login';
-import VideoSection from './watchpage/story';
+import Login from './components/Loginpage/login';
+import VideoSection from './components/watchpage/story';
+// import Login from './Loginpage/login';
+// import VideoSection from './watchpage/story';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
