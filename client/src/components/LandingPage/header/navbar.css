@@ -1,42 +1,68 @@
 /* Navbar Background and Font */
 .navbar {
-  background-color: #000000;
-  font-family: Arial, sans-serif;
-  height: 59px;
+    background-color: #000000; /* Change background color */
+    font-family: Arial, sans-serif; /* Change font */
+    height: 70px;
+  }
+/* navbar.css */
+
+/* Style for Home and Login links */
+.nav-item a {
+  color: white; /* Set font color to white */
+  text-decoration: none; /* Remove underline */
 }
 
-.navbar-brand {
-  font-weight: bold; /* Change font weight */
+.nav-item a:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: #ccc; /* Change font color on hover */
 }
 
-.nav-link {
-  color: #e6dfdf; /* Change font color */
+/* Align Home and Login links with other items */
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Adjust spacing between items */
 }
 
-/* Navbar Hover Effect */
-.nav-link:hover {
-  color: #ffffff; /* Change font color on hover */
+/* Align items in navbar */
+.navbar-nav {
+  display: flex;
+  align-items: center;
 }
 
-/* Navbar Dropdown Background and Font */
-.dropdown-menu {
-  background-color: #343a40; /* Change dropdown background color */
-  font-family: Arial, sans-serif; /* Change dropdown font */
+.navbar-logo {
+  margin-right: 10px; /* Adjust spacing between logo and other items */
 }
 
-.dropdown-item {
-  color: #ffffff; /* Change dropdown font color */
-}
 
-.dropdown-item:hover {
-  background-color: #fcedc0; /* Change dropdown background color on hover */
-  color: #343a40; /* Change dropdown font color on hover */
-}
-
-.home-link {
-  color: white;
-}
-
+  .navbar-brand {
+    font-weight: bold; /* Change font weight */
+  }
+  
+  .nav-link {
+    color: #e6dfdf; /* Change font color */
+  }
+  
+  /* Navbar Hover Effect */
+  .nav-link:hover {
+    color: #ffffff; /* Change font color on hover */
+  }
+  
+  /* Navbar Dropdown Background and Font */
+  .dropdown-menu {
+    background-color: #343a40; /* Change dropdown background color */
+    font-family: Arial, sans-serif; /* Change dropdown font */
+  }
+  
+  .dropdown-item {
+    color: #ffffff; /* Change dropdown font color */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #fcedc0; /* Change dropdown background color on hover */
+    color: #343a40; /* Change dropdown font color on hover */
+  }
+  .home-link{
+    color: white;
+  }
 /* CSS for adjusting the size and position of the logo */
 .navbar-logo {
   width: 117px;

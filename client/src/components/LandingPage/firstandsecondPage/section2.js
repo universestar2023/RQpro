@@ -7,17 +7,16 @@ class Section2 extends React.Component {
   render() {
     return (
       <div className="sec2">
-        <section className="container mt-4">
-          
-            <div className="text1">
+        <section className="section2-con">
+            <div >
               {/* Information content goes here */}
-              <h2 className="head2">Explore Our Courses</h2>
-              <p className="section-paragraph2">
+              <h2 >Explore Our Courses</h2>
+              <p >
                 Interactive Learning Modules
                 <br /> Discover how our courses can empower you with legal
                 knowledge
                 <br />
-                <h4>Discover the world of legal literacy.</h4>
+                <h5>Discover the world of legal literacy.</h5>
               </p>
            
           </div>
@@ -90,6 +89,7 @@ class Section2 extends React.Component {
           <center><button className="custom-button">Start Learning</button></center>
         </section>
       </div>
+    
     );
   }
 }
