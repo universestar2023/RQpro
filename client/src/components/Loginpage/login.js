@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../LandingPage/header/navbar';
+import image from './image.jpg';
 import './login.css';
 class Login extends React.Component {
   constructor(props) {
