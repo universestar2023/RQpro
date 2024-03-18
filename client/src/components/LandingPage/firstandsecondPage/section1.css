@@ -1,4 +1,5 @@
 /* Custom Button Styles */
+
 .custom-button {
     margin-top: 10px;
     display: inline-block;
@@ -40,11 +41,14 @@
     color: white;
     font-family: 'Times New Roman', Times, serif;
   }
+  .col-md-6{
+    margin-left: 0px;
+  }
   .head{
     text-align: justify;
     color: white;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 50px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   

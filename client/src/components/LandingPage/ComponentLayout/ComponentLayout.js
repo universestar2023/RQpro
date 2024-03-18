@@ -3,7 +3,8 @@ import "./ComponentLayout.css";
 
 const ComponentLayout = () => {
   return (
-    <div className="container">
+   <div className="second">
+     <div className="container">
       <h1 className="heading">Unlock Your Legal Knowledge</h1>
       <p className="text">
         Connect with our experts to enhance your legal literacy journey.
@@ -13,8 +14,8 @@ const ComponentLayout = () => {
         <div className="icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
+            width="80"
+            height="80"
             fill="currentColor"
             class="bi bi-chat-left-text-fill"
             viewBox="0 0 16 16"
@@ -26,8 +27,8 @@ const ComponentLayout = () => {
         <div className="icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
+            width="80"
+            height="80"
             fill="currentColor"
             class="bi bi-people-fill"
             viewBox="0 0 16 16"
@@ -44,6 +45,7 @@ const ComponentLayout = () => {
         </a>
       </center>
     </div>
+   </div>
   );
 };
 
