@@ -1,10 +1,7 @@
 /* Custom Button Styles */
-.first {
-  background: linear-gradient(to right, #439fed, #bbf2bd);
-  margin-bottom: -23px;
-  height: 623px;
-}
+
 .custom-button {
+    margin-top: 10px;
     display: inline-block;
     padding: 10px 20px;
     border-radius: 25px;
@@ -30,49 +27,40 @@
     border-color: #3e8e41; /* Even darker green */
   }
   .section-img{
-    width: 200px; /* Adjust the width as needed */
-    height: 200px; /* Maintain aspect ratio */
-    margin-top: 20px; 
-    margin-left: 100px;
+    width: 500px; /* Adjust the width as needed */
+    height: 500px; /* Maintain aspect ratio */
+    /* margin-top: 20px;  */
     position: relative;
-    border-radius: 75px;
-    border: 5px solid rgb(179, 168, 168);
-    box-shadow: 0 8px 16px black;
+    /* border-radius: 75px; */
+    /* border: 5px solid rgb(179, 168, 168); */
+    /* box-shadow: 0 8px 16px black; */
   }
-  .section-paragraph{
+  .secp{
     text-align: justify;
-    font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
   }
   .col-md-6{
     margin-left: 0px;
   }
   .head{
-    text-align: left;
+    text-align: justify;
+    color: white;
     font-weight: bold;
     font-size: 50px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  .row{
-    margin-top: 132px;
-}
-  .card{
-    width: 10rem;
-    height: 145px;
-    border-radius: 35px;
-    background: rgba(245, 196, 60, 0.781);
-    
-  }
-  /* section1.css */
-
-/* Centering the SVG horizontally */
-.card svg {
-  display: block;
-  margin: 0 auto;
-}
-
-
   
+  
+.sec1{
+  background:linear-gradient(0deg, black,rgba(27, 27, 27, 0.753)), url(bgimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 40px;
+}
+
+
+
 
   

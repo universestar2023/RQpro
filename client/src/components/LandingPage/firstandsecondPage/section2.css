@@ -1,4 +1,9 @@
-/* section1.css */
+.section2-con{
+  text-align: center; /* Align section content to the center */
+    padding: 50px 20px; /* Add padding for spacing */
+    max-width: 1200px; /* Set max width for the section */
+    margin: 0 auto; /* Center the section horizontally */
+}
 .card {
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -61,8 +66,48 @@
   background: rgb(255, 254, 208);
 }
 
-@media (max-width: 768px) {
- .sec2{
-  height: 1000px;
- }
-}
+/* Media query for laptop view */
+@media (min-width: 992px) {
+  .card {
+    margin: 20px;
+  }
+  
+  /* Style for the SVG icons */
+  .card svg {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the custom buttons */
+  .custom-but {
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid #5a5f5d;
+    background-color: #444744;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+  
+  }
+  .card{
+    width: 10rem;
+    height: 145px;
+    border-radius: 35px;
+    background: rgba(245, 196, 60, 0.781);
+    
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .svg-center {
+    display: flex;
+    justify-content: center;
+  }
+  .sec2{
+    background: rgb(255, 254, 208);
+  }}
