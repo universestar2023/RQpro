@@ -54,7 +54,7 @@
   
   
 .sec1{
-  background:linear-gradient(0deg, black,rgba(27, 27, 27, 0.753)), url(bgimage.jpg);
+  background:linear-gradient(0deg, black,rgba(27, 27, 27, 0.753)), url(../images/bgimage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px 40px;
