@@ -1,6 +1,6 @@
 import React from 'react';
 import './story.css'; 
-import Navbar from '../components/header/navbar';
+import Navbar from '../LandingPage/header/navbar';
 
 class VideoSection extends React.Component {
   render() {
