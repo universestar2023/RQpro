@@ -5,6 +5,7 @@ import App from './App';
 import Login from './components/Loginpage/login.js';
 import VideoSection from './components/watchpage/story.js';
 import reportWebVitals from './reportWebVitals';
+import Home from './components/Home/home.js';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -23,7 +24,10 @@ const router = createBrowserRouter([
     path: "/watch",
     element: <VideoSection/>,
   },
- 
+  {
+    path: "/home",
+    element: <Home/>,
+  },
   
 ]);
 

@@ -28,7 +28,7 @@ class Footer extends React.Component {
       </div>
       <div className="footer-right-small">
         <p>Facebook</p>
-        <p>twiter</p>
+        <p>Twitter</p>
         <p>Linkdin</p>
         <p>Instagram</p>
       </div>
