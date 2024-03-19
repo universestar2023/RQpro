@@ -1,0 +1,36 @@
+/* CSS for PageWithCards */
+  .page12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+ 
+.repoimg , .feedimg {
+    text-align: center;
+    display: flex;
+  width: 79%; 
+  height: auto; 
+  margin-left: 40px;
+}
+.one{
+    margin-left: 40%;
+}
+
+  .feedback,
+  .child-report {
+    background-color: #ccffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: calc(50% - 40px); /* Half the width with margin accounted for */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .feedback,
+    .child-report {
+      width: calc(100% - 40px); /* Full width with margin accounted for on smaller screens */
+    }
+  }
+  
