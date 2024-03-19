@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from '../LandingPage/header/navbar';
 import './login.css';
+import { Link } from 'react-router-dom';
+
 class Login extends React.Component {
   constructor(props) {
     super(props);
@@ -49,7 +51,7 @@ class Login extends React.Component {
               required
             />
           </div>
-          <button className='but' type="submit">Login</button>
+          <button className='but' type="submit"><Link to="/home">Login</Link></button>
         </form>
         <div className="small-text">
           <p><a href="/create-account">Create new account</a></p>
