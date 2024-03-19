@@ -52,9 +52,7 @@
 .card-body {
   text-align: center;
 }
-.row{
-  margin-top: 10px;
-}
+
 /* Center the SVG horizontally */
 .svg-center {
   display: flex;
@@ -93,10 +91,12 @@
   
   }
   .card{
+    text-align: center;
     width: 10rem;
     height: 145px;
     border-radius: 35px;
     background: rgba(245, 196, 60, 0.781);
+    margin-left: 100px;
     
   }
   
@@ -111,3 +111,7 @@
   .sec2{
     background: rgb(255, 254, 208);
   }}
+  .row {
+    display: flex;
+    justify-content: space-between;
+}
