@@ -96,6 +96,7 @@
     height: 145px;
     border-radius: 35px;
     background: rgba(245, 196, 60, 0.781);
+    margin-left: 100px;
     
   }
   
@@ -113,7 +114,4 @@
   .row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
-    margin-right: -128px;
-    margin-left: 55px;
 }
