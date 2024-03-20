@@ -6,6 +6,7 @@ import Login from './components/Loginpage/login.js';
 import Parent from './components/parentcontrol/parent.js';
 import VideoSection from './components/watchpage/story.js';
 import reportWebVitals from './reportWebVitals';
+import Home from './components/Home/home.js';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -28,7 +29,10 @@ const router = createBrowserRouter([
     path: "/learn",
     element: <Parent/>,
   },
- 
+  {
+    path: "/home",
+    element: <Home/>,
+  },
   
 ]);
 

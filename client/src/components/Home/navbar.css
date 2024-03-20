@@ -1,0 +1,89 @@
+/* Navbar Background and Font */
+.navbar {
+  background-color: #000000; /* Change background color */
+  font-family: Arial, sans-serif; /* Change font */
+  height: 70px;
+  /* position: relative; */
+}
+/* navbar.css */
+/* Style for Home and Login links */
+.nav-item a {
+  color: white; /* Set font color to white */
+  text-decoration: none; /* Remove underline */
+}
+
+.nav-item a:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: #ccc; /* Change font color on hover */
+}
+
+/* Align Home and Login links with other items */
+.navbar-nav .nav-item {
+  margin-right: 30px; /* Adjust spacing between items */
+}
+.nav-item svg {
+  fill: white; /* Set SVG fill color to white */
+  margin-right: 8px; /* Adjust spacing */
+}
+
+.nav-item svg:hover {
+  fill: #ccc; /* Change fill color on hover */
+}
+/* Align items in navbar */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  margin-right: 10px; /* Adjust spacing between logo and other items */
+}
+
+.navbar-brand {
+  font-weight: bold; /* Change font weight */
+}
+
+.nav-link {
+  color: #e6dfdf; /* Change font color */
+}
+
+/* Navbar Hover Effect */
+.nav-link:hover {
+  color: #ffffff; /* Change font color on hover */
+}
+
+.home-link {
+  color: white;
+}
+
+/* CSS for adjusting the size and position of the logo */
+.navbar-logo {
+  width: 117px;
+  height: 118px;
+  margin-top: 20px;
+  position: relative;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto; /* Adjust height for mobile */
+  }
+
+  .navbar-brand {
+    margin-bottom: 15px; /* Add margin for spacing */
+  }
+
+  .navbar-logo {
+    width: 128px;
+    height: 125px;
+    margin-top: 0;
+    margin-bottom: -28px;
+  }
+  .navbarlogo {
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: -28px;
+  }
+}
