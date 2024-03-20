@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../LandingPage/header/navbar';
+import Navbar1 from '../Home/navbar1'
 import './parent.css';
 import feed from './feedback.png';
 import repo from './childreport.png';
@@ -8,7 +8,7 @@ class Parent extends React.Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <Navbar1 />
         <div className="page12">
           <div className="feedback">
             <h2>Feedback</h2>

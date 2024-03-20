@@ -33,7 +33,7 @@ class Navbar extends React.Component {
                 <Link to='/'>Home</Link>
               </li>
               <li className="nav-item">
-              <Link to='/learn'>Learn</Link>
+              <Link to='/login'>Learn</Link>
 
               </li>
               <li className="nav-item">
@@ -42,7 +42,7 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-              <Link to='/watch'>Watch</Link>
+              <Link to='/login'>Watch</Link>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -78,9 +78,7 @@ class Navbar extends React.Component {
                 <Link to='/login'>Login</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Sign Up
-                </a>
+              <Link to='/login'>Sign Up</Link>
               </li>
             </ul>
           </div>
