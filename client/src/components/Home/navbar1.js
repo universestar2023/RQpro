@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar1.css";
-import logo from "./logo.png";
+import logo from '../LandingPage/images/logo.png';
 import { Link } from "react-router-dom";
 
 class Navbar1 extends React.Component {
