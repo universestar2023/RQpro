@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  /* background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);; */
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  height: 560px;
+}
+
+.heading-container {
+  margin-bottom: 0 ;/* Adjust as needed */
+  margin-top: 40px;
+}
+
+.explore-heading {
+  margin: 0; /* Remove default margin */
+}
+
+.container {
+  width: 100vw; /* Adjust as needed */
+  height: 400px; /* Set the desired height */
+  overflow-x: auto;
+  background-color: rgb(177, 203, 226);
+  border: 2px solid #ccc; /* Add border */
+  border-radius: 8px; /* Add border radius */
+  background-color: #f9f9f9; /* Add background color */
+  transition: border-color 0.3s, box-shadow 0.3s; 
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+}
+
+.container:hover {
+  overflow-x: auto; /* Show horizontal scrollbar on hover */
+  border-color: #f2a2a2; /* Change border color on hover */
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.3);
+}
+
+  .item {
+      width: 80px; /* Adjust width as needed */
+      height: 330px; /* Adjust height as needed */
+      margin: 10px; /* Add margin between items */
+      border-radius: 0; /* Ensure border is not curved */
+      flex: 0 0 50%; /* Half of container width */
+      padding: 30px;
+      margin-top: 10px;
+      border: 1px solid black;
+      border-radius: 20px;
+      transition: border-color 0.3s, box-shadow 0.3s; 
+      box-shadow: 0 5px 10px rgba(213, 156, 156, 0.2);
+      background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    }
+
+    .item h5{
+      margin-top: 20px;
+    }
+
+  .item img{
+      border-radius: 10%;
+      transition: border-color 0.3s, box-shadow 0.3s; 
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      width: 200px; /* Adjust width as needed */
+      height: 170px;
+      /* width: 100%;
+      height: auto; */
+  }
+
+.scrollable {
+  display: flex;
+  border-radius: 20%;
+}
+
+.custom-button {
+  padding: 10px 50px;
+  border-radius: 25px;
+  border: 1px solid black; /* Green border */
+  background-color: rgb(62, 62, 222); /* Green background */
+  color: white; /* White text color */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.custom-button:hover {
+background-color: grey; /* Darker blue button background color on hover */
+}
+
+.item p {
+  margin-top: 10px;
+}
+
+/* Media Query for tablets */
+@media only screen and (max-width: 768px) {
+  .container {
+    height: auto;
+  }
+}
+
+/* Media Query for mobile devices */
+@media only screen and (max-width: 480px) {
+  .item {
+    width: 90%;
+  }
+}
