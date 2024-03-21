@@ -1,11 +1,8 @@
-// server/config/db.js
-
 import mongoose from 'mongoose';
 
-mongoose.connect('mongodb://localhost:27017/your-database-name', {
+mongoose.connect('mongodb://localhost:5000/users', {
   useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useCreateIndex: true
+  useUnifiedTopology: true
 }).then(() => {
   console.log('Connected to MongoDB');
 }).catch((err) => {
