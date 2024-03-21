@@ -5,6 +5,7 @@ import App from './App';
 import Login from './components/Loginpage/login.js';
 import VideoSection from './components/watchpage/story.js';
 import reportWebVitals from './reportWebVitals';
+import RegistrationForm from './components/registrationPage/RegistrationForm.js';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/watch",
     element: <VideoSection/>,
+  },
+  {
+    path:"/RegistrationForm",
+    element:<RegistrationForm/>
   },
  
   

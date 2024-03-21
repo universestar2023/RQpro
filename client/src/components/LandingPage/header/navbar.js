@@ -79,9 +79,10 @@ class Navbar extends React.Component {
                 <Link to='/login'>Login</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                {/* <a className="nav-link" href="#">
                   Sign Up
-                </a>
+                </a> */}
+                <Link to='/RegistrationForm'>Signup</Link>
               </li>
             </ul>
           </div>
