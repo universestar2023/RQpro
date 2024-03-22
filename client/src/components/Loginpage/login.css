@@ -34,6 +34,10 @@
     border-radius: 5px;
     cursor: pointer;
   }
+  .but a{
+    color: white; /* Set font color to white */
+  text-decoration: none; /* Remove underline */
+  }
   
   .button:hover {
     background-color: #0056b3;

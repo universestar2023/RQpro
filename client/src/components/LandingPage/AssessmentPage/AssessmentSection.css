@@ -1,10 +1,17 @@
 .assessment-section {
-    text-align: center; /* Align section content to the center */
-    padding: 50px 20px; /* Add padding for spacing */
-    max-width: 1200px; /* Set max width for the section */
-    margin: 0 auto; /* Center the section horizontally */
-    
-  }
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 2px solid rgb(173, 218, 235);
+  box-shadow: 0 0 0 transparent; /* Initial transparent box shadow */
+  transition: box-shadow 0.3s ease; /* Add transition for box shadow */
+}
+
+.assessment-section:hover {
+  box-shadow: 0 0 20px 10px rgba(0, 123, 255, 0.5); /* New box shadow on hover */
+}
+
   
   .assessment-images {
     display: flex; /* Use flexbox to align images */
