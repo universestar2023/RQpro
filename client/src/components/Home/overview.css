@@ -1,14 +1,14 @@
-.assessment-section {
+.assessment-section1 {
   text-align: center; /* Align section content to the center */
   padding: 25px; /* Add padding for spacing */
-  max-width: 1200px; /* Set max width for the section */
+  max-width: 1700px; /* Set max width for the section */
   margin: 0 auto; /* Center the section horizontally */
   /* background-image: linear-gradient(to top, #d6e3d8 0%, #deecdd 100%); */
   background-color: aliceblue;
   height: 380px;
 }
 
-.assessment-images {
+.assessment-images1 {
   display: flex; /* Use flexbox to align images */
   justify-content: space-around; /* Distribute images evenly with space around */
   flex-wrap: wrap; /* Allow images to wrap to the next line if needed */
@@ -16,38 +16,39 @@
   margin-top: 30px; /* Add margin on top of images */
 }
 
-.assessment-item {
+.assessment-item1 {
   width: 250px; /* Set a fixed width for each item */
   text-align: center; /* Align item content to the center */
 }
 
-.assessment-item img {
+.assessment-item1 img {
   max-width: 120px; /* Ensure images don't exceed container width */
   height: auto; /* Maintain aspect ratio */
+  
 }
 
-.assessment-content {
+.assessment-content1 {
   width: 160px;
   height: 170px;
   background-color: #dfe9f3;
-  margin-left: 35px;
+  margin-left: 50px;
   /* margin-top: 10px; */
   border-radius: 20%;
   transition: background-color 0.3s ease;
 }
 
-.assessment-content:hover {
+.assessment-content1:hover {
   background-color:rgba(255, 255, 255, 0.218); /* Darker blue button background color on hover */
 
 }
 
-.assessment-item p {
+.assessment-item1 p {
   margin-top: 10px; /* Add space between image and heading */
   color: black; /* Set heading color */
   font-weight: bold;
 }
 
-.custom-button {
+.custom-button1 {
     padding: 10px 50px;
     border-radius: 25px;
     border: 1px solid black; /* Green border */
@@ -57,10 +58,11 @@
     text-decoration: none;
     font-size: 16px;
     margin-left: 17px;
+    margin-top: 20px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
-.custom-button:hover {
+.custom-button1:hover {
   background-color: grey; /* Darker blue button background color on hover */
 }
