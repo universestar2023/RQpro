@@ -8,7 +8,7 @@ const InsightComponent = () => {
     <div className="insight-component">
       <h2>Insights</h2>
       <div className="grid-container">
-        <div className="item">
+        <div className="item2">
           <h3>Child Labour</h3>
           <p>
             Slavery work done by the children in order to produce goods and
@@ -23,7 +23,7 @@ const InsightComponent = () => {
         <div className="grid-item">
           <img src={childtrafficking} alt="child Trafficking" />
         </div>
-        <div className="item">
+        <div className="item2">
           <h3>Child Trafficking</h3>
           <p>
             Child trafficking is the illegal activity of buying, stealing,
@@ -31,7 +31,7 @@ const InsightComponent = () => {
           </p>
           <button>Discover More</button>
         </div>
-        <div className="item">
+        <div className="item2">
           <h3>Children exploitation</h3>
           <p>
             Child exploitation is when someone uses a child for financial gain,

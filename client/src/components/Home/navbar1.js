@@ -101,7 +101,7 @@ class Navbar1 extends React.Component {
                     d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
                   />
                 </svg>
-                About Us
+                <Link to= '/aboutus'>About Us</Link>
               </a>
             </li>
             <li className="nav-item">
@@ -153,7 +153,7 @@ class Navbar1 extends React.Component {
                     d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"
                   />
                 </svg>
-                <Link to="/learn">Log out</Link>
+                <Link to="/">Log out</Link>
               </a>
             </li>
           </ul>
