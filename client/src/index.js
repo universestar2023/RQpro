@@ -7,7 +7,7 @@ import Parent from './components/parentcontrol/parent.js';
 import VideoSection from './components/watchpage/story.js';
 import reportWebVitals from './reportWebVitals';
 import Home from './components/Home/home.js';
-import AboutUs from './components/LandingPage/AboutUs/aboutus.js';
+import AboutUs from './components/AboutUs/aboutus.js'
 
 import {
   createBrowserRouter,
