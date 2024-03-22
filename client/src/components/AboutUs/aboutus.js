@@ -1,10 +1,13 @@
 // AboutUs.js
-
+import Navbar1 from '../Home/navbar1'; 
 import React from 'react';
 import './aboutus.css';
 
 const AboutUs = () => {
   return (
+    <div>
+      <Navbar1/>
+    
     <div className="about-us-container">
       <h1>About Us</h1>
       <h3>Our Vision</h3>
@@ -21,6 +24,7 @@ const AboutUs = () => {
         Our child-centric approach ensures that our lessons are interactive, informative and fun. We believe that every child has the right to know their rights, and we strive to make this education accessible to all.
         Join us our mission to create a more informed and empowered.
       </p>
+    </div>
     </div>
   );
 }
