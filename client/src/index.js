@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     element: <VideoSection/>,
   },
   {
-    path: "/learn",
+    path: "/parent",
     element: <Parent/>,
   },
   {
