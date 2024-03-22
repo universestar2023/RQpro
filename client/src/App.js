@@ -19,6 +19,8 @@ function App() {
     <ComponentLayout/>
     <FreeSignUp/>
     <Footer/>
+    
+    
   </>
   );
 }
