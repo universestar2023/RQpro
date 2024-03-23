@@ -8,13 +8,18 @@
 h3{
   text-align: center;
 }
+p{
+  margin-top: 5px;
+  text-align: center;
+  font: 15px bold;
+}
 
 .sub-formCon {
   display: flex;
   flex-direction: column;
   width: 429px;
-  padding: 27px;
-  padding-bottom: 18px;
+  padding: 20px;
+  padding-bottom: 10px;
   margin-top: 10px;
   /* margin: auto; */
   background-color: white;
@@ -22,9 +27,7 @@ h3{
   box-shadow: 2px 0px 11px 0px black;
 }
 .form-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
+   text-align: center;
   }
   
   /* Styles for form fields */
@@ -45,15 +48,18 @@ h3{
     border-radius: 5px;
     box-sizing: border-box;
   }
-  
-  button[type="submit"] {
+ 
+  .button1[type="submit"] {
     width: 100%;
     padding: 5px;
     background-color: black;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+  }
+  .button1[type="submit"]:hover{
+    background-color: green;
   }
   
   /* Responsive styles */
