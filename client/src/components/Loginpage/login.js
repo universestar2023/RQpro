@@ -73,7 +73,7 @@ const LoginPage = () => {
           />
         </div>
         {error && <div className="error-message">{error}</div>}
-        <button className="login-button" onClick={handleLogin}>Login</button>
+        <button className="login-button" onClick={handleLogin}><Link to='/home'>Login</Link></button>
         <div className="register-link">
           <p>New to the application? <Link to="/register">Register here</Link></p>
         </div>
