@@ -2,6 +2,7 @@ import React, { useState } from "react";
 // import axios from "axios";
 import "./registrationPage.css";
 import profile from "./profile.png";
+import { Link } from "react-router-dom";
 
 const RegistrationForm = () => {
   const [formData, setFormData] = useState({
@@ -143,8 +144,10 @@ const RegistrationForm = () => {
           autoComplete="new-password"
         />
       </div>
-      <button type="submit">Sign Up</button>
+      <button  className="button1" type="submit">SignUp</button>
+      <p>Already a member?<Link to="/login">Login</Link></p>
       </div>
+      
     </form>
   );
 };
