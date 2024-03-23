@@ -3,6 +3,7 @@ import Navbar1 from '../Home/navbar1'
 import './parent.css';
 import feed from './feedback.png';
 import repo from './childreport.png';
+import { Link } from "react-router-dom";
 
 class Parent extends React.Component {
   render() {
