@@ -34,7 +34,7 @@ const router = createBrowserRouter([
     path:"/register",
     element:<RegistrationForm/>
   },
-
+  {
     path: "/parent",
     element: <Parent/>,
   },
