@@ -11,40 +11,6 @@ const LoginPage = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState(null);
 
-<<<<<<< HEAD
-  render() {
-    return (
-      <div><Navbar/>
-      <div className="login-page">
-        <h2>Login</h2>
-        <form onSubmit={this.handleSubmit}>
-          <div className="form-group">
-            <label>Username:</label>
-            <input
-              type="text"
-              name="username"
-              value={this.state.username}
-              onChange={this.handleInputChange}
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label>Password:</label>
-            <input
-              type="password"
-              name="password"
-              value={this.state.password}
-              onChange={this.handleInputChange}
-              required
-            />
-          </div>
-          <button className='new but' type="submit"><Link to="/home">Login</Link></button>
-        </form>
-        <div className="small-text">
-          <p><a href="/create-account">Create new account</a></p>
-          <p><a href="/forgot-password">Forgot password</a></p>
-          <p><a href="/forgot-username">Forgot username</a></p>
-=======
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
   };
@@ -110,7 +76,6 @@ const LoginPage = () => {
         <button className="login-button" onClick={handleLogin}>Login</button>
         <div className="register-link">
           <p>New to the application? <Link to="/register">Register here</Link></p>
->>>>>>> 27b96cb1f3903e00ab813ffd35fc080942685df0
         </div>
       </div>
     </div>
