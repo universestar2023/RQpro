@@ -16,16 +16,16 @@
   }
   
   /* Hover effect */
-  .custom-button:hover {
+.custom-button:hover {
     background-color: #45a049; /* Darker green */
     border-color: #45a049; /* Darker green */
-  }
+}
   
   /* Active effect */
-  .custom-button:active {
+.custom-button:active {
     background-color: #3e8e41; /* Even darker green */
     border-color: #3e8e41; /* Even darker green */
-  }
+}
   .section-img{
     width: 500px; /* Adjust the width as needed */
     height: 500px; /* Maintain aspect ratio */
