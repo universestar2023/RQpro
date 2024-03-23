@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./registrationPage.css";
-
+import profile from "./profile.png";
 
 const RegistrationForm = () => {
   const [formData, setFormData] = useState({
@@ -52,11 +52,15 @@ const RegistrationForm = () => {
         margin: "auto",
       }}
     >
-      
-        
-        
+      <div className="sub-formCon">
+      <div className="profileImg">
+        <img src={profile} alt="" />
+      </div>
+      <h3>Register Now</h3>
+
       <div
         style={{ display: "flex", flexDirection: "row", marginBottom: "10px" }}
+        className="register-form"
       >
         <div style={{ marginRight: "10px" }}>
           <label>First Name:</label>
@@ -140,6 +144,7 @@ const RegistrationForm = () => {
         />
       </div>
       <button type="submit">Sign Up</button>
+      </div>
     </form>
   );
 };

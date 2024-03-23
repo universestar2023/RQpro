@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './login.css';
-import logoImg from './logoImg.jpg';
+import logoImg from './logoImg.png';
 import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
