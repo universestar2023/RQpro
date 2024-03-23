@@ -7,7 +7,8 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f7efef;
+    background-color: #f9f9f9;
+    margin-top: 25px;
   }
   
   .about-us-container h1 {
@@ -22,4 +23,8 @@
   
   .email{
     text-align: center;
+  }
+
+  .email svg{
+    margin-left: 10px;
   }

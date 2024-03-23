@@ -52,7 +52,11 @@
 .card-body {
   text-align: center;
 }
-
+.row {
+  display: flex;
+  justify-content: space-between;
+  
+}
 /* Center the SVG horizontally */
 .svg-center {
   display: flex;

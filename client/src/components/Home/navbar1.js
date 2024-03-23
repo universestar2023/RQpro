@@ -30,6 +30,7 @@ class Navbar1 extends React.Component {
               {/* <a className="nav-link home-link" aria-current="page" href="#">
                   Home
                 </a> */}
+                <Link to="/home">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="19"
@@ -41,7 +42,7 @@ class Navbar1 extends React.Component {
                 <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
                 <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
               </svg>
-              <Link to="/home">Home</Link>
+              Home</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
@@ -74,6 +75,7 @@ class Navbar1 extends React.Component {
               </a>
             </li>
             <li className="nav-item">
+            <Link to="/watch">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="19"
@@ -84,10 +86,11 @@ class Navbar1 extends React.Component {
               >
                 <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2m6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z" />
               </svg>
-              <Link to="/watch">Watch</Link>
+              Watch</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
+              <Link to= '/aboutus'>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="17"
@@ -101,7 +104,7 @@ class Navbar1 extends React.Component {
                     d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
                   />
                 </svg>
-                <Link to= '/aboutus'>About Us</Link>
+                About Us</Link>
               </a>
             </li>
             <li className="nav-item">
@@ -121,6 +124,7 @@ class Navbar1 extends React.Component {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
+              <Link to="/parent">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="19"
@@ -131,11 +135,12 @@ class Navbar1 extends React.Component {
                 >
                   <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
                 </svg>
-                <Link to="/learn">Parental Control</Link>
+                Parental Control</Link>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
+              <Link to="/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -153,7 +158,7 @@ class Navbar1 extends React.Component {
                     d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"
                   />
                 </svg>
-                <Link to="/learn">Log out</Link>
+                Log out</Link>
               </a>
             </li>
           </ul>
