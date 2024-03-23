@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     element: <VideoSection/>,
   },
   {
-    path:"/RegistrationForm",
+    path:"/register",
     element:<RegistrationForm/>
   },
  
