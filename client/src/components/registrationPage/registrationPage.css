@@ -1,4 +1,26 @@
 /* Styles for form container */
+.profileImg {
+  position: relative;
+  left: 100px;
+ 
+  margin-bottom: 10px;
+}
+h3{
+  text-align: center;
+}
+
+.sub-formCon {
+  display: flex;
+  flex-direction: column;
+  width: 429px;
+  padding: 27px;
+  padding-bottom: 18px;
+  margin-top: 10px;
+  /* margin: auto; */
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 0px 11px 0px black;
+}
 .form-container {
     max-width: 600px;
     margin: 0 auto;
@@ -18,16 +40,16 @@
   input[type="text"],
   input[type="password"] {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding: 5px;
+    border: 1px solid gray;
     border-radius: 5px;
     box-sizing: border-box;
   }
   
   button[type="submit"] {
     width: 100%;
-    padding: 10px;
-    background-color: #007bff;
+    padding: 5px;
+    background-color: black;
     color: #fff;
     border: none;
     border-radius: 5px;
