@@ -1,11 +1,11 @@
 import React from 'react';
 import './story.css'; 
-import Navbar from '../LandingPage/header/navbar';
+import Navbar1 from '../Home/navbar1';
 
 class VideoSection extends React.Component {
   render() {
     return (
-        <div><Navbar/>
+        <div><Navbar1/>
       <div className="container3">
         <div className="video-section">
           <h2>Multiple Video Section</h2>
