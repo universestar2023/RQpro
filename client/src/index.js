@@ -3,9 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Login from './components/Loginpage/login.js';
+import Parent from './components/parentcontrol/parent.js';
 import VideoSection from './components/watchpage/story.js';
 import reportWebVitals from './reportWebVitals';
 import RegistrationForm from './components/registrationPage/RegistrationForm.js';
+import Home from './components/Home/home.js';
+import AboutUs from './components/AboutUs/aboutus.js';
+import Contact from './components/Contact/contact.js';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -25,10 +30,27 @@ const router = createBrowserRouter([
     element: <VideoSection/>,
   },
   {
+
     path:"/register",
     element:<RegistrationForm/>
   },
- 
+
+    path: "/parent",
+    element: <Parent/>,
+  },
+  {
+    path: "/home",
+    element: <Home/>,
+  },
+  {
+    path: "/aboutus",
+    element: <AboutUs/>,
+  },
+  {
+    path: "/contact",
+    element: <Contact/>,
+  },
+
   
 ]);
 
