@@ -16,7 +16,7 @@ const CourseComponent = () => {
             <li><p>Rights</p></li>
             <li><p>Law Insight</p></li>
             <li><p>Disciplinary</p></li>
-            <center><button className="custom-button">Start</button></center>
+            <center><button className="custom-button3">Start</button></center>
           </ul>
         </div>
         <div className="column">
@@ -27,7 +27,7 @@ const CourseComponent = () => {
             <li><p>Fast Learning</p></li>
             <li><p>Cognitive Development</p></li>
             {/* <li><p>bmdbmc</p></li> */}
-            <center><button className="custom-button">Start</button></center>
+            <center><button className="custom-button3">Start</button></center>
           </ul>
         </div>
         <div className="column">
@@ -37,7 +37,7 @@ const CourseComponent = () => {
             <li><p>Imagination</p></li>
             <li><p>Memory Retension</p></li>
             <li><p>Enhance Understanding</p></li>
-            <center><button className="custom-button">Start</button></center>
+            <center><button className="custom-button3">Start</button></center>
           </ul>
         </div>
       </div>
