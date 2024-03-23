@@ -1,0 +1,30 @@
+/* AboutUs.css */
+
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 25px;
+  }
+  
+  .about-us-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-container p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .email{
+    text-align: center;
+  }
+
+  .email svg{
+    margin-left: 10px;
+  }
