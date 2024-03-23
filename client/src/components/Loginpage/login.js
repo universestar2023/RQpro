@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './login.css';
+import logoImg from './logoImg.jpg';
 import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
@@ -40,9 +41,15 @@ const LoginPage = () => {
   };
 
   return (
+    <>
     <div className="login-container">
       <div className="login-form">
+      <div className="logo5">
+      <img src={logoImg} alt=""/>
+        </div>
         <h2>Log In Now</h2>
+      <p className='head5'>Unlock the world of legal knowledge!</p>
+
         <p>Enter your credentials below:</p>
         <div className="form-group">
           <label>Username:</label>
@@ -69,6 +76,7 @@ const LoginPage = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

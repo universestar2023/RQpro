@@ -4,7 +4,13 @@
     margin: 0 auto;
     padding: 20px;
   }
-  
+  /*style for top logo*/
+  .logo5 {
+    position: relative;
+    left: 25px;
+    padding: 29px;
+    box-sizing: border-box;
+}
   /* Styles for form fields */
   .form-group {
     margin-bottom: 20px;
