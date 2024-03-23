@@ -1,13 +1,13 @@
 /* AboutUs.css */
 
 .about-us-container {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width:800px;
+    margin: 50px 100px 50px 270px; /*centering margin*/
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
-    margin-top: 25px;
+
   }
   
   .about-us-container h1 {

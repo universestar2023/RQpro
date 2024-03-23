@@ -6,9 +6,10 @@ import Login from './components/Loginpage/login.js';
 import Parent from './components/parentcontrol/parent.js';
 import VideoSection from './components/watchpage/story.js';
 import reportWebVitals from './reportWebVitals';
+import RegistrationForm from './components/registrationPage/RegistrationForm.js';
 import Home from './components/Home/home.js';
 import AboutUs from './components/AboutUs/aboutus.js';
-
+import Contact from './components/Contact/contact.js';
 
 import {
   createBrowserRouter,
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
     element: <VideoSection/>,
   },
   {
+
+    path:"/register",
+    element:<RegistrationForm/>
+  },
+  {
     path: "/parent",
     element: <Parent/>,
   },
@@ -39,6 +45,10 @@ const router = createBrowserRouter([
   {
     path: "/aboutus",
     element: <AboutUs/>,
+  },
+  {
+    path: "/contact",
+    element: <Contact/>,
   },
 
   
