@@ -51,7 +51,7 @@ class Login extends React.Component {
               required
             />
           </div>
-          <button className='but' type="submit"><Link to="/home">Login</Link></button>
+          <button className='new but' type="submit"><Link to="/home">Login</Link></button>
         </form>
         <div className="small-text">
           <p><a href="/create-account">Create new account</a></p>
