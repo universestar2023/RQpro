@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 50px 0px 50px -45px;
 }
 
 /* Style for the login form */
@@ -76,6 +77,11 @@
 /*heading below log in now*/
 .head5{
   text-align: center;
+}
+
+.login-button a{
+  text-decoration: none;
+  color: white;
 }
 
 
