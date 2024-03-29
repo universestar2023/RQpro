@@ -8,6 +8,7 @@ import AssessmentSection from './components/LandingPage/AssessmentPage/Assessmen
 import ComponentLayout from './components/LandingPage/ComponentLayout/ComponentLayout.js';
 import InsightComponent from './components/LandingPage/Insight/insight.js';
 
+
 function App() {
   return (
   <>
@@ -19,6 +20,7 @@ function App() {
     <ComponentLayout/>
     <FreeSignUp/>
     <Footer/>
+    
     
     
   </>
