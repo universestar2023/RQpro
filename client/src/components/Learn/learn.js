@@ -20,10 +20,10 @@ const LearnSection = () => {
           Learn
         </div>
         <div className="dropdown-content">
-          <Link to="/learn/rights">Rights</Link>
-          <Link to="/learn/conduct">Conduct</Link>
-          <Link to="/learn/behaviour">Behaviour</Link>
-          <Link to="/learn/laws">Laws</Link>
+          <Link className="right" to="/learn/rights">Rights</Link>
+          <Link className="conduct" to="/learn/conduct">Conduct</Link>
+          <Link className="behaviour" to="/learn/behaviour">Behaviour</Link>
+          <Link className="law" to="/learn/laws">Laws</Link>
         </div>
       </div>
     </div>
