@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Login from './components/Loginpage/login.js';
+import Login from './components/Login/index.jsx';
+import Signup from './components/Signup/index.jsx'
 import Parent from './components/parentcontrol/parent.js';
 import VideoSection from './components/watchpage/story.js';
 import reportWebVitals from './reportWebVitals';
@@ -11,7 +12,8 @@ import Home from './components/Home/home.js';
 import AboutUs from './components/AboutUs/aboutus.js';
 import Contact from './components/Contact/contact.js';
 import FeedbackForm from './components/FeedbackForm/feedbackform.js';
-
+// import Show from './components/show/show.js';
+import Accordion from './components/Home/lconduct.js';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -23,8 +25,16 @@ const router = createBrowserRouter([
     element: <App/>,
   },
   {
+    path: "/lconduct",
+    element: <Accordion/>,
+  },
+  {
     path: "/login",
     element: <Login/>,
+  },
+  {
+    path: "/signup",
+    element: <Signup/>,
   },
   {
     path: "/watch",
