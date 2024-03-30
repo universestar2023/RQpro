@@ -7,7 +7,6 @@ import Footer from './components/LandingPage/footer/footer.js';
 import AssessmentSection from './components/LandingPage/AssessmentPage/AssessmentSection.js';
 import ComponentLayout from './components/LandingPage/ComponentLayout/ComponentLayout.js';
 import InsightComponent from './components/LandingPage/Insight/insight.js';
-import Rights from './components/Learn/Rights/rights.js'
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
     <ComponentLayout/>
     <FreeSignUp/>
     <Footer/>
-    <Rights/>
+    
     
     
     
