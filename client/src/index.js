@@ -13,7 +13,7 @@ import AboutUs from './components/AboutUs/aboutus.js';
 import Contact from './components/Contact/contact.js';
 import FeedbackForm from './components/FeedbackForm/feedbackform.js';
 // import Show from './components/show/show.js';
-import Accordion from './components/Home/lconduct.js';
+ 
 import {
   createBrowserRouter,
   RouterProvider,
@@ -24,10 +24,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <App/>,
   },
-  {
-    path: "/lconduct",
-    element: <Accordion/>,
-  },
+ 
   {
     path: "/login",
     element: <Login/>,
