@@ -11,6 +11,7 @@ import Home from './components/Home/home.js';
 import AboutUs from './components/AboutUs/aboutus.js';
 import Contact from './components/Contact/contact.js';
 import FeedbackForm from './components/FeedbackForm/feedbackform.js';
+import LawCategory from './components/Learn/Laws/LawCategory.js';
 
 import {
   createBrowserRouter,
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
   {
     path: "/feedbackform",
     element: <FeedbackForm/>,
+  },
+  {
+    path: "/LawCategory",
+    element: <LawCategory/>,
   },
   
 ]);
