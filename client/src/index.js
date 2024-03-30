@@ -10,7 +10,9 @@ import RegistrationForm from './components/registrationPage/RegistrationForm.js'
 import Home from './components/Home/home.js';
 import AboutUs from './components/AboutUs/aboutus.js';
 import Contact from './components/Contact/contact.js';
+import Rights from './components/Learn/Rights/rights.js'
 import FeedbackForm from './components/FeedbackForm/feedbackform.js';
+
 
 import {
   createBrowserRouter,
@@ -50,6 +52,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact/>,
+  },
+  {
+    path: "/learn/rights",
+    element: <Rights/>,
   },
 ]);
 
