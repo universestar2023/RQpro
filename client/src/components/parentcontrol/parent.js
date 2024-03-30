@@ -3,6 +3,7 @@ import Navbar1 from '../Home/navbar1'
 import './parent.css';
 import feed from './feedback.png';
 import repo from './childreport.png';
+import { Link } from "react-router-dom";
 
 class Parent extends React.Component {
   render() {
@@ -13,7 +14,7 @@ class Parent extends React.Component {
           <div className="feedback">
             <h2>Feedback</h2>
             <img src={feed} className='feedimg' alt="Feedback" />
-            <button className='one'>Give Feedback</button>
+            <button className='one'><Link to='/feedbackform'>Give Feedback</Link></button>
           </div>
           <div className="child-report">
             <h2>Child Report</h2>

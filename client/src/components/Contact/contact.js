@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar1 from "../Home/navbar1";
 import './contact.css';
 
 class Contact extends React.Component {
@@ -27,6 +28,7 @@ class Contact extends React.Component {
 
   render() {
     return (
+      <div><Navbar1/>
       <div className="contact-container">
         <h2>Contact Us</h2>
         <p>Get in touch with us. We are here to guide you throughout your legal literacy journey.</p>
@@ -49,6 +51,7 @@ class Contact extends React.Component {
           </div>
           <button type="submit">Submit</button>
         </form>
+      </div>
       </div>
     );
   }

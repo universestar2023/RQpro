@@ -3,6 +3,7 @@
 .contact-container {
     max-width: 400px;
     margin: 0 auto;
+    margin-top: 5px;
     padding: 20px;
     background-color: #ffffff;
     background-image: linear-gradient(rgb(241, 196, 196),rgb(116, 198, 201));
