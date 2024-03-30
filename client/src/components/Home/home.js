@@ -6,8 +6,11 @@ import Footer from '../LandingPage/footer/footer.js';
 import Courses from './courses.js';
 
 function Home() {
+
   return (
-    <div><Navbar1/>
+    <div>
+      
+    <Navbar1/>
         <ExploreLearning/>
         <Overview/>
         <Courses/>
