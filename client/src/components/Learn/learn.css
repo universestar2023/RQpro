@@ -31,8 +31,21 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
+.dropdown-content .right:hover {
+  color: #2f04f0;
+  background-color: cyan;
+}
+.dropdown-content .law:hover {
+  color: #0e000b;
+  background-color: pink;
+}
+.dropdown-content .conduct:hover {
+  color: #054204;
+  background-color: royalblue;
+}
+.dropdown-content .behaviour:hover {
+  color: #251701;
+  background-color: orange;
 }
 
 /* Show the dropdown menu on hover */
