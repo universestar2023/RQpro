@@ -11,9 +11,10 @@ import RegistrationForm from './components/registrationPage/RegistrationForm.js'
 import Home from './components/Home/home.js';
 import AboutUs from './components/AboutUs/aboutus.js';
 import Contact from './components/Contact/contact.js';
-import FeedbackForm from './components/FeedbackForm/feedbackform.js';
-// import Show from './components/show/show.js';
- 
+import Rights from './components/Learn/Rights/rights.js'
+// import FeedbackForm from './components/FeedbackForm/feedbackform.js';
+
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -59,10 +60,9 @@ const router = createBrowserRouter([
     element: <Contact/>,
   },
   {
-    path: "/feedbackform",
-    element: <FeedbackForm/>,
+    path: "/learn/rights",
+    element: <Rights/>,
   },
-  
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
