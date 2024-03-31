@@ -21,7 +21,7 @@ const LearnSection = () => {
         </div>
         <div className="dropdown-content">
           <Link className="right" to="/learn/rights">Rights</Link>
-          <Link className="conduct" to="/learn/conduct">Conduct</Link>
+          <Link className="conduct" to="/lconduct">Conduct</Link>
           <Link className="behaviour" to="/learn/behaviour">Behaviour</Link>
           <Link className="law" to="/learn/laws">Laws</Link>
         </div>
