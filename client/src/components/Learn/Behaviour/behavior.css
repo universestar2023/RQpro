@@ -1,0 +1,42 @@
+/* CSS for PageWithCards */
+.page123 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+ 
+.mdl1img , .mdl2img {
+    text-align: center;
+    display: flex;
+  width: 60%; 
+  height: auto; 
+  margin-left: 100px;
+  border-radius: 20%;
+}
+.one1{
+    margin-left: 40%;
+    text-decoration: none;
+    width: 100px;
+    /* background-color: rgba(6, 50, 244, 0.27); */
+}
+
+  .mdl1,
+  .mdl2 {
+    background-image: linear-gradient(-225deg, #86b3f7 0%, #B8DCFF 48%, #94ccfd 100%);
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: calc(50% - 40px); /* Half the width with margin accounted for */
+    text-decoration: none;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .mdl1,
+    .mdl2 {
+      width: calc(100% - 40px); /* Full width with margin accounted for on smaller screens */
+    }
+  }
+  

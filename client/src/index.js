@@ -11,9 +11,17 @@ import RegistrationForm from './components/registrationPage/RegistrationForm.js'
 import Home from './components/Home/home.js';
 import AboutUs from './components/AboutUs/aboutus.js';
 import Contact from './components/Contact/contact.js';
+<<<<<<< HEAD
 import Rights from './components/Learn/Rights/rights.js'
 import Accordion from './components/Learn/Conduct/conduct.js';
 // import FeedbackForm from './components/FeedbackForm/feedbackform.js';
+=======
+import FeedbackForm from './components/FeedbackForm/feedbackform.js';
+import Rights from './components/Learn/Rights/rights.js';
+import Behaviour from './components/Learn/Behaviour/behaviour.js';
+import CombineSlidePage from './components/Learn/Behaviour/combineSlidePage.js';
+import DropDown from './components/Learn/Behaviour/dropDown.js';
+>>>>>>> 59201f28e3b2f650d7c63568b7e716f761e22ca1
 
 
 import {
@@ -65,8 +73,24 @@ const router = createBrowserRouter([
     element: <Contact/>,
   },
   {
+    path: "/feedbackform",
+    element: <FeedbackForm/>,
+  },
+  {
     path: "/learn/rights",
     element: <Rights/>,
+  },
+  {
+    path: "/learn/behaviour",
+    element: <Behaviour/>,
+  },
+  {
+    path: "/combineSlidePage",
+    element: <CombineSlidePage/>,
+  },
+  {
+    path: "/dropDown",
+    element: <DropDown/>,
   },
 ]);
 

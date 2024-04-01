@@ -28,7 +28,7 @@ const Overview = () => {
           <div className="assessment-item1">
           <div className="assessment-content1">
             <img src={Behavior} alt="Assessment Image 3" />
-            <p>Behavior</p>
+            <p>Behaviour</p>
             </div>
             <center><button className="custom-button1">Start</button></center>
           </div>
