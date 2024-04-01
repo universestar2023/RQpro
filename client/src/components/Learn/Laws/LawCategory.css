@@ -4,7 +4,6 @@
    flex-wrap: wrap;
     align-items: center;
     row-gap: 50px;
-    
     position: relative; /* Position relative to make absolute positioning work */
     
 }
@@ -95,7 +94,7 @@
   }
 }
 
-h1 {
+.lhead {
   animation: fadeIn 2s ease forwards, floatToCenter 2s ease forwards, pulse 2s ease-in-out infinite;
   transform-origin: center;
   animation-fill-mode: forwards;

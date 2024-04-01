@@ -33,7 +33,7 @@ export default function LawCategory() {
     <>
     <div className="law">
     <div>
-        <h1>
+        <h1 className="lhead">
           <div className="first">Laws Around Us: </div>A Playful Journey into{" "}
           <div className="sec">Rules</div> and{" "}
           <div className="third">Regulations</div>

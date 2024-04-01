@@ -15,7 +15,7 @@ import Contact from './components/Contact/contact.js';
 import Rights from './components/Learn/Rights/rights.js'
 import LawCategory from './components/Learn/Laws/LawCategory.js';
 // import FeedbackForm from './components/FeedbackForm/feedbackform.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import Accordion from './components/Learn/Conduct/conduct.js';
 // import FeedbackForm from './components/FeedbackForm/feedbackform.js';
 
@@ -86,6 +86,8 @@ const router = createBrowserRouter([
   {
     path: "/learn/LawCategory",
     element: <LawCategory/>,
+  },
+  {
     path: "/learn/behaviour",
     element: <Behaviour/>,
   },
