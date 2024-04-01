@@ -16,7 +16,7 @@ const FeedbackForm = () => {
             <h2>
               <center>Feedback Form</center>
             </h2>
-            <div className="form-header1">
+            <div className="form-header1"  style={{ textAlign: 'center' }} >
               <p style={{ textDecoration: 'underline' }}>Connect with us:</p>
               <p>
               <a>

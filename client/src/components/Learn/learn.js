@@ -25,6 +25,7 @@ const LearnSection = () => {
           <Link className="behaviour" to="/learn/behaviour">Behaviour</Link>
           <Link className="laws" to="/learn/LawCategory">Laws</Link>
         </div>
+        
       </div>
     </div>
   );
