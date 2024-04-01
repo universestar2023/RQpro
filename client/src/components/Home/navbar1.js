@@ -4,9 +4,12 @@ import logo from '../LandingPage/images/logo.png';
 import { Link } from "react-router-dom";
 import LearnSection from "../Learn/learn";
 
-class Navbar1 extends React.Component {
-  // state = {  }
-  render() {
+const Navbar1 = () => {
+	const handleLogout = () => {
+		localStorage.removeItem("token");
+		window.location.reload();
+	}; 
+
     return (
       <nav className="navbar navbar-expand-lg ">
         <img src={logo} alt="Logo" className="navbar-brand navbar-logo" />{" "}
@@ -130,7 +133,7 @@ class Navbar1 extends React.Component {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-              <Link to="/">
+              <button onClick={handleLogout}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -148,14 +151,14 @@ class Navbar1 extends React.Component {
                     d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"
                   />
                 </svg>
-                Log out</Link>
+                Log out</button>
               </a>
             </li>
           </ul>
         </div>
       </nav>
     );
-  }
+  
 }
 
 export default Navbar1;

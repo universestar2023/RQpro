@@ -13,7 +13,7 @@
 }
 
 /* Dropdown content (hidden by default) */
-.dropdown-content {
+.dropdown-content1 {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -23,7 +23,7 @@
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.dropdown-content1 a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -31,24 +31,24 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content .right:hover {
+.dropdown-content1 .right:hover {
   color: #2f04f0;
   background-color: cyan;
 }
-.dropdown-content .law:hover {
+.dropdown-content1 .laws:hover {
   color: #0e000b;
   background-color: pink;
 }
-.dropdown-content .conduct:hover {
+.dropdown-content1 .conduct:hover {
   color: #054204;
   background-color: royalblue;
 }
-.dropdown-content .behaviour:hover {
+.dropdown-content1 .behaviour:hover {
   color: #251701;
   background-color: orange;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content1 {
   display: block;
 }

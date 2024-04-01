@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Login from './components/Loginpage/login.js';
+import Login from './components/Login/index.jsx';
+import Signup from './components/Signup/index.jsx'
 import Parent from './components/parentcontrol/parent.js';
 import VideoSection from './components/watchpage/story.js';
 import reportWebVitals from './reportWebVitals';
@@ -10,8 +11,11 @@ import RegistrationForm from './components/registrationPage/RegistrationForm.js'
 import Home from './components/Home/home.js';
 import AboutUs from './components/AboutUs/aboutus.js';
 import Contact from './components/Contact/contact.js';
-import FeedbackForm from './components/FeedbackForm/feedbackform.js';
+import Rights from './components/Learn/Rights/rights.js'
 import LawCategory from './components/Learn/Laws/LawCategory.js';
+// import FeedbackForm from './components/FeedbackForm/feedbackform.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import {
   createBrowserRouter,
@@ -23,9 +27,14 @@ const router = createBrowserRouter([
     path: "/",
     element: <App/>,
   },
+ 
   {
     path: "/login",
     element: <Login/>,
+  },
+  {
+    path: "/signup",
+    element: <Signup/>,
   },
   {
     path: "/watch",
@@ -53,14 +62,13 @@ const router = createBrowserRouter([
     element: <Contact/>,
   },
   {
-    path: "/feedbackform",
-    element: <FeedbackForm/>,
+    path: "/learn/rights",
+    element: <Rights/>,
   },
   {
-    path: "/LawCategory",
+    path: "/learn/LawCategory",
     element: <LawCategory/>,
   },
-  
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
