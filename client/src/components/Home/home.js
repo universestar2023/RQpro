@@ -9,8 +9,7 @@ function Home() {
 
   return (
     <div>
-      
-    <Navbar1/>
+        <Navbar1/>
         <ExploreLearning/>
         <Overview/>
         <Courses/>
