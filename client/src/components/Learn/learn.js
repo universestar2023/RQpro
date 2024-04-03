@@ -19,12 +19,13 @@ const LearnSection = () => {
           </svg>
           Learn
         </div>
-        <div className="dropdown-content">
+        <div className="dropdown-content1">
           <Link className="right" to="/learn/rights">Rights</Link>
-          <Link className="conduct" to="/lconduct">Conduct</Link>
+          <Link className="conduct" to="/learn/conduct">Conduct</Link>
           <Link className="behaviour" to="/learn/behaviour">Behaviour</Link>
-          <Link className="law" to="/learn/laws">Laws</Link>
+          <Link className="laws" to="/learn/LawCategory">Laws</Link>
         </div>
+        
       </div>
     </div>
   );

@@ -11,8 +11,20 @@ import RegistrationForm from './components/registrationPage/RegistrationForm.js'
 import Home from './components/Home/home.js';
 import AboutUs from './components/AboutUs/aboutus.js';
 import Contact from './components/Contact/contact.js';
+
 import Rights from './components/Learn/Rights/rights.js'
+import LawCategory from './components/Learn/Laws/LawCategory.js';
 // import FeedbackForm from './components/FeedbackForm/feedbackform.js';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import Accordion from './components/Learn/Conduct/conduct.js';
+// import FeedbackForm from './components/FeedbackForm/feedbackform.js';
+
+import FeedbackForm from './components/FeedbackForm/feedbackform.js';
+
+import Behaviour from './components/Learn/Behaviour/behaviour.js';
+import CombineSlidePage from './components/Learn/Behaviour/combineSlidePage.js';
+import DropDown from './components/Learn/Behaviour/dropDown.js';
+
 
 
 import {
@@ -24,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+  },
+  {
+    path: "/learn/conduct",
+    element: <Accordion/>,
   },
  
   {
@@ -60,8 +76,28 @@ const router = createBrowserRouter([
     element: <Contact/>,
   },
   {
+    path: "/feedbackform",
+    element: <FeedbackForm/>,
+  },
+  {
     path: "/learn/rights",
     element: <Rights/>,
+  },
+  {
+    path: "/learn/LawCategory",
+    element: <LawCategory/>,
+  },
+  {
+    path: "/learn/behaviour",
+    element: <Behaviour/>,
+  },
+  {
+    path: "/combineSlidePage",
+    element: <CombineSlidePage/>,
+  },
+  {
+    path: "/dropDown",
+    element: <DropDown/>,
   },
 ]);
 
