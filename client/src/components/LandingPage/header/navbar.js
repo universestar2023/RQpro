@@ -2,11 +2,24 @@ import React from "react";
 import "./navbar.css";
 import logo from "./logo.png";
 import { Link } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
+import Home from "../../Home/home.js";
+import Login from "../../Login/index.jsx";
+import Signup from "../../Signup/index.jsx";
 
-class Navbar extends React.Component {
-  // state = {  }
-  render() {
+function Navbar(){
+	const user = localStorage.getItem("token");
+
+
     return (
+      <div>
+        <Routes>
+			{user && <Route path="/" exact element={<Home />} />}
+			<Route path="/signup" exact element={<Signup />} />
+			<Route path="/login" exact element={<Login />} />
+			<Route path="/login" element={<Navigate replace to="/login" />} />
+		</Routes>
+
       <nav  className="navbar navbar-expand-lg ">
         
         <img src={logo} alt="Logo" className="navbar-brand navbar-logo" /> {/* Logo */}
@@ -89,8 +102,9 @@ class Navbar extends React.Component {
           </div>
         
       </nav>
+      </div>
     );
   }
-}
+
 
 export default Navbar;
