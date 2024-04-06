@@ -3,11 +3,36 @@ import "./footerHome.css"; // Import CSS file for styling
 import logo from "../LandingPage/footer/logo1.png";
 import { Link } from "react-router-dom";
 
-class FooterHomePage extends React.Component {
-  render() {
+function FooterHomePage() {
+  // Function to scroll to the top of the page
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth" // Smooth scrolling animation
+    });
+  };
+
     return (
       <footer className="footer">
         <div className="footer-right">
+        <span className="navbar-toggler-icon">
+          <Link to="/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              className="bi bi-arrow-up-circle"
+              viewBox="0 0 16 16"
+              onClick={scrollToTop} // Add onClick event handler
+            >
+              <path
+                fillRule="evenodd"
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"
+              />
+            </svg>
+          </Link>
+        </span>
           <div className="footer-left">
             <img src={logo} alt="RightsQuest Logo" />
           </div>
@@ -111,6 +136,6 @@ class FooterHomePage extends React.Component {
       </footer>
     );
   }
-}
+
 
 export default FooterHomePage;
