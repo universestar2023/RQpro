@@ -40,7 +40,7 @@ function Footer() {
             <h5>Learn, Play, Empower</h5>
             <div className="textF">
               <div className="addLink">
-                <Link to="#">Home</Link>
+                <Link to="/">Home</Link>
               </div>
               <div className="addLink">
                 <Link to="/login">Learn</Link>
@@ -52,7 +52,7 @@ function Footer() {
                 <Link to="/login">Watch</Link>
               </div>
               <div className="addLink">
-                <Link to="/aboutus">About us</Link>
+                <Link to="/ab">About us</Link>
               </div>
               <div className="addLink">
                 <Link to="/contact">Contact</Link>

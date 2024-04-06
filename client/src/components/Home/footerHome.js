@@ -40,13 +40,13 @@ function FooterHomePage() {
             <h5>Learn, Play, Empower</h5>
             <div className="textF">
               <div className="addLink">
-                <Link to="/home">Home</Link>
+                <Link to="/">Home</Link>
               </div>
               <div className="addLink">
-                <Link to="/login">Learn</Link>
+                <Link to="/dropDown">Learn</Link>
               </div>
               <div className="addLink">
-                <Link to="/watch">Play</Link>
+                <Link to="/play">Play</Link>
               </div>
               <div className="addLink">
                 <Link to="/watch">Watch</Link>
