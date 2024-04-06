@@ -1,9 +1,9 @@
 import React from "react";
-import "./footer.css"; // Import CSS file for styling
-import logo from "./logo1.png";
+import "./footerHome.css"; // Import CSS file for styling
+import logo from "../LandingPage/footer/logo1.png";
 import { Link } from "react-router-dom";
 
-class Footer extends React.Component {
+class FooterHomePage extends React.Component {
   render() {
     return (
       <footer className="footer">
@@ -15,16 +15,16 @@ class Footer extends React.Component {
             <h5>Learn, Play, Empower</h5>
             <div className="textF">
               <div className="addLink">
-                <Link to="#">Home</Link>
+                <Link to="/home">Home</Link>
               </div>
               <div className="addLink">
                 <Link to="/login">Learn</Link>
               </div>
               <div className="addLink">
-                <Link to="/login">Play</Link>
+                <Link to="/watch">Play</Link>
               </div>
               <div className="addLink">
-                <Link to="/login">Watch</Link>
+                <Link to="/watch">Watch</Link>
               </div>
               <div className="addLink">
                 <Link to="/aboutus">About us</Link>
@@ -113,4 +113,4 @@ class Footer extends React.Component {
   }
 }
 
-export default Footer;
+export default FooterHomePage;

@@ -24,6 +24,7 @@ import FeedbackForm from './components/FeedbackForm/feedbackform.js';
 import Behaviour from './components/Learn/Behaviour/behaviour.js';
 import CombineSlidePage from './components/Learn/Behaviour/combineSlidePage.js';
 import DropDown from './components/Learn/Behaviour/dropDown.js';
+import Chatbot from './components/chatBot/chatbot.js';
 
 
 
@@ -98,6 +99,10 @@ const router = createBrowserRouter([
   {
     path: "/dropDown",
     element: <DropDown/>,
+  },
+  {
+    path: "/chatbot",
+    element: <Chatbot/>,
   },
 ]);
 
