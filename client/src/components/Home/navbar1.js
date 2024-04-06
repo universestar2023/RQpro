@@ -4,6 +4,7 @@ import logo from "../LandingPage/images/logo.png";
 import { Link } from "react-router-dom";
 import LearnSection from "../Learn/learn";
 
+
 const Navbar1 = () => {
   const handleLogout = () => {
     localStorage.removeItem("token");
@@ -46,28 +47,29 @@ const Navbar1 = () => {
                 <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
                 <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
               </svg>
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <LearnSection />
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                fill="white"
-                class="bi bi-play-fill"
-                viewBox="0 0 16 16"
-              >
-                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
-              </svg>
-              Play
-            </a>
-          </li>
-          <li className="nav-item">
+              Home</Link>
+            </li>
+            <li className="nav-item">
+              <LearnSection/>
+            </li>
+            <li className="nav-item">
+              <Link to='/play'>
+              <a className="nav-link" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="white"
+                  class="bi bi-play-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                </svg>
+                Play
+              </a>
+              </Link>
+            </li>
+            <li className="nav-item">
             <Link to="/watch">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

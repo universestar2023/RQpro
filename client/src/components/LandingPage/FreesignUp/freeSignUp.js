@@ -12,7 +12,7 @@ const FreeSignUp = () => {
         <p className="title">Explore our courses</p>
         <p className="bold-text">Unlock Your Legal Literacy</p>
         <p className="small-text">Signup for free and discover the world of legal education</p>
-        <button>Sign up for free</button>
+        <button className='custom-button'>Sign up for free</button>
       </div>
     </div>
   );
