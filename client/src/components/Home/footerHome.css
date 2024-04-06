@@ -85,41 +85,11 @@
       margin-bottom: 20px; /* Adjust margin bottom for smaller screens */
     }
   }
-    
-    /* .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: rgb(109, 108, 109);
-      color: white;
-      min-width: 115px;
-      border-radius: 20px;
   
-  
-    }
-    
-    .dropdown-content a {
-      color: rgb(251, 242, 242);
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
-    
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }*/
-    
-    
-    .footer-subtext {
+  .footer-subtext {
       display: flex;
       justify-content: space-around; /* Center items with space in between */
     }
-    
-    /*.footer-left-small,
-    .footer-right-small {
-      flex-basis: 50%; /* Make small footer sections take up half width 
-      text-align: center;
-      margin-top: 10px;
-    } */
   
     .bi-arrow-up-circle{
       margin-left:600px;
