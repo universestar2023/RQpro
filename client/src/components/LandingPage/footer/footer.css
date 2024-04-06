@@ -7,6 +7,11 @@
     color: white;
     padding: 20px;
   }
+
+  .dropbtn{
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
   
   .footer-center {
     text-align: center;
@@ -21,10 +26,12 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: grey;
-    color: aliceblue;
-    min-width: 160px;
-    z-index: 1;
+    background-color: rgb(109, 108, 109);
+    color: white;
+    min-width: 115px;
+    border-radius: 20px;
+
+
   }
   
   .dropdown-content a {
@@ -49,4 +56,10 @@
     flex-basis: 50%; /* Make small footer sections take up half width */
     text-align: center;
     margin-top: 10px;
+  }
+
+  .bi-arrow-up-circle{
+    margin-left:600px;
+    text-decoration: none;
+    color:white;
   }

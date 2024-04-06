@@ -4,6 +4,7 @@ import logo from '../LandingPage/images/logo.png';
 import { Link } from "react-router-dom";
 import LearnSection from "../Learn/learn";
 
+
 const Navbar1 = () => {
 	const handleLogout = () => {
 		localStorage.removeItem("token");
@@ -52,6 +53,7 @@ const Navbar1 = () => {
               <LearnSection/>
             </li>
             <li className="nav-item">
+              <Link to='/play'>
               <a className="nav-link" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -65,6 +67,7 @@ const Navbar1 = () => {
                 </svg>
                 Play
               </a>
+              </Link>
             </li>
             <li className="nav-item">
             <Link to="/watch">

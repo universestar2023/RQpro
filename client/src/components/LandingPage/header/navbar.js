@@ -22,7 +22,7 @@ function Navbar(){
 
       <nav  className="navbar navbar-expand-lg ">
         
-        <img src={logo} alt="Logo" className="navbar-brand navbar-logo" /> {/* Logo */}
+        <Link to='/'><img src={logo} alt="Logo" className="navbar-brand navbar-logo" /> </Link>{/* Logo */}
           {/* <a className="navbar-brand" href="#">
             RightsQuest
           </a> */}
@@ -56,32 +56,7 @@ function Navbar(){
               <Link to='/login'>Watch</Link>
               </li>
               <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  About Us
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Feedback
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Contact Us 
-                    </a>
-                  </li>
-                  {/* <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li> */}
-                </ul>
+              <Link to='/ab'>About</Link>
               </li>
             </ul>
             <ul className="navbar-nav ml-auto">
@@ -93,7 +68,7 @@ function Navbar(){
                 {/* <a className="nav-link" href="#">
                   Sign Up
                 </a> */}
-                <Link to='/register'>Signup</Link>
+                <Link to='/signup'>Signup</Link>
 
               
 
