@@ -4,7 +4,7 @@
     max-width: 1200px; /* Set max width for the section */
     margin: 0 auto; /* Center the section horizontally */
 }
-.card {
+.cardes {
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 30px;
@@ -27,14 +27,14 @@
 }
 
 /* Style for the SVG icons */
-.card svg {
+.cardes svg {
   width: 60px;
   height: 60px;
   margin-bottom: 10px;
 }
 
 /* Style for the custom buttons */
-.custom-but {
+.custom-butes {
   display: inline-block;
   padding: 10px 20px;
   border: 2px solid #5a5f5d;
@@ -49,10 +49,10 @@
 }
 
 /* Center the text inside the card body */
-.card-body {
+.card-bodyes {
   text-align: center;
 }
-.row {
+.rowes {
   display: flex;
   justify-content: space-between;
   
@@ -70,19 +70,19 @@
 
 /* Media query for laptop view */
 @media (min-width: 992px) {
-  .card {
+  .cardes {
     margin: 20px;
   }
   
   /* Style for the SVG icons */
-  .card svg {
+  .cardes svg {
     width: 60px;
     height: 60px;
     margin-bottom: 10px;
   }
   
   /* Style for the custom buttons */
-  .custom-but {
+  .custom-butes {
     display: inline-block;
     padding: 10px 25px;
     border: 2px solid #5a5f5d;
@@ -92,9 +92,10 @@
     text-decoration: none;
     font-size: 16px;
     border-radius: 30px;
+    margin-top: 15px;
   
   }
-  .card{
+  .cardes{
     text-align: center;
     width: 10rem;
     height: 145px;
@@ -104,7 +105,7 @@
     
   }
   
-  .card-body {
+  .card-bodyes {
     text-align: center;
   }
   
@@ -115,7 +116,7 @@
   .sec2{
     background: rgb(255, 254, 208);
   }}
-  .row {
+  .rowes {
     display: flex;
     justify-content: space-between;
 }
