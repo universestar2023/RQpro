@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar1 from "../Home/navbar1";
 import "./chatbot.css";
-import ChatBotImg from './chatbot.png';
+import ChatBotImg from './rob.png';
 
 const Chatbot = () => {
   return (

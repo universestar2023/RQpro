@@ -31,7 +31,7 @@ const AssessmentSection = () => {
             <h3>Games</h3>
           </div>
         </div>
-        <center><button className="custom-button">Get Started</button></center>
+        <center><button className="custom-button" onClick={() => { window.location.href = '/signup'; }} >Get Started</button></center>
       </section>
     );
   };

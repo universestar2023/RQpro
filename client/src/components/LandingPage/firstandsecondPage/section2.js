@@ -86,7 +86,7 @@ class Section2 extends React.Component {
               </div>
             </div>
           </div>
-          <center><button className="custom-button">Start Learning</button></center>
+          <center><button className="custom-button" onClick={() => { window.location.href = '/signup'; }}>Start Learning</button></center>
         </section>
       </div>
     

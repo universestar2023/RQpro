@@ -1,68 +1,84 @@
 .assessment-section1 {
-  text-align: center; /* Align section content to the center */
-  padding: 25px; /* Add padding for spacing */
-  max-width: 1700px; /* Set max width for the section */
-  margin: 0 auto; /* Center the section horizontally */
-  /* background-image: linear-gradient(to top, #d6e3d8 0%, #deecdd 100%); */
+  text-align: center;
+  padding: 25px;
+  max-width: 100%; /* Set max width for the section */
+  margin: 0 auto;
   background-color: aliceblue;
-  height: 380px;
+  height: auto; /* Change height to auto for responsiveness */
 }
 
 .assessment-images1 {
-  display: flex; /* Use flexbox to align images */
-  justify-content: space-around; /* Distribute images evenly with space around */
-  flex-wrap: wrap; /* Allow images to wrap to the next line if needed */
-  gap: 20px; /* Add gap between images */
-  margin-top: 30px; /* Add margin on top of images */
+  display: flex;
+  justify-content: center; /* Center images horizontally */
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
 }
 
 .assessment-item1 {
-  width: 250px; /* Set a fixed width for each item */
-  text-align: center; /* Align item content to the center */
+  width: 250px;
+  text-align: center;
 }
 
 .assessment-item1 img {
-  max-width: 120px; /* Ensure images don't exceed container width */
-  height: auto; /* Maintain aspect ratio */
-  
+  max-width: 100%; /* Adjust image width to fit container */
+  height: auto;
 }
 
 .assessment-content1 {
-  width: 160px;
+  width: 100%; /* Adjust width to fit container */
+  max-width: 160px; /* Set a max-width for content */
   height: 170px;
   background-color: #dfe9f3;
-  margin-left: 50px;
-  /* margin-top: 10px; */
+  margin-left: auto; /* Center content horizontally */
+  margin-right: auto;
   border-radius: 20%;
   transition: background-color 0.3s ease;
 }
 
 .assessment-content1:hover {
-  background-color:rgba(255, 255, 255, 0.218); /* Darker blue button background color on hover */
-
+  background-color: rgba(255, 255, 255, 0.218);
 }
 
 .assessment-item1 p {
-  margin-top: 10px; /* Add space between image and heading */
-  color: black; /* Set heading color */
+  margin-top: 10px;
+  color: black;
   font-weight: bold;
 }
 
 .custom-button1 {
-    padding: 10px 50px;
-    border-radius: 25px;
-    border: 1px solid black; /* Green border */
-    background-color: rgb(62, 62, 222); /* Green background */
-    color: white; /* White text color */
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin-left: 17px;
-    margin-top: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  padding: 10px 50px;
+  border-radius: 25px;
+  border: 1px solid rgb(62, 62, 222);
+  background-color: rgb(62, 62, 222);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
 .custom-button1:hover {
-  background-color: grey; /* Darker blue button background color on hover */
+  background-color: grey;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .assessment-images1 {
+    justify-content: space-around; /* Adjust alignment for smaller screens */
+  }
+
+  .assessment-item1 {
+    width: 45%; /* Adjust item width for better fit on smaller screens */
+    margin-bottom: 20px; /* Add space between items */
+  }
+}
+
+/* Media Query for even smaller screens */
+@media only screen and (max-width: 480px) {
+  .assessment-item1 {
+    width: 100%; /* Make items full width on smaller screens */
+  }
 }

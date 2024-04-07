@@ -4,7 +4,6 @@ import logo from "../LandingPage/images/logo.png";
 import { Link } from "react-router-dom";
 import LearnSection from "../Learn/learn";
 
-
 const Navbar1 = () => {
   const handleLogout = () => {
     localStorage.removeItem("token");
@@ -47,13 +46,14 @@ const Navbar1 = () => {
                 <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
                 <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
               </svg>
-              Home</Link>
-            </li>
-            <li className="nav-item">
-              <LearnSection/>
-            </li>
-            <li className="nav-item">
-              <Link to='/play'>
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <LearnSection />
+          </li>
+          <li className="nav-item">
+            <Link to="/play">
               <a className="nav-link" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -67,9 +67,9 @@ const Navbar1 = () => {
                 </svg>
                 Play
               </a>
-              </Link>
-            </li>
-            <li className="nav-item">
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link to="/watch">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -139,7 +139,7 @@ const Navbar1 = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/">
               <button onClick={handleLogout}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -160,6 +160,24 @@ const Navbar1 = () => {
                 </svg>
                 Log out
               </button>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/dash">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-person-circle"
+                viewBox="0 0 16 16"
+              >
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                <path
+                  fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                />
+              </svg>
             </a>
           </li>
         </ul>

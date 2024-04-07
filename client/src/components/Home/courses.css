@@ -1,63 +1,59 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Add these styles to your existing CSS file, courses.css */
 
 .course-container {
   text-align: center;
   background-color: azure;
-  height: 490px;
+  min-height: 490px; /* Using min-height for better responsiveness */
+  padding: 20px; /* Add padding for better spacing */
 }
 
 .column-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
 }
 
 .column {
+  flex: 1; /* Use flex: 1 to allow columns to grow equally */
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 20px;
   max-width: 250px; /* Adjust max-width as needed */
-  height: 370px;
   background-color: rgb(198, 200, 231);
   border-radius: 10%;
-  transition: border-color 0.3s, box-shadow 0.3s; 
   box-shadow: 0 20px 10px rgba(23, 23, 23, 0.2);
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-.column h4{
+.column h4 {
   color: green;
 }
 
 .column img {
-  max-width: 100%; /* Ensure images don't exceed the column width */
-  height: auto; /* Maintain aspect ratio */
-  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
   margin-top: 15px;
   border-radius: 30%;
   width: 160px;
 }
 
-.custom-button3{
-    /* padding: 10px 50px; */
-    border-radius: 25px;
-    border: 1px solid black; /* Green border */
-    background-color: rgb(62, 62, 222); /* Green background */
-    color: white; /* White text color */
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    margin-right: 35px;
-    width: 120px;
+.custom-button3 {
+  border-radius: 25px;
+  border: 1px solid rgb(62, 62, 222);
+  background-color: rgb(62, 62, 222);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  margin-top: 10px; /* Adjust margin for better spacing */
+  width: 120px;
 }
 
 .custom-button3:hover {
-  background-color: grey; /* Darker blue button background color on hover */
+  background-color: grey;
 }
 
 @media only screen and (max-width: 768px) {
@@ -67,55 +63,14 @@
   }
 }
 
-/* Media Query for mobile devices */
+/* Media Query for smaller screens */
 @media only screen and (max-width: 480px) {
+  .course-container {
+    min-height: auto; /* Remove fixed height for better responsiveness */
+  }
+
   .column {
     max-width: 90%;
-    height: auto;
     margin-bottom: 20px;
   }
 }
-  
-  .column img {
-    max-width: 100%; /* Ensure images don't exceed the column width */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px;
-    margin-top: 15px;
-    border-radius: 30%;
-    width: 160px;
-  }
-
-  .custom-button {
-      /* padding: 10px 50px; */
-      border-radius: 25px;
-      border: 1px solid black; /* Green border */
-      background-color: black; /* Green background */
-      color: white; /* White text color */
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      cursor: pointer;
-      transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-      margin-right: 35px;
-  }
-  
-  .custom-button:hover {
-    background-color: grey; /* Darker blue button background color on hover */
-  }
-
-  @media only screen and (max-width: 768px) {
-    .column-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  
-  /* Media Query for mobile devices */
-  @media only screen and (max-width: 480px) {
-    .column {
-      max-width: 90%;
-      height: auto;
-      margin-bottom: 20px;
-    }
-  }
-  
