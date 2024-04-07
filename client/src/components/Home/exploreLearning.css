@@ -98,6 +98,39 @@ background-color: grey; /* Darker blue button background color on hover */
   margin-top: 10px;
 }
 
+.small-rectangle-box {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: absolute; 
+  top: 87%; /* Adjust top position as needed */
+  right: 50px; /* Adjust left position as needed */
+  transform: translateY(-50%); /* Center vertically */
+}
+
+.btn-chatbot{
+  border-radius: 25px;
+  background-color: rgb(32, 4, 242);
+  height: 65px;
+  margin-top: 10px;
+  width: 100px;
+  transition: border-color 0.1s, box-shadow 0.1s; 
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.1);
+} 
+
+.small-rectangle-box2 p{
+  font-size: 15px;
+  text-decoration: none;
+  color: white
+}
+
+.small-rectangle-box2 svg{
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
 /* Media Query for tablets */
 @media only screen and (max-width: 768px) {
   .container {

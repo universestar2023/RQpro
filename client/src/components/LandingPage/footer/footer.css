@@ -1,52 +1,98 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap; /* Allow items to wrap if they don't fit */
-    background-color: #333;
-    color: white;
-    padding: 20px;
-  }
-  
-  .footer-center {
-    text-align: center;
-    flex-basis: 100%; /* Make this div take up full width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(34, 34, 34);
+  margin:0px;
+}
+
+.footer-left img {
+  width: 300px; /* Adjust as needed */
+  height: 300px;
+  margin-left: 10px;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  color: white;
+  height: 270px;
+}
+
+.textF{
+  color: rgb(197, 196, 196);
+  text-align: center;
+}
+
+.addLink Link{
+  text-decoration: none;
+  display: block;
+  color: rgb(197, 196, 196);
+}
+
+.footer-column {
+  flex: 1;
+  margin-top:60px;
+  margin-left: 30px;
+}
+
+.footer-text {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.footer-icons  {
+  font-size: 45px; /* Increase the size of icons */
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+
+.footer-icons svg {
+  transition: transform 0.2s; /* Add transition effect */
+  margin: 0 15px; /* Adjust margin between icons */
+}
+
+.footer-icons svg:hover {
+  fill: gray; /* Change color on hover */
+  cursor: pointer; /* Change cursor on hover */
+  transform: scale(1.1); /* Scale the icon on hover */
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .footer-right {
+    flex-direction: column;
+    height: auto; /* Set height to auto for responsiveness */
   }
 
-  .dropdown {
-    position: relative;
-    display: inline-block;
+  .dropbtn{
+    border-radius: 30px;
+    padding: 10px 20px;
   }
   
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: grey;
-    color: aliceblue;
-    min-width: 160px;
-    z-index: 1;
+  .footer-column {
+    margin-top: 20px; /* Adjust margin top for smaller screens */
+    margin-left: 0px; /* Reset margin left */
+    text-align: center; /* Center align content */
   }
-  
-  .dropdown-content a {
-    color: rgb(251, 242, 242);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+
+  .footer-icons {
+    margin-bottom: 20px; /* Adjust margin bottom for smaller screens */
   }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  
+}
+    
   .footer-subtext {
     display: flex;
     justify-content: space-around; /* Center items with space in between */
   }
-  
-  .footer-left-small,
-  .footer-right-small {
-    flex-basis: 50%; /* Make small footer sections take up half width */
-    text-align: center;
-    margin-top: 10px;
+
+  .bi-arrow-up-circle{
+    margin-left:600px;
+    text-decoration: none;
+    color:white;
   }
