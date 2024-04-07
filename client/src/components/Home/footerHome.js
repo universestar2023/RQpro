@@ -1,9 +1,9 @@
 import React from "react";
-import "./footer.css"; // Import CSS file for styling
-import logo from "./logo1.png";
+import "./footerHome.css"; // Import CSS file for styling
+import logo from "../LandingPage/footer/logo1.png";
 import { Link } from "react-router-dom";
 
-function Footer() {
+function FooterHomePage() {
   // Function to scroll to the top of the page
   const scrollToTop = () => {
     window.scrollTo({
@@ -43,16 +43,16 @@ function Footer() {
                 <Link to="/">Home</Link>
               </div>
               <div className="addLink">
-                <Link to="/login">Learn</Link>
+                <Link to="/dropDown">Learn</Link>
               </div>
               <div className="addLink">
-                <Link to="/login">Play</Link>
+                <Link to="/play">Play</Link>
               </div>
               <div className="addLink">
-                <Link to="/login">Watch</Link>
+                <Link to="/watch">Watch</Link>
               </div>
               <div className="addLink">
-                <Link to="/ab">About us</Link>
+                <Link to="/aboutus">About us</Link>
               </div>
               <div className="addLink">
                 <Link to="/contact">Contact</Link>
@@ -138,5 +138,4 @@ function Footer() {
   }
 
 
-
-export default Footer;
+export default FooterHomePage;

@@ -11,19 +11,16 @@ import RegistrationForm from './components/registrationPage/RegistrationForm.js'
 import Home from './components/Home/home.js';
 import AboutUs from './components/AboutUs/aboutus.js';
 import Contact from './components/Contact/contact.js';
-
+import Play from './components/play/play.js';
 import Rights from './components/Learn/Rights/rights.js'
 import LawCategory from './components/Learn/Laws/LawCategory.js';
-// import FeedbackForm from './components/FeedbackForm/feedbackform.js';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import Accordion from './components/Learn/Conduct/conduct.js';
-// import FeedbackForm from './components/FeedbackForm/feedbackform.js';
-
+import About from './components/LandingPage/aboutnew/ab.js';
 import FeedbackForm from './components/FeedbackForm/feedbackform.js';
-
 import Behaviour from './components/Learn/Behaviour/behaviour.js';
 import CombineSlidePage from './components/Learn/Behaviour/combineSlidePage.js';
 import DropDown from './components/Learn/Behaviour/dropDown.js';
+import Chatbot from './components/chatBot/chatbot.js';
 
 
 
@@ -36,6 +33,14 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+  },
+  {
+    path: "/play",
+    element: <Play/>,
+  },
+  {
+    path: "/ab",
+    element: <About/>,
   },
   {
     path: "/learn/conduct",
@@ -98,6 +103,10 @@ const router = createBrowserRouter([
   {
     path: "/dropDown",
     element: <DropDown/>,
+  },
+  {
+    path: "/chatbot",
+    element: <Chatbot/>,
   },
 ]);
 

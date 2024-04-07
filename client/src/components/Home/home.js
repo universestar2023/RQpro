@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar1 from './navbar1.js';
 import ExploreLearning from './exploreLearning.js';
 import Overview from './overview.js';
-import Footer from '../LandingPage/footer/footer.js';
+import FooterHomePage from './footerHome.js';
 import Courses from './courses.js';
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
         <ExploreLearning/>
         <Overview/>
         <Courses/>
-        <Footer/>
+        <FooterHomePage/>
     </div>
   )
 }
