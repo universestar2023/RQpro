@@ -3,7 +3,7 @@ import "./navbar.css";
 import logo from "./logo.png";
 import { Link } from "react-router-dom";
 import { Route, Routes, Navigate } from "react-router-dom";
-import Home from "../../Home/home.js";
+// import Home from "../../Home/home.js";
 import Login from "../../Login/index.jsx";
 import Signup from "../../Signup/index.jsx";
 
@@ -14,7 +14,7 @@ function Navbar(){
     return (
       <div>
         <Routes>
-			{user && <Route path="/" exact element={<Home />} />}
+			{user && <Route path="/"  element={<Navigate replace to="/home" />} />}
 			<Route path="/signup" exact element={<Signup />} />
 			<Route path="/login" exact element={<Login />} />
 			<Route path="/login" element={<Navigate replace to="/login" />} />

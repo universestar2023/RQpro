@@ -1,0 +1,35 @@
+.dashboard-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .profile-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .progress-bars {
+    margin-top: 20px;
+  }
+  
+  .progress-bar {
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar p {
+    margin-bottom: 5px;
+  }
+  
+  .current-course {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

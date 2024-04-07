@@ -28,7 +28,7 @@
   background-color: rgb(177, 203, 226);
   border: 2px solid #ccc; /* Add border */
   border-radius: 8px; /* Add border radius */
-  background-color: #f9f9f9; /* Add background color */
+  background-color: #fff6d0a2; /* Add background color */
   transition: border-color 0.3s, box-shadow 0.3s; 
   box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2);
   margin-top: 30px;
@@ -43,18 +43,17 @@ h5{
 }
 
   .item {
-      width: 80px; /* Adjust width as needed */
-      height: 330px; /* Adjust height as needed */
+      width: 1px; /* Adjust width as needed */
+      height: 300px; /* Adjust height as needed */
       margin: 10px; /* Add margin between items */
-      border-radius: 0; /* Ensure border is not curved */
       flex: 0 0 50%; /* Half of container width */
       padding: 30px;
-      margin-top: 10px;
+      /* margin-top: 10px; */
       border: 1px solid black;
       border-radius: 20px;
       transition: border-color 0.3s, box-shadow 0.3s; 
-      box-shadow: 0 5px 10px rgba(213, 156, 156, 0.2);
-      background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+      box-shadow: 0 5px 10px rgb(189, 189, 186);
+      background-image: linear-gradient(135deg, #e2e2df 0%, #fff6d0de 100%);
     }
 
     .item h5{
@@ -67,7 +66,7 @@ h5{
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
       width: 200px; /* Adjust width as needed */
       height: 170px;
-      margin-left: 55px;
+      margin-left: 130px;
       /* width: 100%;
       height: auto; */
   }
@@ -77,22 +76,7 @@ h5{
   border-radius: 20%;
 }
 
-.custom-button2 {
-  padding: 10px 50px;
-  border-radius: 25px;
-  border: 1px solid black; /* Green border */
-  background-color: rgb(62, 62, 222); /* Green background */
-  color: white; /* White text color */
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-}
 
-.custom-button2:hover {
-background-color: grey; /* Darker blue button background color on hover */
-}
 
 .item p {
   margin-top: 10px;
@@ -111,13 +95,17 @@ background-color: grey; /* Darker blue button background color on hover */
 
 .btn-chatbot{
   border-radius: 25px;
-  background-color: rgb(32, 4, 242);
+  background-color: black;
   height: 65px;
-  margin-top: 10px;
+  margin-top: 200px;
   width: 100px;
   transition: border-color 0.1s, box-shadow 0.1s; 
   box-shadow: 0 7px 20px rgba(0, 0, 0, 0.1);
 } 
+.btn-chatbot a{
+  text-decoration: none;
+color: white;
+}
 
 .small-rectangle-box2 p{
   font-size: 15px;

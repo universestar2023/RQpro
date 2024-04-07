@@ -21,7 +21,7 @@ import Behaviour from './components/Learn/Behaviour/behaviour.js';
 import CombineSlidePage from './components/Learn/Behaviour/combineSlidePage.js';
 import DropDown from './components/Learn/Behaviour/dropDown.js';
 import Chatbot from './components/chatBot/chatbot.js';
-
+import Dashboard from './components/Home/dash/dash.js';
 
 
 import {
@@ -33,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+  },
+  {
+    path: "/dash",
+    element: <Dashboard/>,
   },
   {
     path: "/play",

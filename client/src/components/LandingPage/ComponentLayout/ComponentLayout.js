@@ -40,7 +40,7 @@ const ComponentLayout = () => {
       </div>
 
       <center>
-        <a href="#" className="custom-button">
+        <a href="/signup" className="custom-button">
           Sign Up Now
         </a>
       </center>

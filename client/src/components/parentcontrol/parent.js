@@ -14,12 +14,12 @@ class Parent extends React.Component {
           <div className="feedback">
             <h2>Feedback</h2>
             <img src={feed} className='feedimg' alt="Feedback" />
-            <button className='one'><Link to='/feedbackform'>Give Feedback</Link></button>
+            <button className='custom-buttonw'><Link to='/feedbackform'>Give Feedback</Link></button>
           </div>
           <div className="child-report">
             <h2>Child Report</h2>
             <img src={repo} className='repoimg' alt="Child Report" />
-            <button className='one'>View Report</button>
+            <button className='custom-buttonw'>View Report</button>
           </div>
         </div>
       </div>

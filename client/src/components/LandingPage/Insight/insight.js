@@ -14,7 +14,7 @@ const InsightComponent = () => {
             Slavery work done by the children in order to produce goods and
             services
           </p>
-          <button className="custom-button">Discover More</button>
+          <button className="custom-button" onClick={() => { window.location.href = '/signup'; }}>Discover More</button>
         </div>
         <div className="grid-item">
           <img src={childLabour} alt="child Labour" />
@@ -29,7 +29,7 @@ const InsightComponent = () => {
             Child trafficking is the illegal activity of buying, stealing,
             moving or selling children for the purpose of exploitation.
           </p>
-          <button className="custom-button">Discover More</button>
+          <button className="custom-button" onClick={() => { window.location.href = '/signup'; }}>Discover More</button>
         </div>
         <div className="itemes">
           <h3>Children exploitation</h3>
@@ -37,7 +37,7 @@ const InsightComponent = () => {
             Child exploitation is when someone uses a child for financial gain,
             sexual gratification, labour or personal advantage.
           </p>
-          <button className="custom-button">Discover More</button>
+          <button className="custom-button" onClick={() => { window.location.href = '/signup'; }}>Discover More</button>
         </div>
         <div className="grid-item">
           <img src={childExploitation} alt="child Exploitation" />

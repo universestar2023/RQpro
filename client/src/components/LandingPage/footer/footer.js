@@ -131,7 +131,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-text">
-          <p>&#169;RightsQuest 2024 All Rights Reserved.</p>
+          <p>&#169;RightsQuest 2024. All Rights Reserved.</p>
         </div>
       </footer>
     );
