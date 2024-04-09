@@ -19,7 +19,7 @@
 
 /* Align Home and Login links with other items */
 .navbar-nav .nav-item {
-  margin-right: 30px; /* Adjust spacing between items */
+  margin-right: 27px; /* Adjust spacing between items */
 }
 .nav-item svg {
   fill: white; /* Set SVG fill color to white */
