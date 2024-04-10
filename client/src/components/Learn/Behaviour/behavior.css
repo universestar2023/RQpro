@@ -16,10 +16,12 @@
 }
 .one1{
     margin-left: 40%;
-    text-decoration: none;
     width: 100px;
-    color: white;
-    /* background-color: rgba(6, 50, 244, 0.27); */
+    border-radius: 30px;
+}
+.one1 a{
+  text-decoration: none;
+  color: white;
 }
 
   .mdl1,

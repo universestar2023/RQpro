@@ -16,7 +16,7 @@ const CourseComponent = () => {
             <li><p>Rights</p></li>
             <li><p>Law Insight</p></li>
             <li><p>Disciplinary</p></li>
-            <center><button className="custom-button3" onClick={() => { window.location.href = '/learn/rights'; }}>Start</button></center>
+            <button className="custom-button3" onClick={() => { window.location.href = '/learn/rights'; }}>Start</button>
           </ul>
         </div>
         <div className="column">
@@ -27,7 +27,7 @@ const CourseComponent = () => {
             <li><p>Fast Learning</p></li>
             <li><p>Cognitive Development</p></li>
             {/* <li><p>bmdbmc</p></li> */}
-            <center><button className="custom-button3" onClick={() => { window.location.href = '/play'; }}>Start</button></center>
+            <button className="custom-button3" onClick={() => { window.location.href = '/play'; }}>Start</button>
           </ul>
         </div>
         <div className="column">
@@ -37,7 +37,7 @@ const CourseComponent = () => {
             <li><p>Imagination</p></li>
             <li><p>Memory Retension</p></li>
             <li><p>Enhance Understanding</p></li>
-            <center><button className="custom-button3" onClick={() => { window.location.href = '/watch'; }}>Start</button></center>
+            <button className="custom-button3" onClick={() => { window.location.href = '/watch'; }}>Start</button>
           </ul>
         </div>
       </div>

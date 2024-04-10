@@ -10,7 +10,6 @@ import reportWebVitals from './reportWebVitals';
 import RegistrationForm from './components/registrationPage/RegistrationForm.js';
 import Home from './components/Home/home.js';
 import AboutUs from './components/AboutUs/aboutus.js';
-import Contact from './components/Contact/contact.js';
 import Play from './components/play/play.js';
 import Rights from './components/Learn/Rights/rights.js'
 import LawCategory from './components/Learn/Laws/LawCategory.js';
@@ -79,10 +78,6 @@ const router = createBrowserRouter([
   {
     path: "/aboutus",
     element: <AboutUs/>,
-  },
-  {
-    path: "/contact",
-    element: <Contact/>,
   },
   {
     path: "/feedbackform",

@@ -82,7 +82,7 @@ const RightsModule = () => {
           <p>Article Number: {selectedRight.articleNumber}</p>
           <p>{selectedRight.content}</p>
           <a href={selectedRight.link} target="_blank" rel="noopener noreferrer">Link</a>
-          <button onClick={handleBack}>Back</button>
+          <button onClick={handleBack} className='custom-button'>Back</button>
         </div>
       )}
     </div>
