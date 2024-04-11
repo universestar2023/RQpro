@@ -45,7 +45,7 @@ export default function Quiz() {
 
   /** finished exam after the last question */
   if (result.length && result.length >= queue.length) {
-    return <Navigate to={"/result"} replace={true}></Navigate>;
+    return <Navigate to={"/test/result"} replace={true}></Navigate>;
   }
 
   return (

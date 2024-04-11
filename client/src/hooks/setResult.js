@@ -24,7 +24,7 @@ export const usePublishResult = (resultData) => {
       if (result.length === 0 && !username)
         throw new Error("Couldn't get Result");
       await postServerData(
-        `${process.env.REACT_APP_SERVER_HOSTNAME}/api/result`,
+        `${process.env.REACT_APP_SERVER_HOSTNAME}/api/route/result`,
         resultData,
         (data) => data
       );

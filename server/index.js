@@ -1,4 +1,4 @@
-import { config } from 'dotenv';
+import { config } from "dotenv";
 import express from "express";
 const app = express();
 import cors from "cors";
@@ -8,17 +8,18 @@ import authRoutes from "./routes/auth.js";
 import testRoutes from "./routes/route.js";
 
 // database connection
+config();
 connection();
 
 // middlewares
 app.use(express.json());
-app.use(cors({ origin: 'http://localhost:8080' }));
+app.use(cors({ origin: "http://localhost:3000" }));
 config();
 
 // routes
 app.use("/api/users", userRoutes);
 app.use("/api/auth", authRoutes);
-app.use('/api/route', testRoutes);
+app.use("/api/route", testRoutes);
 
 const port = process.env.PORT || 8080;
 app.listen(port, console.log(`Listening on port ${port}...`));
