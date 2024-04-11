@@ -7,7 +7,7 @@ import Img4 from "./md24.jpg";
 
 const Module2 = () => {
   return (
-    <div className="page">
+    <div className="pageC">
         <h2>Learning to Share</h2>
         <ul>
         <li>

@@ -1,6 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';import '../styles/App.css';
+
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
+/** import components */
+import Main from './Test/Main';
+import Quiz from './Test/Quiz';
+import Result from './Test/Result';
+import { CheckUserExist } from './helper/helper';
+
+
+
+
+
 import App from './App';
 import Login from './components/Login/index.jsx';
 import Signup from './components/Signup/index.jsx'
@@ -22,6 +35,9 @@ import CombineSlidePage from './components/Learn/Behaviour/combineSlidePage.js';
 import DropDown from './components/Learn/Behaviour/dropDown.js';
 import Chatbot from './components/chatBot/chatbot.js';
 import Dashboard from './components/Home/dash/dash.js';
+import { Provider } from 'react-redux'; // Import Provider from react-redux
+import store from './redux/store'; // Import your Redux store
+import Exam from './Test/Exam.js'; // Import the Exam component
 
 
 import {
@@ -112,12 +128,28 @@ const router = createBrowserRouter([
     path: "/chatbot",
     element: <Chatbot/>,
   },
+  {
+    path : '/test',
+    element : <Main></Main>
+  },
+  {
+    path : '/test/quiz',
+    element : <CheckUserExist><Quiz /></CheckUserExist>
+  },
+  {
+    path : '/test/result',
+    element : <CheckUserExist><Result /></CheckUserExist>
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={store}>
+      <RouterProvider router={router}>
+        <App />
+      </RouterProvider>
+    </Provider>
   </React.StrictMode>
 );
 

@@ -14,8 +14,8 @@ const Login = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "http://localhost:8080/api/auth";
-			const { data: res } = await axios.post(url, data);
+			// const url = "http://localhost:8080/api/auth";
+			const { data: res } = await axios.post(`${process.env.REACT_APP_SERVER_HOSTNAME}/api/auth`, data);
 			localStorage.setItem("token", res.data);
 			window.location = "/";
 		} catch (error) {
@@ -55,7 +55,7 @@ const Login = () => {
 						/>
 						{error && <div className={styles.error_msg1}>{error}</div>}
 						<button type="submit" className={styles.green_btn1}>
-							Sing In
+							Sign In
 						</button>
 					</form>
 				</div>
@@ -63,7 +63,7 @@ const Login = () => {
 					<h1 className="text1 new">New Here ?</h1>
 					<Link to="/signup">
 						<button type="button" className={styles.white_btn1}>
-							Sing Up
+							Sign Up
 						</button>
 					</Link>
 				</div>

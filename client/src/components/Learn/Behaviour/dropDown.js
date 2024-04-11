@@ -24,7 +24,7 @@ const Dropdown = () => {
           >
             Knocking on Doors Before Entering
           </button>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <ul className="dropdown-menu1" aria-labelledby="dropdownMenuButton">
             <li>
               <p>
                 The habit of knocking on doors before entering is reflection of
@@ -50,7 +50,7 @@ const Dropdown = () => {
           >
             Being a Good Guest
           </button>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <ul className="dropdown-menu1" aria-labelledby="dropdownMenuButton">
             <li>
               <p>
                 Being a good guest means being polite and respectful when you
@@ -76,7 +76,7 @@ const Dropdown = () => {
           >
             Personal Hygiene
           </button>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <ul className="dropdown-menu1" aria-labelledby="dropdownMenuButton">
             <li>
               <p>Personal hygiene is all about taking care of your body to stay clean and healthy. It's a type of behavior that shows how much you care about yourself and others. Just like we wash our hands before eating to keep germs away, there are other things we can do to keep ourselves clean and fresh.</p>
             </li>
@@ -97,7 +97,7 @@ const Dropdown = () => {
           >
             Being Compassionate and Helpful
           </button>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <ul className="dropdown-menu1" aria-labelledby="dropdownMenuButton">
             <li>
               <p>Being compassionate and helpful means showing caring behavior towards others and doing things to make them feel better. When someone is sad or needs help, we can show compassionate behavior by being there for them and doing small things to show we care.</p>
             </li>
@@ -118,7 +118,7 @@ const Dropdown = () => {
           >
             Saying ‘Please’ and ‘Thank You’
           </button>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <ul className="dropdown-menu1" aria-labelledby="dropdownMenuButton">
             <li>
               <p>Saying 'please' and 'thank you' is like using magic words that make people feel happy and appreciated.</p>
             </li>
@@ -139,7 +139,7 @@ const Dropdown = () => {
           >
             Do not fight
           </button>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <ul className="dropdown-menu1" aria-labelledby="dropdownMenuButton">
             <li>
               <p>Fighting means using our bodies or words to hurt others, and it's not a good behavior. When we fight, we can hurt other people physically or emotionally, and it can make them feel sad, scared, or upset</p>
             </li>
@@ -160,7 +160,7 @@ const Dropdown = () => {
           >
             Saying ‘Sorry’
           </button>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <ul className="dropdown-menu1" aria-labelledby="dropdownMenuButton">
             <li>
               <p>Saying 'sorry' is like using a special word to help fix things when something goes wrong</p>
             </li>
