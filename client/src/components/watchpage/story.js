@@ -1,86 +1,61 @@
-import React from 'react';
-import './story.css'; 
-import Navbar1 from '../Home/navbar1';
+import React from "react";
+import "./story.css";
+import Navbar1 from "../Home/navbar1";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container } from "react-bootstrap";
 
-class VideoSection extends React.Component {
-  render() {
-    return (
-      <div>
-        <Navbar1/>
-        <div className="container3">
-          <div className="video-section">
-            <h2>Multiple Video Section</h2>
-            <div className="video-card">
-              {/* Video Card 1 */}
-              <div className="card1">
+function VideoSection() {
+  return (
+    <div>
+      <Navbar1 />
+
+      <div className="container-wrapper">
+        <div className="video-row">
+          <Container className="video-container">
+            <div className="ratio ratio-21x9">
               <iframe
-            width="560"
-            height="315"
-            src="https://youtu.be/CwzoUnj0Cxc?si=rRMqOnV05kCqTNU5"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-                <div className="card-description">
-                  <p>Video 1 Description</p>
-                </div>
-              </div>
-              {/* Video Card 2 */}
-              <div className="card1">
-                <iframe width="560" height="315" src="https://youtu.be/CwzoUnj0Cxc?si=rRMqOnV05kCqTNU5"></iframe>
-                <div className="card-description">
-                  <p>Video 2 Description</p>
-                </div>
-              </div>
-              {/* Add more video cards as needed */}
+                src="https://www.youtube.com/embed/CwzoUnj0Cxc?si=1cu2mfnuK0I_Ka_8"
+                title="YouTube video"
+                allowFullScreen
+              ></iframe>
             </div>
-            <p className="section-text">Some text below the video section</p>
-          </div>
+          </Container>
 
-          {/* Row 1 */}
-          <div className="row">
-            {/* Column 1 */}
-            <div className="column">
-              <div className="card1">
-                {/* Card content */}
-                <h3>Card 1</h3>
-                <p>Card 1 Description</p>
-              </div>
+          <Container className="video-container">
+            <div className="ratio ratio-21x9">
+              <iframe
+                src="https://www.youtube.com/embed/vdMPP47nLhc?si=j_8God2zIpCYcCWu"
+                title="YouTube video player"
+                allowFullScreen
+              ></iframe>
             </div>
-            {/* Column 2 */}
-            <div className="column">
-              <div className="card1">
-                {/* Card content */}
-                <h3>Card 2</h3>
-                <p>Card 2 Description</p>
-              </div>
-            </div>
-          </div>
+          </Container>
+        </div>
 
-          {/* Row 2 */}
-          <div className="row">
-            {/* Column 1 */}
-            <div className="column">
-              <div className="card1">
-                {/* Card content */}
-                <h3>Card 3</h3>
-                <p>Card 3 Description</p>
-              </div>
+        <div className="video-row">
+          <Container className="video-container">
+            <div className="ratio ratio-21x9">
+              <iframe
+                src="https://www.youtube.com/embed/RtoD5B1dfIc?si=_iumNFYC8QIsSnOn"
+                title="YouTube video play"
+                allowFullScreen
+              ></iframe>
             </div>
-            {/* Column 2 */}
-            <div className="column">
-              <div className="card1">
-                {/* Card content */}
-                <h3>Card 4</h3>
-                <p>Card 4 Description</p>
-              </div>
+          </Container>
+
+          <Container className="video-container">
+            <div className="ratio ratio-21x9">
+              <iframe
+                src="https://www.youtube.com/embed/domCDwp5u3I?si=m-THSMMtruiGv-cB"
+                title="YouTube video playe"
+                allowFullScreen
+              ></iframe>
             </div>
-          </div>
+          </Container>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default VideoSection;

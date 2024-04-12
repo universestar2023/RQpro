@@ -21,28 +21,28 @@ function ExploreLearning() {
             <img src={Rights1} alt="child rights" />
             <h5>Right to Protection</h5>
             <center>
-              <button className="custom-button">Learn</button>
+            <Link to='/learn/rights'><button className="custom-button">Learn</button></Link>
             </center>
           </div>
           <div className="item">
             <img src={Rights2} alt="child rights" />
             <h5>Right to Education</h5>
             <center>
-              <button className="custom-button">Learn</button>
+            <Link to='/learn/rights'><button className="custom-button">Learn</button></Link>
             </center>
           </div>
           <div className="item">
             <img src={Rights3} alt="child rights" />
             <h5>Right to Non-Discrimination</h5>
             <center>
-              <button className="custom-button">Learn</button>
+            <Link to='/learn/rights'><button className="custom-button">Learn</button></Link>
             </center>
           </div>
           <div className="item">
             <img src={Rights4} alt="child rights" />
             <h5>Right to Health</h5>
             <center>
-              <button className="custom-button">Learn</button>
+            <Link to='/learn/rights'><button className="custom-button">Learn</button></Link>
             </center>
           </div>
         </div>
