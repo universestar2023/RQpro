@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './rights.css'; // Import CSS file for styling
-
+import { Link } from 'react-router-dom';
 const RightsModule = () => {
   const [selectedRight, setSelectedRight] = useState(null);
   const [showDetail, setShowDetail] = useState(false);
@@ -85,7 +85,11 @@ const RightsModule = () => {
           <button onClick={handleBack} className='custom-button'>Back</button>
         </div>
       )}
+      <div className="test-button">
+       <Link to="/test"> <button>click here to test yourself</button></Link>
+      </div>
     </div>
+    
   );
 };
 

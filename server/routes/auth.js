@@ -1,7 +1,9 @@
-const router = require("express").Router();
-const { User1 } = require("../models/user");
-const bcrypt = require("bcrypt");
-const Joi = require("joi");
+import { Router } from "express";
+import { User1 } from "../models/User.js";
+import bcrypt from "bcrypt";
+import Joi from "joi";
+
+const router = Router();
 
 router.post("/", async (req, res) => {
 	try {
@@ -35,4 +37,4 @@ const validate = (data) => {
 	return schema.validate(data);
 };
 
-module.exports = router;
+export default router;

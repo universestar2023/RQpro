@@ -1,21 +1,25 @@
-require("dotenv").config();
-const express = require("express");
+import { config } from "dotenv";
+import express from "express";
 const app = express();
-const cors = require("cors");
-const connection = require("./db");
-const userRoutes = require("./routes/users");
-const authRoutes = require("./routes/auth");
+import cors from "cors";
+import connection from "./database/db.js";
+import userRoutes from "./routes/users.js";
+import authRoutes from "./routes/auth.js";
+import testRoutes from "./routes/route.js";
 
 // database connection
+config();
 connection();
 
 // middlewares
 app.use(express.json());
-app.use(cors());
+app.use(cors({ origin: "http://localhost:3000" }));
+config();
 
 // routes
 app.use("/api/users", userRoutes);
 app.use("/api/auth", authRoutes);
+app.use("/api/route", testRoutes);
 
 const port = process.env.PORT || 8080;
 app.listen(port, console.log(`Listening on port ${port}...`));
