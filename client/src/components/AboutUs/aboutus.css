@@ -1,29 +1,36 @@
 /* AboutUs.css */
 
 .about-us-container {
-    max-width:800px;
-    margin: 50px 100px 50px 270px; /*centering margin*/
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+  max-width: 100%; /* Adjust as needed */
+  margin: 50px 20px; /* Adjust margin for responsiveness */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
 
-  }
-  
-  .about-us-container h1 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  .about-us-container p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  .email{
-    text-align: center;
-  }
+.about-us-container h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
 
-  .email svg{
-    margin-left: 10px;
+.about-us-container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.email {
+  text-align: center;
+}
+
+.email svg {
+  margin-left: 10px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  .about-us-container {
+    margin: 50px auto; /* Center the container on larger screens */
+    max-width: 800px; /* Adjust maximum width as needed */
   }
+}
