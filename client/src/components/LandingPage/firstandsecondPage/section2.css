@@ -115,8 +115,10 @@
   }
   .sec2{
     background: rgb(255, 254, 208);
-  }}
+  }
   .rowes {
     display: flex;
     justify-content: space-between;
 }
+}
+

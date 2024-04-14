@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './rights.css'; // Import CSS file for styling
 import { Link } from 'react-router-dom';
+import Navbar1 from '../../Home/navbar1';
 const RightsModule = () => {
   const [selectedRight, setSelectedRight] = useState(null);
   const [showDetail, setShowDetail] = useState(false);
@@ -63,6 +64,7 @@ const RightsModule = () => {
   };
 
   return (
+    <div><Navbar1/>
     <div className="rights-module">
       {!showDetail ? (
         <>
@@ -89,7 +91,7 @@ const RightsModule = () => {
        <Link to="/test"> <button>click here to test yourself</button></Link>
       </div>
     </div>
-    
+    </div>
   );
 };
 
