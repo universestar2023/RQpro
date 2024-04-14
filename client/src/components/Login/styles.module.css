@@ -11,6 +11,7 @@
 	width: 900px;
 	height: 500px;
 	display: flex;
+	margin-right: 150px;
 	border-radius: 10px;
 	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
 		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
@@ -25,6 +26,17 @@
 	background-color: white;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
+}
+
+.handi{
+	flex:1;
+}
+.handimg {
+	width:auto;
+	height: auto;
+	/* max-width: 100%; */
+	margin-left: -90px;
+
 }
 
 .form_container1 {

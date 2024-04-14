@@ -1,11 +1,14 @@
 .chatHomePage{
     background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
-    height: 620px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.chaty {
+  width: 450px;
+  height:500px;
+}
 .chatbotpage {
     display: flex;
     height: 70vh; /* Set container height to cover the entire viewport */
