@@ -31,25 +31,25 @@ export const FeedbackForm = () => {
   return (
     <div>
       <Navbar1/>
-      <div className="box">
-        <div className="container-main">
-          <div className="image-main-container">
-      <img src={FeedbackImg} className="feedback-img" />
+      <div className="boxer">
+        <div className="container-mainer">
+          <div className="image-main-containerer">
+      <img src={FeedbackImg} className="feedback-imger" />
       </div>
-          <div className="form-main-container">
+          <div className="form-main-containerer">
             <h2>
               <center>Feedback Form</center>
             </h2>
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+      <form className="former" ref={form} onSubmit={sendEmail}>
+        <label className="hello">Name</label>
+        <input type="texte" name="user_name" />
+        <label className="hello">Email</label>
+        <input  type="emaile" name="user_email" />
+        <label className="hello">Message</label>
+        <textarea  name="message" />
+        <input  type="submit" value="Send" />
       </form>
-      {isMessageSent && <div className="popup">Message sent!</div>} {/* Popup message */}
+      {isMessageSent && <div className="popuper">Message sent!</div>} {/* Popup message */}
     </div>
     </div>
     </div>

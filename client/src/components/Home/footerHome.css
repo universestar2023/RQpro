@@ -1,99 +1,87 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    background-color: rgb(34, 34, 34);
-    margin:0px;
-  }
-  
-  .footer-left img {
-    width: 300px; /* Adjust as needed */
-    height: 300px;
-    margin-left: 10px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(34, 34, 34);
+  margin: 0;
+}
+
+.footer-left img {
+  width: 100%; /* Adjust as needed */
+  max-width: 300px; /* Maximum width for larger screens */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 10px;
+}
+
+.footer-right {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  justify-content: space-around;
+  width: 100%;
+  color: white;
+}
+
+.textF {
+  color: rgb(197, 196, 196);
+  text-align: center;
+}
+
+.addLink Link {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.footer-column {
+  flex: 1;
+  margin-top: 20px; /* Adjust margin top */
+  margin-left: 30px;
+  text-align: center; /* Center align content */
+}
+
+.footer-text {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.footer-icons {
+  font-size: 45px; /* Increase the size of icons */
+  margin-bottom: 20px; /* Adjust margin bottom */
+  display: flex;
+  justify-content: center; /* Center align icons */
+}
+
+.footer-icons svg {
+  transition: transform 0.2s; /* Add transition effect */
+  margin: 0 15px; /* Adjust margin between icons */
+}
+
+.footer-icons svg:hover {
+  fill: gray; /* Change color on hover */
+  cursor: pointer; /* Change cursor on hover */
+  transform: scale(1.1); /* Scale the icon on hover */
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
   .footer-right {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    color: white;
-    height: 270px;
+    flex-direction: column;
+    height: auto; /* Set height to auto for responsiveness */
   }
-  
-  .textF{
-    color: rgb(197, 196, 196);
-    text-align: center;
-  }
-  
-  .addLink Link{
-    text-decoration: none;
-    display: block;
-    color: white;
-  }
-  
+
   .footer-column {
-    flex: 1;
-    margin-top:60px;
-    margin-left: 30px;
+    margin-left: 0; /* Reset margin left */
   }
-  
-  .footer-text {
-    margin-top: 20px;
-    text-align: center;
-    color: white;
+
+  .footer-icons {
+    margin-bottom: 20px; /* Adjust margin bottom for smaller screens */
   }
-  
-  .footer-icons  {
-    font-size: 45px; /* Increase the size of icons */
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
+
+  .bi-arrow-up-circle {
+    margin-left: 0; /* Reset margin left */
+    text-align: center; /* Center align icon */
+    margin-top: 10px; /* Adjust margin top */
   }
-  
-  
-  .footer-icons svg {
-    transition: transform 0.2s; /* Add transition effect */
-    margin: 0 15px; /* Adjust margin between icons */
-  }
-  
-  .footer-icons svg:hover {
-    fill: gray; /* Change color on hover */
-    cursor: pointer; /* Change cursor on hover */
-    transform: scale(1.1); /* Scale the icon on hover */
-  }
-  
-  /* Media Queries */
-  @media screen and (max-width: 768px) {
-    .footer-right {
-      flex-direction: column;
-      height: auto; /* Set height to auto for responsiveness */
-    }
-  
-    .dropbtn{
-      border-radius: 30px;
-      padding: 10px 20px;
-    }
-    
-    .footer-column {
-      margin-top: 20px; /* Adjust margin top for smaller screens */
-      margin-left: 0px; /* Reset margin left */
-      text-align: center; /* Center align content */
-    }
-  
-    .footer-icons {
-      margin-bottom: 20px; /* Adjust margin bottom for smaller screens */
-    }
-  }
-  
-  .footer-subtext {
-      display: flex;
-      justify-content: space-around; /* Center items with space in between */
-    }
-  
-    .bi-arrow-up-circle{
-      margin-left:1250px;
-      text-decoration: none;
-      color:white;
-    }
-  
+}
