@@ -8,6 +8,7 @@
 
 .pageC{
   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  height:auto;
 }
 
 .dropdown1 button {
@@ -19,7 +20,7 @@
   box-shadow: 0 20px 10px rgba(119, 119, 119, 0.2);
 }
 
-.dropdown-menu1 {
+.dropdown-menuB {
   position: absolute;
   top: 100%;
   left: 50%; /* Position menu relative to parent */
@@ -35,7 +36,7 @@
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.dropdown-menu1 li {
+.dropdown-menuB li {
     display: flex; /* Use flexbox for better layout control */
     align-items: center; /* Center items vertically */
     padding: 0.5rem 1rem;
@@ -49,19 +50,62 @@
   }
 
 
-.dropdown-menu1 li:hover {
+.dropdown-menuB li:hover {
   background-color: #f2f0f0;
 }
 
-.dropdown-menu1 p {
+.dropdown-menuB p {
   margin: 0;
   white-space: normal; /* Allow text to wrap to the next line */
   word-wrap: break-word; /* Break long words if necessary */
   flex: 1; /* Allow the <p> tag to grow to fill remaining space */
 }
 
-.dropdown-menu1 img {
+.dropdown-menuB img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown1 button {
+    height: 60px; /* Increase button height */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .dropdown1 button {
+    height: 70px; /* Further increase button height for smaller screens */
+  }
+
+  .dropdown-menuB {
+    width: 90%;
+    left: 5%;
+    max-height: 70vh; /* Set max height relative to viewport height */
+    overflow-y: auto; /* Enable vertical scroll if content exceeds max height */
+  }
+
+  .dropdown-menuB li {
+    padding: 0.5rem; /* Adjust padding */
+  }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .dropdown1 button {
+    height: auto; /* Make button height auto to accommodate text */
+    padding: 10px; /* Add padding to button for better spacing */
+  }
+  
+  .dropdown-menuB {
+    width: auto; /* Allow dropdown width to adjust based on content */
+    max-width: 100%; /* Limit dropdown width to full width of the viewport */
+    left: 0; /* Align dropdown to the left edge */
+    transform: none; /* Remove horizontal translation */
+  }
+
+  .dropdown-menuB li {
+    width: 90%; /* Adjust width of list items */
+    margin: 0 auto; /* Center list items */
+  }
 }

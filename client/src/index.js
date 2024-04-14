@@ -2,6 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+/*
 import App from './App';
 import Login from './components/Login/index.jsx';
 import Signup from './components/Signup/index.jsx'
@@ -22,6 +23,7 @@ import CombineSlidePage from './components/Learn/Behaviour/combineSlidePage.js';
 import DropDown from './components/Learn/Behaviour/dropDown.js';
 import Chatbot from './components/chatBot/chatbot.js';
 import Dashboard from './components/Home/dash/dash.js';
+*/
 
 // import './index.css';import '../styles/App.css';
 
@@ -43,7 +45,7 @@ import reportWebVitals from "./reportWebVitals";
 import RegistrationForm from "./components/registrationPage/RegistrationForm.js";
 import Home from "./components/Home/home.js";
 import AboutUs from "./components/AboutUs/aboutus.js";
-import Contact from "./components/Contact/contact.js";
+// import Contact from "./components/Contact/contact.js";
 import Play from "./components/play/play.js";
 import Rights from "./components/Learn/Rights/rights.js";
 import LawCategory from "./components/Learn/Laws/LawCategory.js";
@@ -57,7 +59,9 @@ import Chatbot from "./components/chatBot/chatbot.js";
 import Dashboard from "./components/Home/dash/dash.js";
 import { Provider } from "react-redux"; // Import Provider from react-redux
 import store from "./redux/store"; // Import your Redux store
-import Exam from "./Test/Exam.js"; // Import the Exam component
+// import Exam from "./Test/Exam.js"; // Import the Exam component
+
+
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
