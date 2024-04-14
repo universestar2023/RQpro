@@ -17,7 +17,7 @@
   margin-bottom: 10px;
 }
 
-iframe {
+.video-row iframe {
   width: 600px; /* Adjust width as needed */
   max-width: 900px; /* Maximum width for larger screens */
   height: 300px; /* Adjust height as needed */

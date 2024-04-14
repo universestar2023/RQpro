@@ -49,6 +49,11 @@
   background-color: orange;
 }
 
+.dropdown-content1 .basicInfo:hover {
+  color: #251701;
+  background-color: rgb(184, 243, 128);
+}
+
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content1 {
   display: block;

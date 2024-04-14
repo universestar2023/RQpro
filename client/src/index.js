@@ -60,7 +60,11 @@ import Dashboard from "./components/Home/dash/dash.js";
 import { Provider } from "react-redux"; // Import Provider from react-redux
 import store from "./redux/store"; // Import your Redux store
 // import Exam from "./Test/Exam.js"; // Import the Exam component
-
+import NationalAnthem from './components/Learn/BasicInfo/NationalAnthem/nationalAnthem.js';
+import BasicInfo from './components/Learn/BasicInfo/basicinfo.js';
+import Pledge from './components/Learn/BasicInfo/Pledge/pledge.js';
+import Preamble from './components/Learn/BasicInfo/Preamble/preamble.js';
+import Song from './components/Learn/BasicInfo/Song/song.js';
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -147,6 +151,26 @@ const router = createBrowserRouter([
   {
     path: "/test",
     element: <Main></Main>,
+  },
+  {
+    path: "/learn/basicinfo",
+    element: <BasicInfo/>,
+  },
+  {
+    path: "/natinal_anthem",
+    element: <NationalAnthem/>,
+  },
+  {
+    path: "/pledge",
+    element: <Pledge/>,
+  },
+  {
+    path: "/preamble",
+    element: <Preamble/>,
+  },
+  {
+    path: "/song",
+    element: <Song/>,
   },
   {
     path: "/test/quiz",

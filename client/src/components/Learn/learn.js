@@ -24,6 +24,7 @@ const LearnSection = () => {
           <Link className="conduct" to="/learn/conduct">Conduct</Link>
           <Link className="behaviour" to="/learn/behaviour">Behaviour</Link>
           <Link className="laws" to="/learn/LawCategory">Laws</Link>
+          <Link className="basicInfo" to="/learn/basicinfo">Basic Information</Link>
         </div>
         
       </div>

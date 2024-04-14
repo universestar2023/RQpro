@@ -12,7 +12,7 @@ const Chatbot = () => {
       <div className="chatbotInside">
         <iframe
           width="450"
-          height="530"
+          height="480"
           allow="microphone;"
           src="https://console.dialogflow.com/api-client/demo/embedded/db7483ef-394e-4313-a028-56e8399f6ca2"
           title="Dialogflow Chat"
