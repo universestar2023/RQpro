@@ -42,6 +42,7 @@
     width: 100%; /* Ensure image takes full width of card */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px;
+    border-radius: 10px;
   }
   
   .card1er-BI button {

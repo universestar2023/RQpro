@@ -273,6 +273,9 @@ const Dropdown = () => {
             </ul>
           )}
         </div>
+        <div className="Underbtn" style={{ textAlign: "center" , marginBottom: '20px'}}>
+          <button onClick={() => window.history.back()}>Back</button>
+        </div>
       </div>
     </>
   );
