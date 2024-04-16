@@ -19,20 +19,20 @@ const BasicInfo = () => {
               {/* Card content */}
               <img src={img1} alt="Image 1" style={{ height: "193px" }} /> {/* Image space */}
               <h3> National Anthem</h3>
-                <button><Link to='/natinal_anthem'>Start</Link></button>
+              <Link to='/natinal_anthem'><button>Start</button></Link>
           </div>
           {/* Column 2 */}
             <div className="card1er-BI">
               {/* Card content */}
-              <img src={img2} alt="Image 2" /> {/* Image space */}
+              <img src={img2} alt="Image 2" style={{ height: "198px" }}/> {/* Image space */}
               <h3>Pledge</h3>
-                <button><Link to='/pledge'>Start</Link></button>
+              <Link to='/pledge'><button>Start</button></Link>
           </div>
             <div className="card1er-BI">
               {/* Card content */}
               <img src={img3} alt="Image 3"  style={{ height: "193px" }}/> {/* Image space */}
               <h3>Preamble</h3>
-                <button><Link to='/preamble'>Start</Link></button>
+              <Link to='/preamble'><button>Start</button></Link>
               {/* Button below the card */}
             </div>
 
@@ -40,7 +40,7 @@ const BasicInfo = () => {
               {/* Card content */}
               <img src={img4} alt="Image 4" style={{ height: "193px" }} />
               <h3>Song</h3>
-                <button><Link to='/song'>Start</Link></button>
+              <Link to='/song'><button>Start</button></Link>
             </div>
         </div>
     </div>

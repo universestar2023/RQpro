@@ -14,12 +14,12 @@ const Behaviour = () => {
           <div className="mdl1">
             <h2>Module 1</h2>
             <img src={Md1} className='mdl1img' alt="module1" />
-            <button className='one1'><Link to='/combineSlidePage'>Start</Link></button>
+            <Link to='/combineSlidePage'><button className='one1'>Start</button></Link>
           </div>
           <div className="mdl2">
             <h2>Module 2</h2>
             <img src={Md2} className='mdl2img' alt="module2" />
-            <button className='one1'><Link to='/dropDown'>Start</Link></button>
+            <Link to='/dropDown'><button className='one1'>Start</button></Link>
           </div>
         </div>
       </div>

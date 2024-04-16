@@ -9,7 +9,7 @@ const NationalAnthem = () => {
       <img src={Img} alt="National Anthem" className="anthem-image" />
       </div>
       <div className="UnderTable">
-        <h3>Words and Meanings from National Anthem</h3>
+        <h3>Words and their Meanings from the National Anthem</h3>
       <table className="anthem-table">
         <thead>
           <tr>

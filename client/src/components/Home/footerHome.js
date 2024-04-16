@@ -54,9 +54,6 @@ function FooterHomePage() {
             <div className="addLink">
               <Link to="/aboutus">About us</Link>
             </div>
-            <div className="addLink">
-              <Link to="/contact">Contact</Link>
-            </div>
           </div>
         </div>
         <div className="footer-column">
