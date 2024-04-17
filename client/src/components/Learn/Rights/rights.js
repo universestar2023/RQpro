@@ -88,7 +88,7 @@ const RightsModule = () => {
         </div>
       )}
       <div className="test-button">
-       <Link to="/test"> <button>click here to test yourself</button></Link>
+       <Link to="/test"> <button><i>Click here to Test yourself!</i></button></Link>
       </div>
     </div>
     </div>

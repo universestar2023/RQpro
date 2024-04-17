@@ -1,0 +1,37 @@
+.container-P {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .pledge-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+  }
+  
+  .pledge-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .pledge-table th,
+  .pledge-table td {
+    padding: 10px;
+    border: 2px solid #aba8a8;
+    text-align: left;
+  }
+  
+  .pledge-table th {
+    background-color: #f1e2e2;
+  }
+  .Underbutton button {
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 100px;
+    background: rgb(41, 41, 241);
+  }

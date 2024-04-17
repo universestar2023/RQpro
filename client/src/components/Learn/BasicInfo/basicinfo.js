@@ -24,7 +24,7 @@ const BasicInfo = () => {
           {/* Column 2 */}
             <div className="card1er-BI">
               {/* Card content */}
-              <img src={img2} alt="Image 2" style={{ height: "198px" }}/> {/* Image space */}
+              <img src={img2} alt="Image 2" style={{ height: "193px" }}/> {/* Image space */}
               <h3>Pledge</h3>
               <Link to='/pledge'><button>Start</button></Link>
           </div>
