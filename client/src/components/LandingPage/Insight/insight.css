@@ -1,62 +1,68 @@
 .insight-component {
-    margin: 20px;
-  }
-  
-  h2 {
-    text-align: center;
-  }
-  
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-  }
-  
-  .grid-item {
-    padding: 20px;
-    margin-left: 113px;
-    width: 500px;
-    font-size: 20px;
-    height: 300px;
-    margin-top: 20px;
+  margin: 20px;
 }
 
-  .itemes{
-     width: 600px;
-    height: 300px;
-    display: grid;
-    font-size: 20px;
-    align-items: center;
-    text-align: center;
-    margin: 10px;
-    border-radius: 0;
-    flex: 0 0 50%;
-    padding: 30px;
-    margin-top: 10px;
-    border: 1px solid black;
-    border-radius: 20px;
-    transition: border-color 0.3s, box-shadow 0.3s;
-    box-shadow: 0 5px 10px rgba(213, 156, 156, 0.2);
-    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-  }
-  .grid-item img {
-    max-width: 100%;
-    height: 261px;
-    width: 400px;
-    border-radius: 10px;
-    border: 2px solid rgb(6, 0, 6);
-    padding: 10px;
-    box-shadow: 2px 0px 4px 3px;
-    transition: transform 0.3s ease-in-out;
+h2 {
+  text-align: center;
+}
+
+/* Adjust grid layout for responsiveness */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr)); /* Dynamic grid layout based on available space */
+  grid-gap: 20px;
+}
+
+/* Adjust grid item styles for responsiveness */
+.grid-item {
+  padding: 20px;
+  margin-left: 103px;
+  width: 100%; /* Adjust width to fit grid container */
+  max-width: 500px; /* Limit max width for larger screens */
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.itemes {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 10px;
+  border: 1px solid black;
+  box-shadow: 0 5px 10px rgba(213, 156, 156, 0.2);
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+/* Adjust image size and styles for responsiveness */
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid rgb(6, 0, 6);
+  padding: 10px;
+  box-shadow: 2px 0px 4px 3px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .grid-item img:hover {
-    transform: scale(1.1); /* You can adjust the scale factor for the desired effect */
+  transform: scale(1.1); /* You can adjust the scale factor for the desired effect */
 }
 
-  
-  .grid-item p {
-    margin-top: 10px;
+.grid-item p {
+  margin-top: 10px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .grid-item {
+    margin-left: auto; /* Center align grid items */
+    margin-right: auto; /* Center align grid items */
   }
-  
-  
+
+  .grid-item,
+  .itemes {
+    width: calc(100% - 40px); 
+  }
+}
