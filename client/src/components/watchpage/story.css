@@ -1,49 +1,39 @@
+/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Container wrapper styles */
 .containeres-wrapperer {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
 
-/* .video-row {
+/* Video row styles */
+.video-row {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
-} */
-
-/* CSS for video section */
-.video-row {
-  display: flex;
-  flex-direction: column; /* Align video sections vertically */
-  align-items: center; /* Center items horizontally */
-  margin-bottom: 10px;
 }
 
+/* Video iframe styles */
 .video-row iframe {
-  width: 600px; /* Adjust width as needed */
+  width: 600px; /* Set width to fill the container */
   max-width: 900px; /* Maximum width for larger screens */
   height: 300px; /* Adjust height as needed */
   margin: 10px; /* Adjust margin */
   border-radius: 30px;
   margin-top: 30px;
-  
 }
 
-/* Media query for smaller screens */
+
 @media only screen and (max-width: 768px) {
   .video-row iframe {
-    width: 100%; /* Set width to 100% for smaller screens */
-    height: auto; /* Adjust height automatically */
-    max-width: none; /* Reset max-width */
-    margin-top: 15px; /* Add spacing between videos */
+    width: 80%; 
+    max-width: none; 
+    height: auto; 
   }
 }
-
-
-

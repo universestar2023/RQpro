@@ -1,0 +1,34 @@
+.container-pre {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .song-image, song1-image {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+  }
+  
+  .pre-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .UnderTablepre h3{
+    text-align: center;
+  }
+ .UnderTablepre p{
+    text-align: justify;
+ }
+  
+  .Underbtn2 button {
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 100px;
+    background: rgb(41, 41, 241);
+  }

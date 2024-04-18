@@ -96,3 +96,42 @@
 	color: white;
 	margin: 10px;
 }
+/* Styles for mobile devices */
+@media screen and (max-width: 768px) {
+	.signup_form_container {
+	  width: 90%; /* Adjust width to fill the screen */
+	  height: auto; /* Adjust height to fit content */
+	}
+  
+	.left,
+	.right {
+	  border-radius: 0; /* Remove border radius */
+	  width: 100%; /* Adjust width to fill the screen */
+	  padding: 20px; /* Add padding for better spacing */
+	}
+  
+	.left h1,
+	.form_container h1 {
+	  font-size: 16px; /* Decrease font size */
+	}
+  
+	.input,
+	.error_msg {
+	  width: 100%; /* Adjust width to fill the container */
+	}
+  
+	.white_btn,
+	.green_btn {
+	  width: 100%; /* Adjust width to fill the container */
+	  margin: 10px 0px;
+	  padding: 10px 16px; /* Add vertical margin */
+	}
+  }
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+	.signup_form_container {
+	  width: 80%; /* Adjust width to fit tablets */
+	}
+  }
+  

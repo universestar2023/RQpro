@@ -92,23 +92,23 @@ input[type="submit"]:hover {
   padding: 20px;
 }
 
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-  .container-mainer {
-    flex-direction: column; /* Stack items vertically on small screens */
-    align-items: center; /* Center items horizontally */
-  }
-
-  .form-main-containerer input[type="text"],
-  .form-main-containerer input[type="email"],
-  .form-main-containerer textarea {
-    width: 50%; /* Decrease width of text fields on smaller screens */
-  }
+@media only screen and (max-width: 768px) {
+  input[type="texte"],
+input[type="emaile"],
+textarea {
+  width: 200px;
+  
 }
-
-.image-main-containerer,
-  .form-main-containerer {
-    width: 100%; /* Ensure full width on smaller screens */
-    max-width: none; /* Remove max-width on smaller screens */
-  }
-
+.image-main-containerer {
+  flex: 1;
+  margin-left: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-main-containerer {
+  flex: 1;
+  padding: 20px;
+  margin-right: 100px;
+}
+}
