@@ -66,6 +66,10 @@ import Pledge from './components/Learn/BasicInfo/Pledge/pledge.js';
 import Preamble from './components/Learn/BasicInfo/Preamble/preamble.js';
 import Song from './components/Learn/BasicInfo/Song/song.js';
 
+import LawPage from "./components/Learn/Laws/LawPage.js";
+import LawsComponent from "./components/Learn/Laws/LawCategory.js";
+import MainComponent from "./components/Learn/Laws/MainComponent.js";
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -128,10 +132,7 @@ const router = createBrowserRouter([
     path: "/learn/rights",
     element: <Rights />,
   },
-  {
-    path: "/learn/LawCategory",
-    element: <LawCategory />,
-  },
+  
   {
     path: "/learn/behaviour",
     element: <Behaviour />,
@@ -187,6 +188,42 @@ const router = createBrowserRouter([
         <Result />
       </CheckUserExist>
     ),
+  },
+  {
+    path: "/learn/LawCategory",
+    element: <LawsComponent />, // Include LawsComponent here
+  },
+  {
+    path: "/juvenileJustice", // Define the path for LawPage
+    element: <LawPage pageIndex={0} />, // Include LawPage here
+  },
+  {
+    path: "/civilLaw",
+    element: <LawPage pageIndex={1} />, // Include LawsComponent here
+  },
+  {
+    path: "/constitutionLaw",
+    element: <LawPage pageIndex={2} />, // Include LawsComponent here
+  },
+  {
+    path: "/familyLaw",
+    element: <LawPage pageIndex={3} />, // Include LawsComponent here
+  },
+  {
+    path: "/cyberLaw",
+    element: <LawPage pageIndex={4} />, // Include LawsComponent here
+  },
+  {
+    path: "/educationLaw",
+    element: <LawPage pageIndex={5} />, // Include LawsComponent here
+  },
+  {
+    path: "/childLabourLaw",
+    element: <LawPage pageIndex={6} />, // Include LawsComponent here
+  },
+  {
+    path: "/criminalLaw",
+    element: <LawPage pageIndex={7} />, // Include LawsComponent here
   },
 ]);
 

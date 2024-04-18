@@ -15,7 +15,7 @@ function ExploreLearning() {
       >
         <h3 className="explore-heading">Explore Learning</h3>
       </div>
-      <div className="container">
+      <div className="container-explore">
         <div className="scrollable">
           <div className="item">
             <img src={Rights1} alt="child rights" />

@@ -75,6 +75,9 @@ const RightsModule = () => {
                 <h2>{right.title}</h2>
               </div>
             ))}
+            <div className="test-button">
+       <Link to="/test"> <button><i>Click here to Test yourself!</i></button></Link>
+      </div>
           </div>
         </>
       ) : (
@@ -87,9 +90,7 @@ const RightsModule = () => {
           <button onClick={handleBack} className='custom-button'>Back</button>
         </div>
       )}
-      <div className="test-button">
-       <Link to="/test"> <button><i>Click here to Test yourself!</i></button></Link>
-      </div>
+      
     </div>
     </div>
   );
