@@ -42,3 +42,54 @@
     width: 480px;
     height: 600px;
   }
+
+  /* For screens smaller than 800px */
+@media only screen and (max-width: 800px) {
+  .chatbotpage {
+    flex-direction: column; /* Stack elements vertically */
+    height: auto; /* Remove fixed height */
+  }
+  
+  .chatHomePage {
+    height: auto; /* Remove fixed height */
+  }
+  
+  .chaty {
+    width: 100%; /* Make iframe fill the container */
+    height: 300px; /* Adjust height as needed */
+    border-radius: 10px; /* Adjust border radius */
+  }
+  
+  .image-chatbot {
+    order: -1; /* Move image above the chatbot */
+    padding: 10px; /* Adjust padding */
+  }
+  
+  .image-chatbot img {
+    max-width: 100%; /* Ensure image doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* For screens smaller than 480px */
+@media only screen and (max-width: 480px) {
+  .chaty {
+    height: 250px; /* Adjust height further for smaller screens */
+  }
+}
+
+/* For screens between 820px and 1180px */
+@media only screen and (min-width: 821px) and (max-width: 1180px) {
+  .chatHomePage {
+    height: 800px; /* Maintain height within this range */
+  }
+  
+  .chatbotpage {
+    width: 80%; /* Adjust width for screens in this range */
+  }
+  
+  .chaty {
+    width: 500px; /* Adjust width for screens in this range */
+    height: 350px; /* Adjust height for screens in this range */
+  }
+}
