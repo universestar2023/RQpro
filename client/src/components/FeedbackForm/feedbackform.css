@@ -91,3 +91,24 @@ input[type="submit"]:hover {
   flex: 1;
   padding: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+  input[type="texte"],
+input[type="emaile"],
+textarea {
+  width: 200px;
+  
+}
+.image-main-containerer {
+  flex: 1;
+  margin-left: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-main-containerer {
+  flex: 1;
+  padding: 20px;
+  margin-right: 100px;
+}
+}

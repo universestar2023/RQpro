@@ -37,11 +37,24 @@
     width: calc(45% - 40px); /* Half the width with margin accounted for */
     text-decoration: none;
   }
+  @media only screen and (max-width: 768px) {
+    .page12 {
+      padding: 10px; /* Decrease padding for smaller screens */
+    }
   
-  @media screen and (max-width: 768px) {
     .feedback,
     .child-report {
-      width: calc(100% - 40px); /* Full width with margin accounted for on smaller screens */
+      width: calc(90% - 20px); /* Adjust width for smaller screens */
+    }
+  
+    .repoimg,
+    .feedimg {
+      margin: 0 auto; /* Center the images horizontally */
+    }
+  
+    .custom-buttonw {
+      margin: 20px 230px; /* Center the button horizontally */
     }
   }
+ 
   

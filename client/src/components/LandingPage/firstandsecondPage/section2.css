@@ -8,6 +8,8 @@
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 30px;
+  background: rgba(245, 196, 60, 0.781);
+
   padding: 20px;
   /* Adjusted margin to center the cards */
   margin: 20px auto;
@@ -69,7 +71,7 @@
 }
 
 /* Media query for laptop view */
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .cardes {
     margin: 20px;
   }
@@ -119,6 +121,7 @@
   .rowes {
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 }
 

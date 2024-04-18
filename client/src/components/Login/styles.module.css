@@ -108,3 +108,69 @@
 	color: white;
 	margin: 10px;
 }
+/* Styles for mobile devices */
+@media screen and (max-width: 768px) {
+	.login_container1 {
+	  padding: 10px; /* Add padding for better spacing */
+	  align-items: flex-start; /* Align items to the start */
+	}
+  
+	.login_form_container1 {
+	  flex-direction: column; /* Stack items vertically */
+	  width: 50%; /* Adjust width to fill the screen */
+	  height: auto; /* Adjust height to fit content */
+	  margin: 10px; /* Remove right margin */
+	  border-radius: 20px; /* Remove border radius */
+	  box-shadow: none;
+	  margin-right: 130px; /* Remove box shadow */
+	}
+  
+	.left1,
+	.right1 {
+	  border-radius: 0; /* Remove border radius */
+	  width: 100%; /* Adjust width to fill the screen */
+	  padding: 20px; /* Add padding for better spacing */
+	}
+  
+	.form_container1 h1 {
+	  font-size: 20px; /* Decrease font size */
+	}
+  
+	.input12,
+	.error_msg1 {
+	  width: 100%; /* Adjust width to fill the container */
+	}
+	.handi{
+		display: flex;
+	}
+  
+	.handimg{
+		/* width:10rem;
+	height: 5%; */
+	max-width: 180%;
+	margin-left: -90px;
+	margin-top: 20px;
+
+	}
+	.right1 h1 {
+		margin-top: 0;
+		color: white;
+		font-size: 20px;
+		align-self: center;
+	}
+  
+	.white_btn1,
+	.green_btn1 {
+	  width: 100%; /* Adjust width to fill the container */
+	  margin: 10px 0;
+	  padding: 10px 16px; /* Add vertical margin */
+	}
+  }
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+	.login_form_container1 {
+	  width: 50%; /* Adjust width to fit tablets */
+	}
+  }
+  
