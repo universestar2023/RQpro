@@ -3,7 +3,11 @@ import { User1 } from "../models/User.js";
 import bcrypt from "bcrypt";
 import Joi from "joi";
 
+
+
 const router = Router();
+
+
 
 router.post("/", async (req, res) => {
 	try {
@@ -36,5 +40,9 @@ const validate = (data) => {
 	});
 	return schema.validate(data);
 };
+
+
+
+
 
 export default router;

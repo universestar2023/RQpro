@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getServerData } from "../helper/helper";
+import '../styles/Result.css';
 
 export default function ResultTable() {
   const [data, setData] = useState([]);
@@ -15,9 +16,9 @@ export default function ResultTable() {
 
   return (
     <div>
-      <table>
-        <thead className="table-header">
-          <tr className="table-row">
+      <table className="table-main-result ">
+        <thead className="table-header50">
+          <tr className="table-row50">
             <td>Name</td>
             <td>Attemps</td>
             <td>Earn Points</td>
@@ -27,7 +28,7 @@ export default function ResultTable() {
         <tbody>
           {!data ?? <div>No Data Found </div>}
           {data.map((v, i) => (
-            <tr className="table-body" key={i}>
+            <tr className="table-body50" key={i}>
               <td>{v?.username || ""}</td>
               <td>{v?.attempts || 0}</td>
               <td>{v?.points || 0}</td>

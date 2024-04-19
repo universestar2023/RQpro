@@ -66,7 +66,11 @@ input[type="submit"]:hover {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
 }
-
+.former{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .container-mainer {
   display: flex;
   align-items: center;
@@ -90,4 +94,25 @@ input[type="submit"]:hover {
 .form-main-containerer {
   flex: 1;
   padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  input[type="texte"],
+input[type="emaile"],
+textarea {
+  width: 200px;
+  
+}
+.image-main-containerer {
+  flex: 1;
+  margin-left: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-main-containerer {
+  flex: 1;
+  padding: 20px;
+  margin-right: 100px;
+}
 }

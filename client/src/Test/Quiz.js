@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Questions from "./Questions";
+import '../styles/Main.css';
 
 import { MoveNextQuestion, MovePrevQuestion } from "../hooks/FetchQuestion";
 import { PushAnswer } from "../hooks/setResult";
@@ -49,21 +50,21 @@ export default function Quiz() {
   }
 
   return (
-    <div className="container">
-      <h1 className="title text-light">Quiz Application</h1>
+    <div className="container-que">
+      
 
-      {/* display questions */}
-      <Questions onChecked={onChecked} />
+      {/* Display questions with question number */}
+      <Questions onChecked={onChecked} questionNumber={trace + 1} />
 
       <div className="grid">
         {trace > 0 ? (
-          <button className="btn prev" onClick={onPrev}>
+          <button className="btn-prev" onClick={onPrev}>
             Prev
           </button>
         ) : (
           <div></div>
         )}
-        <button className="btn next" onClick={onNext}>
+        <button className="btn-next" onClick={onNext}>
           Next
         </button>
       </div>

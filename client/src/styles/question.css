@@ -1,0 +1,40 @@
+.questions .que{
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 200px;
+}
+.questions {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    box-shadow: grey 2px 2px 20px 2px;
+    margin-top: 100px;
+    row-gap: 28px;
+    width: 1000px;
+    height: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.options{
+    font-size: 20px;
+    color: rgb(9, 9, 9);
+    cursor:grab;
+}
+.options-que{
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        cursor:grab;
+}
+.options-que li {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    border-radius: 28px;
+    padding: 5px;
+    border: 1px solid black;
+    column-gap: 23px;
+    cursor:grab;
+    
+}

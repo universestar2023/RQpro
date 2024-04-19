@@ -1,35 +1,91 @@
-/* .dashboard-container {
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.user-image{
+    position: relative;
+    left: 202px;
+}
+.user-dash-hor {
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: column; */
+  background-color: rgb(241, 233, 233);
+  align-items: center;
+  width: 100%;
+}
+.user info{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .profile-info {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .profile-info img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-  }
-  
-  .progress-bars {
-    margin-top: 20px;
-  }
-  
-  .progress-bar {
-    margin-bottom: 10px;
-  }
-  
-  .progress-bar p {
-    margin-bottom: 5px;
-  }
-  
-  .current-course {
-    text-align: center;
-    margin-top: 20px;
-  }
-   */
+    position: relative;
+    top: 34px;
+    border-radius: 20px;
+    background-color: #dcd8e4;
+    row-gap: 10px;
+    padding: 39px;
+}
+.user-info h2{
+  position: relative;
+    bottom: 20px;
+    left: 112px;
+    font-family: ui-sans-serif;
+    font-weight: 800;
+
+}
+.profile-pic-dash {
+  width: 221px;
+  height: 217px;
+}
+.info-dash {
+  background-color: white;
+  font-size: 20px;
+  font-family: ui-sans-serif;
+  font-weight: 1000;
+  text-align: center;
+  padding: 3px;
+}
+.user-info p{
+  font-size: 26px;
+    font-family: cursive;
+}
+.profile-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-info img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.main-dash-info {
+  background-color: white;
+  padding: 19px;
+  width: 22%;
+  margin-top: 16px;
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 343px;
+}
+.progress-bars {
+  margin-top: 20px;
+}
+
+.progress-bar {
+  margin-bottom: 10px;
+}
+
+.progress-bar p {
+  margin-bottom: 5px;
+}
+
+.current-course {
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,29 +1,33 @@
-.section2-con{
-  text-align: center; /* Align section content to the center */
-    padding: 50px 20px; /* Add padding for spacing */
-    max-width: 1200px; /* Set max width for the section */
-    margin: 0 auto; /* Center the section horizontally */
+/* Default styles */
+.section2-con {
+  text-align: center;
+  padding: 50px 20px; /* Add padding for spacing */
+  max-width: 1200px; /* Set max width for the section */
+  margin: 0 auto; /* Center the section horizontally */
 }
+
 .cardes {
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 30px;
+  background: rgba(245, 196, 60, 0.781);
   padding: 20px;
-  /* Adjusted margin to center the cards */
-  margin: 20px auto;
+  margin: 20px 80px; /* Adjusted margin to center the cards */
 }
-.section-paragraph2{
+
+.section-paragraph2 {
   text-align: center;
   font-weight: bold;
   font-size: large;
   font-family: 'Times New Roman', Times, serif;
 }
+
 .head2 {
-    text-align: center;
-    margin-top: 27px;
-    font-weight: bold;
-    font-size: xx-large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 27px;
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Style for the SVG icons */
@@ -52,11 +56,12 @@
 .card-bodyes {
   text-align: center;
 }
+
 .rowes {
   display: flex;
   justify-content: space-between;
-  
 }
+
 /* Center the SVG horizontally */
 .svg-center {
   display: flex;
@@ -68,57 +73,18 @@
   background: rgb(255, 254, 208);
 }
 
-/* Media query for laptop view */
-@media (min-width: 992px) {
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  .section2-con {
+    padding: 30px 10px; /* Adjust padding for smaller screens */
+  }
+  
   .cardes {
-    margin: 20px;
+    width: 70%; /* Adjust width for smaller screens */
+    margin: 20px auto; /* Adjust margin for smaller screens */
   }
   
-  /* Style for the SVG icons */
-  .cardes svg {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 10px;
+  .head2 {
+    font-size: x-large; /* Adjust font size for smaller screens */
   }
-  
-  /* Style for the custom buttons */
-  .custom-butes {
-    display: inline-block;
-    padding: 10px 25px;
-    border: 2px solid #5a5f5d;
-    background-color: #444744;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 30px;
-    margin-top: 15px;
-  
-  }
-  .cardes{
-    text-align: center;
-    width: 10rem;
-    height: 145px;
-    border-radius: 35px;
-    background: rgba(245, 196, 60, 0.781);
-    margin-left: 100px;
-    
-  }
-  
-  .card-bodyes {
-    text-align: center;
-  }
-  
-  .svg-center {
-    display: flex;
-    justify-content: center;
-  }
-  .sec2{
-    background: rgb(255, 254, 208);
-  }
-  .rowes {
-    display: flex;
-    justify-content: space-between;
 }
-}
-

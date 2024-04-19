@@ -7,7 +7,7 @@
   align-items: center;
   border: 3px black;
   position: relative;
-  background: linear-gradient(180deg, #4E342E, #673ab766, transparent);
+  background: linear-gradient(180deg, #B39DDB, #AED581, transparent);
   top: 40px;
 }
 .laws-button {
@@ -47,8 +47,8 @@
 }
 .textToSpeechBtn {
   display: block;
-  width: 134%;
-  height: 53px;
+  width: 121%;
+  height: 74px;
   padding: 10px 0;
   font-family: sans-serif;
   font: bold;
@@ -70,7 +70,7 @@
   align-items: center;
   position: relative;
   left: 21px;
-  column-gap: 77px;
+  column-gap: 61px;
   margin-bottom: 20px;
 }
 
@@ -86,7 +86,7 @@
   font-family: ui-sans-serif;
   margin-bottom: -11px;
   text-align: center;
-  color: #81D4FA;
+  color: white;
 }
 .statement-law {
   font-size: 18px;

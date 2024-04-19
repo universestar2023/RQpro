@@ -15,7 +15,7 @@ export default function Main() {
         const response = await axios.post(
           `${process.env.REACT_APP_SERVER_HOSTNAME}/api/route/questions`
         );
-        console.log(process.env.REACT_APP_SERVER_HOSTNAME);
+        // console.log(process.env.REACT_APP_SERVER_HOSTNAME);
         // Handle successful response here if needed
         console.log("Data fetched successfully:", response.data);
       } catch (error) {
@@ -36,13 +36,17 @@ export default function Main() {
     if (inputRef.current?.value) {
       dispatch(setUserId(inputRef.current?.value));
     }
+    else{
+        
+    }
   }
 
   return (
-    <div className="container">
-      <h1 className="title text-light">Quiz Time</h1>
+    <div className="container-quiz">
+      <h1 className="title50">Quiz Time</h1>
 
-      <ol>
+      <div className="list-container">
+      <ol class="custom-ol">
         <li>You will be asked 10 questions one after another.</li>
         <li>10 points is awarded for the correct answer.</li>
         <li>
@@ -52,20 +56,31 @@ export default function Main() {
         <li>The result will be declared at the end of the quiz.</li>
       </ol>
 
-      <form id="form">
+      </div>
+
+      <div id="myform">
+      <form >
         <input
           ref={inputRef}
-          className="userid"
+          className="userid-pro"
           type="text"
           placeholder="Username*"
         />
       </form>
-
-      <div className="start">
-        <Link className="btn" to={"quiz"} onClick={startQuiz}>
+      </div>
+      <div className="start-btn1">
+        <div className="btn-quiz" onClick={() => window.history.back()}>
+        <Link >
+          Back
+        </Link>
+        </div>
+        <div className="btn-quiz">
+        <Link   to={"quiz"} onClick={startQuiz}>
           Start Quiz
         </Link>
-      </div>
+        </div>
+        </div>
+      
     </div>
   );
 }

@@ -39,10 +39,7 @@ const LawPage = ({ pageIndex }) => {
           Link for More Information
         </a>
       </div>
-      <div className="laws-button">
-     
-       
-      </div>
+      
     </div>
     </div>
 

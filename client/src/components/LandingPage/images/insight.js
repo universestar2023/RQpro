@@ -16,7 +16,7 @@ const InsightComponent = () => {
           </p>
           <button className="custom-button" onClick={() => { window.location.href = '/signup'; }}>Discover More</button>
         </div>
-        <div className="grid-item-insight">
+        <div className="grid-item-insight,second-insight">
           <img src={childLabour} alt="child Labour" />
         </div>
 

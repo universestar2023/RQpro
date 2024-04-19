@@ -42,3 +42,22 @@
     width: 480px;
     height: 600px;
   }
+
+  @media only screen and (max-width: 768px) {
+    .chatHomePage {
+      height: auto; /* Set height to auto for responsiveness */
+    }
+  
+    .chaty {
+      width: 90%; /* Adjust width to fill the screen */
+      max-width: none; /* Reset maximum width for smaller screens */
+      height: 400px; /* Adjust height for smaller screens */
+      margin-bottom: 20px; /* Adjust margin for spacing */
+    }
+  
+    .image-chatbot img {
+      width: 100%; /* Set image width to fill the container */
+      height: auto; /* Set image height to auto for responsiveness */
+      object-fit: cover; /* Cover the container */
+    }
+  }
