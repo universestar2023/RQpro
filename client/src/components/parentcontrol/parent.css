@@ -1,60 +1,59 @@
 /* CSS for PageWithCards */
-  .page12 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 50px;
-  }
- 
+.page12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+
 .repoimg , .feedimg {
-    /* text-align: center; */
-    display: flex;
-  width: 20%; 
-  height: auto; 
-  margin-left: 190px;
+  /* text-align: center; */
+  display: flex;
+width: 20%; 
+height: auto; 
+margin-left: 190px;
 }
 .custom-buttonw a{
-    /* margin-left: 50%; */
-    text-decoration: none;
-    color: white;
-   
+  /* margin-left: 50%; */
+  text-decoration: none;
+  color: white;
+ 
 
 }
 .custom-buttonw{
-  border:1px solid black;
-  border-radius: 30px;
-  margin-left:175px;
+border:1px solid black;
+border-radius: 30px;
+margin-left:175px;
 
 }
 
+.feedback,
+.child-report {
+  background-color: #ccffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: calc(45% - 40px); /* Half the width with margin accounted for */
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  .page12 {
+    padding: 10px; /* Decrease padding for smaller screens */
+  }
+
   .feedback,
   .child-report {
-    background-color: #ccffff;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    padding: 20px;
-    width: calc(45% - 40px); /* Half the width with margin accounted for */
-    text-decoration: none;
+    width: calc(90% - 20px); /* Adjust width for smaller screens */
   }
-  @media only screen and (max-width: 768px) {
-    .page12 {
-      padding: 10px; /* Decrease padding for smaller screens */
-    }
-  
-    .feedback,
-    .child-report {
-      width: calc(90% - 20px); /* Adjust width for smaller screens */
-    }
-  
-    .repoimg,
-    .feedimg {
-      margin: 0 auto; /* Center the images horizontally */
-    }
-  
-    .custom-buttonw {
-      margin: 20px 230px; /* Center the button horizontally */
-    }
+
+  .repoimg,
+  .feedimg {
+    margin: 0 auto; /* Center the images horizontally */
   }
- 
-  
+
+  .custom-buttonw {
+    margin: 20px 230px; /* Center the button horizontally */
+  }
+}
+
