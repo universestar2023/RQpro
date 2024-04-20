@@ -1,8 +1,8 @@
 import React from "react";
 import "./insight.css";
-import childLabour from '../images/childLabour.jpg';
-import childtrafficking from '../images/childtrafficking.jpg';
-import childExploitation from '../images/childExploitation.jpg';
+import childLabour from '../images/childl.png';
+import childtrafficking from '../images/childt.png';
+import childExploitation from '../images/childe.png';
 const InsightComponent = () => {
   return (
     <div className="insight-component">

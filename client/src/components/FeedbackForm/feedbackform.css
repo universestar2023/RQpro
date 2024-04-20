@@ -92,19 +92,20 @@ input[type="submit"]:hover {
   padding: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
   input[type="texte"],
 input[type="emaile"],
 textarea {
-  width: 200px;
+  width: 100px;
   
 }
 .image-main-containerer {
-  flex: 1;
+  /* flex: 1; */
   margin-left: -100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 10%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 .form-main-containerer {
   flex: 1;

@@ -37,7 +37,7 @@
     width: calc(45% - 40px); /* Half the width with margin accounted for */
     text-decoration: none;
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 375px) {
     .page12 {
       padding: 10px; /* Decrease padding for smaller screens */
     }
@@ -49,11 +49,12 @@
   
     .repoimg,
     .feedimg {
+      width: 50%;
       margin: 0 auto; /* Center the images horizontally */
     }
   
     .custom-buttonw {
-      margin: 20px 230px; /* Center the button horizontally */
+      margin: 10px 57px; /* Center the button horizontally */
     }
   }
  
