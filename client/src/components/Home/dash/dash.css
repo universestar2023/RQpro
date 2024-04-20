@@ -35,6 +35,14 @@
     font-weight: 800;
 
 }
+.back-dashb button{
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+    border-radius: 25px;
+    width: 100px;
+    background: rgb(41, 41, 241);
+}
 .profile-pic-dash {
   width: 221px;
   height: 217px;

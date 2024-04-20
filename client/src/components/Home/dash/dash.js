@@ -96,9 +96,13 @@ export default function Dashboard() {
           ))}
         </tbody>
       </table>
+      <div className="back-dashb">
+     <center> <button onClick={() => window.history.back()}>Back</button></center>
     </div>
+    </div>
+    
     <div>
-    <FooterHomePage/>
+
     </div>
     </>
 
