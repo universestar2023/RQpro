@@ -163,3 +163,21 @@
 }
 
 }
+
+@media screen  and (min-width: 375px)and (max-width: 982px) {
+  .page-law {
+    flex-direction: column;
+    align-items: center;
+    right: auto;
+}
+.law-main {
+  height: 2420px;
+}
+.top-law, .bottom-law {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 26px;
+  left: auto;
+}
+
+}

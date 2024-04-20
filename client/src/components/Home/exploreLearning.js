@@ -8,37 +8,37 @@ import { Link } from "react-router-dom";
 
 function ExploreLearning() {
   return (
-    <div className="explore">
+    <div className="explore1">
       <div
-        className="heading-container "
+        className="heading-container1 "
         
       >
-        <h3 className="explore-heading">Explore Learning</h3>
+        <h3 className="explore-heading1">Explore Learning</h3>
       </div>
-      <div className="container-explore">
-        <div className="scrollable">
-          <div className="item">
+      <div className="container-explore1">
+        <div className="scrollable1">
+          <div className="item1">
             <img src={Rights1} alt="child rights" />
             <h5>Right to Protection</h5>
             <center>
             <Link to='/learn/rights'><button className="custom-button">Learn</button></Link>
             </center>
           </div>
-          <div className="item">
+          <div className="item1">
             <img src={Rights2} alt="child rights" />
             <h5>Right to Education</h5>
             <center>
             <Link to='/learn/rights'><button className="custom-button">Learn</button></Link>
             </center>
           </div>
-          <div className="item">
+          <div className="item1">
             <img src={Rights3} alt="child rights" />
             <h5>Right to Non-Discrimination</h5>
             <center>
             <Link to='/learn/rights'><button className="custom-button">Learn</button></Link>
             </center>
           </div>
-          <div className="item">
+          <div className="item1">
             <img src={Rights4} alt="child rights" />
             <h5>Right to Health</h5>
             <center>
