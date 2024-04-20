@@ -6,27 +6,6 @@
   padding: 50px;
 }
 
-.repoimg , .feedimg {
-  /* text-align: center; */
-  display: flex;
-width: 20%; 
-height: auto; 
-margin-left: 190px;
-}
-.custom-buttonw a{
-  /* margin-left: 50%; */
-  text-decoration: none;
-  color: white;
- 
-
-}
-.custom-buttonw{
-border:1px solid black;
-border-radius: 30px;
-margin-left:175px;
-
-}
-
 .feedback,
 .child-report {
   background-color: #ccffff;
@@ -34,37 +13,44 @@ margin-left:175px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px;
   padding: 20px;
-  width: calc(45% - 40px); /* Half the width with margin accounted for */
-  text-decoration: none;
+  width: 400px; /* Keep the width constant */
+  text-align: center; /* Center text content */
 }
-@media only screen and (max-width: 768px) {
-  .page12 {
-    padding: 10px; /* Decrease padding for smaller screens */
-  }
 
+.feedback h2,
+.child-report h2 {
+  margin-bottom: 20px; /* Add space below headings */
+}
+
+.repoimg,
+.feedimg {
+  display: block;
+  margin: 0 auto; /* Center the images */
+  width: 80%; /* Adjust image width */
+  height: auto;
+}
+
+.custom-buttonw {
+  display: block;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: 20px auto; /* Center the buttons */
+  padding: 10px 20px; /* Add padding to the button */
+}
+
+.custom-buttonw a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
   .feedback,
   .child-report {
-    width: calc(90% - 20px); /* Adjust width for smaller screens */
+    width: calc(100% - 40px); /* Full width with margin accounted for on smaller screens */
   }
-  @media only screen and (max-width: 375px) {
-    .page12 {
-      padding: 10px; /* Decrease padding for smaller screens */
-    }
-  
-    .feedback,
-    .child-report {
-      width: calc(90% - 20px); /* Adjust width for smaller screens */
-    }
-  
-    .repoimg,
-    .feedimg {
-      width: 50%;
-      margin: 0 auto; /* Center the images horizontally */
-    }
-  
-    .custom-buttonw {
-      margin: 10px 57px; /* Center the button horizontally */
-    }
+
+  .repoimg,
+  .feedimg {
+    width: 60%; /* Adjust image width for smaller screens */
   }
 }
-

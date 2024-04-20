@@ -40,7 +40,7 @@ border-radius: 20px;
 
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 380px) {
   .chatHomePage {
     background-image: linear-gradient(to right, #74ebd5 , #9face6 );
     /* height: 800px; */

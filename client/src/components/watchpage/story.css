@@ -29,6 +29,23 @@
   margin-top: 30px;
 }
 
+/* Media query for phone-sized screens */
+@media only screen and (max-width: 480px) {
+  .video-row {
+    display: flex;
+    flex-direction: column; /* Align video sections vertically */
+    align-items: center; /* Center items horizontally */
+    margin-bottom: 10px;
+  }
+
+  .video-row iframe {
+    width: 100%; /* Set width to 100% for smaller screens */
+    height: auto; /* Adjust height automatically */
+    max-width: none; /* Reset max-width */
+    margin-top: 15px; /* Add spacing between videos */
+  }
+}
+
 
 @media only screen and (max-width: 768px) {
   .video-row iframe {
