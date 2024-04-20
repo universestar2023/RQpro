@@ -46,7 +46,7 @@ margin-left:175px;
   .child-report {
     width: calc(90% - 20px); /* Adjust width for smaller screens */
   }
-  @media only screen and (max-width: 375px) {
+  @media screen and (max-width: 375px) {
     .page12 {
       padding: 10px; /* Decrease padding for smaller screens */
     }
@@ -63,8 +63,29 @@ margin-left:175px;
     }
   
     .custom-buttonw {
-      margin: 10px 57px; /* Center the button horizontally */
+      margin: 10px 50px; /* Center the button horizontally */
     }
   }
 }
 
+@media screen and (min-width: 376px) and (max-width: 982px){
+  .page12 {
+    padding: 25px; /* Decrease padding for smaller screens */
+  }
+
+  .feedback,
+  .child-report {
+    width: calc(90% - 20px); /* Adjust width for smaller screens */
+  }
+
+  .repoimg,
+  .feedimg {
+    width: 20%;
+    margin: 0 auto; /* Center the images horizontally */
+  }
+
+  .custom-buttonw {
+    margin: 2px 19rem; /* Center the button horizontally */
+  }
+
+}
