@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const TextToSpeechButton = ({ content }) => {
+const TextToSpeechButton = ({title,statement, content }) => {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [selectedVoice, setSelectedVoice] = useState(null);
   const synth = window.speechSynthesis;
@@ -31,7 +31,8 @@ const TextToSpeechButton = ({ content }) => {
   }, [synth]);
 
   const speakText = () => {
-    const utterance = new SpeechSynthesisUtterance(content);
+    const combinedText = `${title}. ${statement}. ${content}`;
+    const utterance = new SpeechSynthesisUtterance(combinedText);
     // Set selected voice if available
     if (selectedVoice) {
       utterance.voice = selectedVoice;

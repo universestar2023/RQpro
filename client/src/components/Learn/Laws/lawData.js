@@ -25,7 +25,8 @@ export const lawsData = [
       
       So, the Juvenile Justice Law is all about giving kids a chance to
       
-      learn and grow. It's like having a kind guide who helps you become better!`
+      learn and grow. It's like having a kind guide who helps you become better!`,
+      moreInfoUrl: "https://wcd.nic.in/sites/default/files/The%20Juvenile%20Justice%20%28Care%20and%20Protection%20of%20Children%29%20Model%20Amendment%20Rules%2C%202022.pdf"
     },
     {
       title: "Understanding Civil Law",
@@ -50,7 +51,8 @@ export const lawsData = [
       
       So, Civil Law is all about maintaining harmony and fairness in our interactions.
       
-      It's like having a wise mediator who helps restore balance and resolve conflicts peacefully!`
+      It's like having a wise mediator who helps restore balance and resolve conflicts peacefully!`,
+      moreInfoUrl: "https://indiancitizenshiponline.nic.in/Documents/UserGuide/E_gazette_11032024.pdf"
       },
       {
         title: "Constitutional Law",
@@ -75,7 +77,8 @@ They're like guardians of the rulebook, making sure that all laws and actions ar
 
 So, Constitutional Law is all about safeguarding our freedoms and ensuring that those in power act responsibly.
 
-It's like having a wise referee who ensures that everyone plays by the rules and that no one gets unfairly sidelined.`
+It's like having a wise referee who ensures that everyone plays by the rules and that no one gets unfairly sidelined.`,
+moreInfoUrl: "https://legislative.gov.in/constitution-of-india/"
       },
       {
         title: "Navigating Family Law",
@@ -104,7 +107,8 @@ They're like peaceful retreats where families can come together to resolve confl
 
 So, Family Law is all about fostering harmony and understanding within families.
 
-It's like having a caring guardian who ensures that everyone's voice is heard and that each family member's needs are met.`
+It's like having a caring guardian who ensures that everyone's voice is heard and that each family member's needs are met.`,
+moreInfoUrl: "https://www.iafl.com/media/1180/family_law_and_religion_the_indian_experience.pdf"
       },
       {
         title: "Deciphering Cyber Law",
@@ -134,7 +138,8 @@ They're like guardians of your digital rights, ensuring that companies and organ
 
 So, Cyber Law is all about creating a safe and fair digital environment for everyone.
 
-It's like having a digital shield that protects you from online threats and safeguards your rights in the digital age.`
+It's like having a digital shield that protects you from online threats and safeguards your rights in the digital age.`,
+moreInfoUrl: "https://wcd.nic.in/sites/default/files/The%20Juvenile%20Justice%20%28Care%20and%20Protection%20of%20Children%29%20Model%20Amendment%20Rules%2C%202022.pdf"
       },
       {
         title: "Exploring Education Law",
@@ -166,7 +171,8 @@ They're like champions for student rights, providing support and resources to st
 So, Education Law is all about empowering learners and creating a level playing field for everyone.
 
 It's like having a wise mentor who guides you through your educational journey, ensuring that your rights are upheld and your potential 
-is unleashed.`
+is unleashed.`,
+moreInfoUrl: "https://www.education.gov.in/sites/upload_files/mhrd/files/document-reports/NPE86-mod92.pdf"
       },
       {
         title: "Child Labor Law",
@@ -198,7 +204,8 @@ They're like voices of conscience, advocating for stronger laws and policies to 
 So, Child Labor Law is all about standing up for the rights of the most vulnerable among us.
 
 It's like building a fortress of protection around every child, ensuring that their innocence is preserved and
- their future is bright.`
+ their future is bright.`,
+ moreInfoUrl: "https://labour.gov.in/child-women-labour"
 
       },
       {
@@ -229,7 +236,8 @@ They're like guardians of the peace, tasked with apprehending suspects, gatherin
 
 So, Criminal Law is all about maintaining order and accountability in society.
 
-It's like a beacon of justice that ensures wrongs are righted, victims are heard, and perpetrators are held accountable for their actions, fostering a safer and more just world for all.`
+It's like a beacon of justice that ensures wrongs are righted, victims are heard, and perpetrators are held accountable for their actions, fostering a safer and more just world for all.`,
+moreInfoUrl: "https://wcd.nic.in/sites/default/files/The%20Juvenile%20Justice%20%28Care%20and%20Protection%20of%20Children%29%20Model%20Amendment%20Rules%2C%202022.pdf"
       },
 ];
   

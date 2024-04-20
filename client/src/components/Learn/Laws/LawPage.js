@@ -28,14 +28,15 @@ const LawPage = ({ pageIndex }) => {
         
         <span> <button className="back-laws"onClick={() => window.history.back()}>Back</button></span>
         <span><h1 className="title-laws">{law.title}</h1></span>
-        <span> <TextToSpeechButton content={law.content} /></span>
+        <span> <TextToSpeechButton title={law.title} statement={law.statement} content={law.content} />
+</span>
       </div>
      
       <div className="content-law">
         <p className="statement-law">{law.statement}</p>
         {paragraphs}
         
-        <a href="url-to-more-info" className="link-law">
+        <a href={law.moreInfoUrl} className="link-law">
           Link for More Information
         </a>
       </div>
