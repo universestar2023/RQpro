@@ -92,3 +92,50 @@
     border: 1px solid black;
      
 }
+
+@media screen and (max-width: 375px){
+    .table-body50 {
+        border: 1px solid black;
+        font-size: 0.8rem;
+        text-align: center;
+        background: white;
+        padding: 18px 0;
+    }
+    .table-main-result {
+        width: 80%;
+        position: relative;
+        left: 41px;
+        top: 11px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin-bottom: -14px;
+    }
+    .container-result .flex-result span {
+        font-size: 0.8rem;
+        color: black;
+    }
+    .title-result {
+        color: black;
+        top: 13px;
+        position: relative;
+        font-size: 26px;
+        text-align: center;
+        border: 1px solid black;
+    }
+    .result-flex-center {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid black;
+        padding: 20px;
+        gap: 1em;
+        background: linear-gradient(180deg, #b6e390, rgb(244, 166, 244), rgb(238, 137, 238));
+        position: relative;
+        top: 12px;
+        left: 15px;
+        width: 91%;
+        height: 327px;
+    }
+    
+    
+}

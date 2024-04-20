@@ -142,7 +142,7 @@ It's like having a digital shield that protects you from online threats and safe
 moreInfoUrl: "https://wcd.nic.in/sites/default/files/The%20Juvenile%20Justice%20%28Care%20and%20Protection%20of%20Children%29%20Model%20Amendment%20Rules%2C%202022.pdf"
       },
       {
-        title: "Exploring Education Law",
+        title: "Education Law",
 
 statement: `Education law encompasses the legal principles and regulations governing the administration, 
 funding, and operation of educational institutions. It addresses a wide range of issues including student
