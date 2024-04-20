@@ -1,36 +1,52 @@
-/* AboutUs.css */
+/* aboutus.css */
 
-.about-us-container {
-  max-width: 100%; /* Adjust as needed */
-  margin: 50px 20px; /* Adjust margin for responsiveness */
+/* General styling */
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #857f7f;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #fbffc6;
 }
 
-.about-us-container h1 {
-  text-align: center;
-  margin-bottom: 10px;
-}
 
-.about-us-container p {
-  font-size: 16px;
-  line-height: 1.5;
-}
 
-.email {
+/* Email section */
+.ee {
+  margin-top: 20px;
   text-align: center;
 }
 
-.email svg {
-  margin-left: 10px;
+.ee p {
+  margin-bottom: 5px;
 }
 
-/* Media Queries */
-@media screen and (min-width: 768px) {
-  .about-us-container {
-    margin: 50px auto; /* Center the container on larger screens */
-    max-width: 800px; /* Adjust maximum width as needed */
+.ee a {
+  color: #333;
+}
+
+/* Team Story section */
+.team-story {
+  margin-top: 40px;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 375px) {
+  .about {
+    margin: 8px 8px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+    padding: 10px;
+  }
+
+  .ee {
+    margin-top: 10px;
+  }
+
+  .team-story {
+    margin-top: 30px;
   }
 }

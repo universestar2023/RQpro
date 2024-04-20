@@ -1,8 +1,8 @@
 import React from "react";
 import "./insight.css";
-import childLabour from '../images/childLabour.jpg';
-import childTrafficking from '../images/childTrafficking.jpeg';
-import childExploitation from '../images/childExploitation.jpg';
+import childLabour from '../images/childl.png';
+import childtrafficking from '../images/childt.png';
+import childExploitation from '../images/childe.png';
 const InsightComponent = () => {
   return (
     <div className="insight-component">
@@ -21,7 +21,7 @@ const InsightComponent = () => {
         </div>
 
         <div className="grid-item-insight">
-          <img src={childTrafficking} alt="child Trafficking" />
+          <img src={childtrafficking} alt="child Trafficking" />
         </div>
         <div className="item-insight">
           <h3>Child Trafficking</h3>

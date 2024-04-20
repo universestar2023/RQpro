@@ -46,14 +46,25 @@ margin-left:175px;
   .child-report {
     width: calc(90% - 20px); /* Adjust width for smaller screens */
   }
-
-  .repoimg,
-  .feedimg {
-    margin: 0 auto; /* Center the images horizontally */
-  }
-
-  .custom-buttonw {
-    margin: 20px 230px; /* Center the button horizontally */
+  @media only screen and (max-width: 375px) {
+    .page12 {
+      padding: 10px; /* Decrease padding for smaller screens */
+    }
+  
+    .feedback,
+    .child-report {
+      width: calc(90% - 20px); /* Adjust width for smaller screens */
+    }
+  
+    .repoimg,
+    .feedimg {
+      width: 50%;
+      margin: 0 auto; /* Center the images horizontally */
+    }
+  
+    .custom-buttonw {
+      margin: 10px 57px; /* Center the button horizontally */
+    }
   }
 }
 
