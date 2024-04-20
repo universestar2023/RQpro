@@ -39,7 +39,7 @@ const BasicInfo = () => {
             <div className="card1er-BI">
               {/* Card content */}
               <img src={img4} alt="Image 4" style={{ height: "193px" }} />
-              <h3>Song</h3>
+              <h3>National Song</h3>
               <Link to='/song'><button>Start</button></Link>
             </div>
         </div>

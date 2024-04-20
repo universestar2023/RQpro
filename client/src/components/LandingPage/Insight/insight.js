@@ -7,8 +7,8 @@ const InsightComponent = () => {
   return (
     <div className="insight-component">
       <h2>Insights</h2>
-      <div className="grid-container">
-        <div className="itemes">
+      <div className="grid-cont">
+        <div className="item-insight">
           <h3>Child Labour</h3>
           <p>
             Slavery work done by the children in order to produce goods and
@@ -16,14 +16,14 @@ const InsightComponent = () => {
           </p>
           <button className="custom-button" onClick={() => { window.location.href = '/signup'; }}>Discover More</button>
         </div>
-        <div className="grid-item">
+        <div className="grid-item-insight">
           <img src={childLabour} alt="child Labour" />
         </div>
 
-        <div className="grid-item">
+        <div className="grid-item-insight">
           <img src={childtrafficking} alt="child Trafficking" />
         </div>
-        <div className="itemes">
+        <div className="item-insight">
           <h3>Child Trafficking</h3>
           <p>
             Child trafficking is the illegal activity of buying, stealing,
@@ -31,7 +31,7 @@ const InsightComponent = () => {
           </p>
           <button className="custom-button" onClick={() => { window.location.href = '/signup'; }}>Discover More</button>
         </div>
-        <div className="itemes">
+        <div className="item-insight">
           <h3>Children exploitation</h3>
           <p>
             Child exploitation is when someone uses a child for financial gain,
@@ -39,7 +39,7 @@ const InsightComponent = () => {
           </p>
           <button className="custom-button" onClick={() => { window.location.href = '/signup'; }}>Discover More</button>
         </div>
-        <div className="grid-item">
+        <div className="grid-item-insight">
           <img src={childExploitation} alt="child Exploitation" />
         </div>
       </div>

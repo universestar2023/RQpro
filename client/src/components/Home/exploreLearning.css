@@ -20,7 +20,7 @@
   margin: 0;
 }
 
-.container {
+.container-explore {
   width: 90%;
   max-width: 53.8vw; /* Adjust as needed */
   overflow-x: auto;
@@ -38,7 +38,7 @@ h5 {
   text-align: center;
 }
 
-.container:hover {
+.container-explore:hover {
   overflow-x: auto;
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3); /* Adjust shadow */
 }

@@ -7,23 +7,23 @@ h2 {
 }
 
 /* Adjust grid layout for responsiveness */
-.grid-container {
+.grid-cont {
   display: grid;
   grid-template-columns: repeat(2, minmax(300px, 1fr)); /* Dynamic grid layout based on available space */
   grid-gap: 20px;
 }
 
 /* Adjust grid item styles for responsiveness */
-.grid-item {
+.grid-item-insight {
   padding: 20px;
   margin-left: 103px;
-  width: 100%; /* Adjust width to fit grid container */
+  width: 100%; /* Adjust width to fit grid cont */
   max-width: 500px; /* Limit max width for larger screens */
   font-size: 20px;
   margin-top: 20px;
 }
 
-.itemes {
+.item-insight {
   display: grid;
   align-items: center;
   text-align: center;
@@ -36,7 +36,7 @@ h2 {
 }
 
 /* Adjust image size and styles for responsiveness */
-.grid-item img {
+.grid-item-insight img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
@@ -46,22 +46,22 @@ h2 {
   transition: transform 0.3s ease-in-out;
 }
 
-.grid-item img:hover {
+.grid-item-insight img:hover {
   transform: scale(1.1); /* You can adjust the scale factor for the desired effect */
 }
 
-.grid-item p {
+.grid-item-insight p {
   margin-top: 10px;
 }
 
 /* Media query for responsiveness */
 @media screen and (max-width: 768px) {
-  .grid-item {
+  .grid-item-insight {
     margin-left: auto; /* Center align grid items */
     margin-right: auto; /* Center align grid items */
   }
 
-  .grid-item,
+  .grid-item-insight,
   .itemes {
     width: calc(100% - 40px); 
   }

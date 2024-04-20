@@ -41,5 +41,18 @@
     .mdl2 {
       width: calc(100% - 40px); /* Full width with margin accounted for on smaller screens */
     }
+    .mdl1img , .mdl2img {
+      text-align: center;
+      display: flex;
+    width: 60%; 
+    height: auto; 
+    margin-left: 3rem;
+    border-radius: 20%;
+  }
+  .one1{
+      margin-left: 4.7rem;
+      width: 100px;
+      border-radius: 30px;
+  }
   }
   

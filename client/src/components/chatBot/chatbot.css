@@ -1,63 +1,62 @@
 .chatHomePage{
-    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .chaty {
-  width: 450px;
-  height:500px;
-  border-radius: 20px;
+width: 450px;
+height:500px;
+border-radius: 20px;
 }
 .chatbotpage {
-    display: flex;
-    height: 70vh; /* Set container height to cover the entire viewport */
-    width: 800px;
-    align-items: center;
-    justify-content: center; /* Center horizontally */
-    margin-bottom: 90px; 
-  }
+  display: flex;
+  height: 70vh; /* Set container height to cover the entire viewport */
+  width: 800px;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  margin-bottom: 90px; 
+}
+
+.image-chatbot {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-chatbot img {
+  width: 100%; /* Set image width to fill the container */
+  height: 100%; /* Set image height to fill the container */
+  object-fit: contain; /* Maintain aspect ratio */
   
-  .image-chatbot {
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .image-chatbot img {
-    width: 100%; /* Set image width to fill the container */
-    height: 100%; /* Set image height to fill the container */
-    object-fit: contain; /* Maintain aspect ratio */
+}
+.chatbotInside {
+  flex: 1;
+  padding: 20px;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .chatHomePage {
+    background-image: linear-gradient(to right, #74ebd5 , #9face6 );
+    /* height: 800px; */
     
-  }
-  .chatbotInside {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .image-chatbot img {
-    width: 480px;
-    height: 600px;
+    height: auto; /* Set height to auto for responsiveness */
   }
 
-  @media only screen and (max-width: 768px) {
-    .chatHomePage {
-      height: auto; /* Set height to auto for responsiveness */
-    }
-  
-    .chaty {
-      width: 90%; /* Adjust width to fill the screen */
-      max-width: none; /* Reset maximum width for smaller screens */
-      height: 400px; /* Adjust height for smaller screens */
-      margin-bottom: 20px; /* Adjust margin for spacing */
-    }
-  
-    .image-chatbot img {
-      width: 100%; /* Set image width to fill the container */
-      height: auto; /* Set image height to auto for responsiveness */
-      object-fit: cover; /* Cover the container */
-    }
+  .chaty {
+    width: 200%; 
+    /* max-width: 100%;  */
+    height: 20rem; 
+    /* margin-left: 10px; */
   }
+
+  .image-chatbot  img {
+    width: 100%; /* Set image width to fill the container */
+    height: 100%; /* Set image height to auto for responsiveness */
+  }
+}

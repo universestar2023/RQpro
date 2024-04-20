@@ -1,76 +1,84 @@
-.page {
-    display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-    align-items: center;
-    row-gap: 50px;
-    position: relative; /* Position relative to make absolute positioning work */
-    
+.page-law {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 50px;
+  right: 170px;
+  position: relative; 
 }
-.law{
-  background-color: rgb(165, 165, 222);
+
+.law-main {
+  background-color: rgb(218, 216, 228);
   height: 678px;
 }
-.sub-circles {
-  width: 200px;
-  cursor:pointer;
-  height: 200px;
-  /* background-color: rgb(53, 165, 107); */
-  border-radius: 50%;
-  border: 1px solid black;
+
+.sub-circles-law {
+  width: 250px;
+  cursor: pointer;
+  height: 250px;
+  border-radius: 10%;
+  border: 1px solid white;
   box-shadow: black 2px 0px 10px 0px;
-  padding: 31px;
+  padding: 20px;
   animation: moveSubCircles 2s ease forwards;
-}
-@keyframes moveSubCircles {
-  from {
-    transform: translateY(-200px); /* Start position */
-    opacity: 0; /* Start opacity */
-  }
-  to {
-    transform: translateY(0); /* End position */
-    opacity: 1; /* End opacity */
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.sub-circles-law p {
+  text-align: center;
+  color: rgb(17, 12, 1);
+  font-size: 15px;
+}
 
-.Title {
+.sub-circles-law img {
+  height: 50px;
+  width: 50px;
+}
+
+.sub-circles-law button {
+  position: relative;
+  top: 10px;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid darkgreen;
+  background-color: rgb(78, 255, 47);
+  box-shadow: black 2px 0px 3px 0px;
+}
+
+.Title-law {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   flex-direction: column;
   color: black;
+  text-decoration: none;
   text-align: center;
-  font-size: 29px;
+  position: relative;
+  font: bold;
+  font-size: 20px;
   font-family: sans-serif;
   text-shadow: grey 0px 7px 5px;
 }
 
-
-.top {
+.top-law {
   margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    column-gap: 60px;
-    position: relative;
-    left: 273px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  position: relative;
+  left: 273px;
 }
-.bottom
-{
-    display: flex;
-    flex-direction: row;
-    column-gap: 60px;
-    position: relative;
-    left: 273px;
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+
+.bottom-law {
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  position: relative;
+  left: 273px;
 }
 
 @keyframes floatToCenter {
@@ -80,7 +88,7 @@
   to {
     transform: translateY(0%);
   }
-}
+} 
 
 @keyframes pulse {
   0% {
@@ -92,48 +100,66 @@
   100% {
     transform: scale(1);
   }
-}
+} 
 
-.lhead {
-  animation: fadeIn 2s ease forwards, floatToCenter 2s ease forwards, pulse 2s ease-in-out infinite;
-  transform-origin: center;
-  animation-fill-mode: forwards;
-  color: #4CAF50; /* Green */
+.lhead-law {
+  color: #4CAF50; 
   font: bold;
-  text-shadow:black 2px 0px 2px ;
+  text-shadow: black 2px 0px 2px ;
   font-family: 'Arial', sans-serif;
   text-align: center;
 }
-.first{
+
+.first-tt {
   font-size: 30px;
-  color: blueviolet;
-  text-shadow:black 2px 0px 2px ;
+  color: lightcoral;
+  text-shadow: black 2px 0px 2px ;
 }
-.sec{
+
+.sec-tt {
   font-size: 35px;
-  color: aqua;
-  text-shadow:black 2px 0px 2px ;
+  color: peru;
 }
-.third{
+
+.third-tt {
   font-size: 45px;
-  color: coral;
-  text-shadow:black 2px 0px 2px ;
+  color: green;
 }
+
 @keyframes slideIn {
   from {
-      transform: translateX(-100%);
-      opacity: 0;
+    transform: translateX(-100%);
+    opacity: 0;
   }
   to {
-      transform: translateX(0%);
-      opacity: 1;
+    transform: translateX(0%);
+    opacity: 1;
   }
 }
 
-.first,
-.sec,
-.third {
+.first-tt,
+.sec-tt,
+.third-tt {
   font: bold;
   display: inline-block;
   animation: slideIn 2s ease forwards;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .page-law {
+    flex-direction: column;
+    align-items: center;
+    right: auto;
+}
+.law-main {
+  height: 2420px;
+}
+.top-law, .bottom-law {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 26px;
+  left: auto;
+}
+
 }

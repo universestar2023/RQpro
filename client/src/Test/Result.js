@@ -42,31 +42,32 @@ export default function Result() {
   }
 
   return (
-    <div className="container">
-      <h1 className="title text-light">Quiz Application</h1>
+    <div className="container-result">
+      
+      <div className="result result-flex-center">
+      <h1 className="title-result ">Result</h1>
 
-      <div className="result flex-center">
-        <div className="flex">
+        <div className="flex-result">
           <span>Username</span>
           <span className="bold">{userId || ""}</span>
         </div>
-        <div className="flex">
+        <div className="flex-result">
           <span>Total Quiz Points : </span>
           <span className="bold">{totalPoints || 0}</span>
         </div>
-        <div className="flex">
+        <div className="flex-result">
           <span>Total Questions : </span>
           <span className="bold">{queue.length || 0}</span>
         </div>
-        <div className="flex">
-          <span>Total Attempts : </span>
+        <div className="flex-result">
+          <span> Total Attempts : </span>
           <span className="bold">{attempts || 0}</span>
         </div>
-        <div className="flex">
+        <div className="flex-result">
           <span>Total Earn Points : </span>
           <span className="bold">{earnPoints || 0}</span>
         </div>
-        <div className="flex">
+        <div className="flex-result">
           <span>Quiz Result</span>
           <span
             style={{ color: `${flag ? "#2aff95" : "#ff2a66"}` }}
@@ -77,13 +78,13 @@ export default function Result() {
         </div>
       </div>
 
-      <div className="start">
-        <Link className="btn" to={"/test"} onClick={onRestart}>
+      <div className="start-btn2">
+        <Link className="btn-restart" to={"/test"} onClick={onRestart}>
           Restart
         </Link>
       </div>
 
-      <div className="container">
+      <div className="container-result">
         {/* result table */}
         <ResultTable></ResultTable>
       </div>

@@ -1,0 +1,162 @@
+.law-page1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px black;
+  position: relative;
+  background: linear-gradient(180deg, #B39DDB, #AED581, transparent);
+  top: 40px;
+}
+.laws-button {
+  padding: .2em 1.7em;
+  width: 546px;
+  display: flex;
+  border: none;
+  border-radius: .1em;
+  font-size: 1.2em;
+  color: #202020;
+  text-decoration: none;
+  flex-direction: row;
+  column-gap: 295px;
+  /* background-color: #07b0e9; */
+  /* justify-content: space-between; */
+}
+.laws-button abc {
+  display: block;
+  width: 130%;
+  height: 50px;
+  padding: 10px 0;
+  font-family: sans-serif;
+  font: bold;
+  font-weight: 700;
+  color: #050000;
+  right: 30px;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #3f8bdc;
+  margin-bottom: 22px;
+  font-size: 20px;
+}
+.textToSpeechBtn {
+  display: block;
+  width: 121%;
+  height: 74px;
+  padding: 10px 0;
+  font-family: sans-serif;
+  font: bold;
+  font-weight: 700;
+  color: #050000;
+  right: 30px;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #3f8bdc;
+  margin-bottom: 22px;
+  text-align: center;
+  font-size: 19px;
+}
+.header-law {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 21px;
+  column-gap: 61px;
+  margin-bottom: 20px;
+}
+
+.law-image {
+  width: 200px; 
+  height: auto; 
+  margin-right: 20px;
+}
+
+.title-laws {
+  font-weight: 1000;
+  font-size: xxx-large;
+  font-family: ui-sans-serif;
+  margin-bottom: -11px;
+  text-align: center;
+  color: white;
+}
+.statement-law {
+  font-size: 18px;
+  text-align: center;
+  color: #000405;
+  padding: 10px;
+  font-family: sans-serif;
+  font: bold;
+  background: #E6EE9C;
+  box-shadow: grey 2px 0px 3px 2px;
+  border-radius: 2px;
+}
+.content-law {
+  font-size: 17px;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  font-family: sans-serif;
+  font: bold;
+  box-shadow: grey 2px 0px 11px 0px;
+  border-radius: 2px;
+}
+
+.link-law {
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 5px;
+}
+.extra{
+  background-color: black;
+    height: 44px;
+}
+.back-laws {
+  display: block;
+  width: 257%;
+  padding: 10px 0;
+  font-family: sans-serif;
+  /* border: 1px solid white; */
+  font: bold;
+  font-weight: 700;
+  color: #050000;
+  right: 30px;
+  position: relative;
+  box-shadow: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #3f8bdc;
+  margin-bottom: 22px;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .laws-button {
+    padding: .2em 1.7em;
+    width: 233px;
+    display: flex;
+    border: none;
+    border-radius: .1em;
+    font-size: 1.2em;
+    color: #202020;
+    text-decoration: none;
+    flex-direction: row;
+    top: 27px;
+    position: relative;
+    column-gap: 43px;
+    /* background-color: #07b0e9; */
+    /* justify-content: space-between; */
+  }
+}

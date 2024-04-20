@@ -2,7 +2,7 @@
 .navbar {
   background-color: #000000; /* Change background color */
   font-family: Arial, sans-serif; /* Change font */
-  height: 70px;
+  height: 70px; 
   /* position: relative; */
 }
 /* navbar.css */
@@ -87,3 +87,4 @@
     margin-bottom: -28px;
   }
 }
+

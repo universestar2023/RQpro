@@ -1,36 +1,77 @@
 
 
-.flex-center{
+.result-flex-center{
     display: flex;
     justify-content: center;    
     flex-direction: column;
-    border: 1px solid #cecece;
-    padding: 3em 4em;
+    border: 1px solid black;
+    padding: 20px;
     gap: 1em;
+    background: linear-gradient(180deg, #b6e390, rgb(244, 166, 244), rgb(238, 137, 238));
+    position: relative;
+    top: 10px;
+    left: 200px;
+    width: 1000px;
+    height: 500px;
 }
 
-.container .flex{
+.container-result .flex-result{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    padding: 5px;
+    background-color: white;
+    
+}
+.title-result{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+.container-result .start-btn2 {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+    text-decoration: none;
+  }
+  .btn-restart{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+.container-result .flex-result span {
+    font-size: 1.4em;
+    color:black;
     
 }
 
-.container .flex span {
-    font-size: 1.4em;
-    color: #cecece;
-}
-
-.container .flex span.achive {
+.container-result .flex-result span.achive {
     font-weight: bold;
     color: #ff2a66;
     color: #2aff95;
+    
 }
 
-table {
-    width: 100%;
+.table-main-result {
+    width: 80%;
+    position: relative;
+    left: 145px;
+    top: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 40px;
 }
 
-.table-header {
+.table-header50 {
+    border: 1px solid black;
     color: #cecece;
     font-size: 1.1em;
     text-align: center;
@@ -38,14 +79,16 @@ table {
     padding: 18px 0;
 }
 
-.table-body {
+.table-body50 {
+    border: 1px solid black;
     font-size: 1.1em;
     text-align: center;
-    /* color: #cecece; */
-    background: #d8d8d8;
+    
+    background: white;
     padding: 18px 0;
 }
 
-.table-header > tr > td{
-    border: 1px solid #faff5a;   
+.table-header50 > tr > td{
+    border: 1px solid black;
+     
 }
