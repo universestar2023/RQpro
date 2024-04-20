@@ -102,3 +102,24 @@
     text-decoration: none;
     color:white;
   }
+  @media screen  and (min-width: 375px)and (max-width: 982px) {
+    .footer-right {
+      flex-direction: column;
+      height: auto; /* Set height to auto for responsiveness */
+    }
+  
+    .footer-column {
+      margin-left: 0; /* Reset margin left */
+    }
+  
+    .footer-icons {
+      margin-bottom: 20px; /* Adjust margin bottom for smaller screens */
+    }
+  
+    .bi-arrow-up-circle {
+      margin-left: 0; /* Reset margin left */
+      text-align: center; /* Center align icon */
+      margin-top: 10px; /* Adjust margin top */
+    }
+  
+  }

@@ -76,7 +76,7 @@ export default function ChildReport() {
       <button onClick={() => window.history.back()}>Back</button>
     </div>
     </div>
-   
+   <FooterHomePage/>
     </div>
     </>
   );

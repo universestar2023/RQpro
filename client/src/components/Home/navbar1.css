@@ -88,3 +88,25 @@
   }
 }
 
+@media (max-width: 982px) {
+  .navbar {
+    height: auto; /* Adjust height for mobile */
+  }
+
+  .navbar-brand {
+    margin-bottom: 10px; /* Add margin for spacing */
+  }
+
+  .navbar-logo {
+    width: 128px;
+    height: 125px;
+    margin-top: 0;
+    margin-bottom: -28px;
+  }
+  .navbarlogo {
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: -28px;
+  }
+}

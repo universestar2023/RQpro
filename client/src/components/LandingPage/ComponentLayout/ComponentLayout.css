@@ -59,3 +59,21 @@
     font-size: 20px; /* Increase font size for button */
     text-align: center; /* Center align button text */
 }
+
+@media screen  and (max-width: 375px){
+    .heading {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .text {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .icon {
+        width: 50%; /* Adjust icon size */
+        height: 50%; /* Adjust icon size */
+        /* margin-bottom: 10px; */
+    }
+}

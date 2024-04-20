@@ -17,7 +17,7 @@ function Play() {
           <div className="columner">
             <div className="card1er">
               {/* Card content */}
-              <img src={image1} alt="Image 1" /> {/* Image space */}
+              <img className="suu" src={image1} alt="Image 1" /> {/* Image space */}
               <h3> Argument Wars</h3>
               <p>
                 In this game, players argue landmark Supreme Court cases,
@@ -34,7 +34,7 @@ function Play() {
           <div className="columner">
             <div className="card1er">
               {/* Card content */}
-              <img src={image2} alt="Image 2" /> {/* Image space */}
+              <img className="suu" src={image2} alt="Image 2" /> {/* Image space */}
               <h3>Do I Have A Right?</h3>
               <p>
                 {" "}
@@ -55,7 +55,7 @@ function Play() {
           <div className="columner">
             <div className="card1er">
               {/* Card content */}
-              <img src={image3} alt="Image 3" /> {/* Image space */}
+              <img className="suu" src={image3} alt="Image 3" /> {/* Image space */}
               <h3>iCivics</h3>
               <p>
                 iCivics offers a variety of free online games and interactive
@@ -71,7 +71,7 @@ function Play() {
           <div className="columner">
             <div className="card1er">
               {/* Card content */}
-              <img src={image4} alt="Image 4" /> {/* Image space */}
+              <img className="suu" src={image4} alt="Image 4" /> {/* Image space */}
               <h3>LawCraft</h3>
               <p>
                 {" "}

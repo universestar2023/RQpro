@@ -88,3 +88,29 @@
     font-size: x-large; /* Adjust font size for smaller screens */
   }
 }
+
+@media screen  and (max-width: 375px){
+  .section2-con {
+    padding: 30px 10px; /* Adjust padding for smaller screens */
+  }
+  
+  .cardes {
+    width: 5rem; /* Adjust width for smaller screens */
+    margin: 1px 15px; /* Adjust margin for smaller screens */
+  }
+  
+  
+  .custom-butes {
+    
+    padding: 3px 7px;
+    font-size: 9px;
+    
+  }
+  .cardes svg {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+
