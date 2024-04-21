@@ -3,7 +3,7 @@ import jwt from "jsonwebtoken";
 import Joi from "joi";
 import passwordComplexity from "joi-password-complexity";
 
-const secretkey = "secretkey12345645";
+// const SECRETKEY;
 
 const userSchema = new mongoose.Schema({
     firstName: { type: String, required: true },
@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema({
 });
 
 userSchema.methods.generateAuthToken = function () {
-    const token = jwt.sign({ _id: this._id }, secretkey, {
+    const token = jwt.sign({ _id: this._id }, process.env.SECRETKEY, {
         expiresIn: "7d",
     });
     return token;

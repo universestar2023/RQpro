@@ -1,29 +1,52 @@
-/* AboutUs.css */
+/* aboutus.css */
 
-.about-us-container {
-    max-width:800px;
-    margin: 50px 100px 50px 270px; /*centering margin*/
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+/* General styling */
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 20px;
+  border: 1px solid #857f7f;
+  border-radius: 5px;
+  background-color: #fbffc6;
+}
 
-  }
-  
-  .about-us-container h1 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  .about-us-container p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  .email{
-    text-align: center;
+
+
+/* Email section */
+.ee {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.ee p {
+  margin-bottom: 5px;
+}
+
+.ee a {
+  color: #333;
+}
+
+/* Team Story section */
+.team-story {
+  margin-top: 40px;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 375px) {
+  .about {
+    margin: 8px 8px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+    padding: 10px;
   }
 
-  .email svg{
-    margin-left: 10px;
+  .ee {
+    margin-top: 10px;
   }
+
+  .team-story {
+    margin-top: 30px;
+  }
+}
