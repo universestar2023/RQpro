@@ -128,7 +128,7 @@ function Footer() {
           </svg>
           </a>
         </div>
-        <div><a href="https://www.linkedin.com/in/rights-quest-920120304/">
+        <div><a href="https://www.linkedin.com/in/rights-quest-920120304/" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="35"

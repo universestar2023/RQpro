@@ -8,7 +8,7 @@ import './dash.css';
 import profile from "./profile.png";
 
 import Navbar1 from "../../Home/navbar1.js";
-import FooterHomePage from "../../Home/footerHome.js";
+
 
 export default function Dashboard() {
   const [data, setData] = useState([]);
