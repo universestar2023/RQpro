@@ -101,7 +101,10 @@
         background: white;
         padding: 18px 0;
     }
-    .table-main-result {
+.table-row50{
+    color: #f6f4f4;
+    background: black;
+}    .table-main-result {
         width: 80%;
         position: relative;
         left: 41px;
