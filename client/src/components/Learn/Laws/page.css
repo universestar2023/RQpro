@@ -142,7 +142,7 @@
   margin-bottom: 22px;
   font-size: 20px;
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px)and (max-width: 982px){
   .title-laws {
     font-weight: 1000;
     font-size: 28px;
@@ -209,4 +209,11 @@
   width: 124%;
 }
 
+}
+
+@media screen and (max-width: 768px){
+  .law-page-Main{
+    position: relative;
+    bottom: 40px;
+  }
 }
