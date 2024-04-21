@@ -8,7 +8,7 @@ const About = () => {
     <div>
       <Navbar />
 
-      <div className="about-us-container">
+      <div className="about">
         <h1>About Us</h1>
         <h3>Our Vision</h3>
         <p>
@@ -22,7 +22,7 @@ const About = () => {
           excellence, we strive to make a positive impact on the world, one
           child at a time.
         </p>
-        <div className="email">
+        <div className="ee">
           <p> Let's talk </p>
           <p>
             <a>
