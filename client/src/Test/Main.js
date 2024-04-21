@@ -12,8 +12,9 @@ export default function Main() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const v="https://rightsquest.onrender.com/api/route/questions";
-        const response = await axios.post(v);
+        const response = await axios.post(
+          `${process.env.REACT_APP_SERVER_HOSTNAME}/api/route/questions`
+        );
         // console.log(process.env.REACT_APP_SERVER_HOSTNAME);
         // Handle successful response here if needed
         console.log("Data fetched successfully:", response.data);
