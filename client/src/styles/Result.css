@@ -10,7 +10,7 @@
     background: linear-gradient(180deg, #b6e390, rgb(244, 166, 244), rgb(238, 137, 238));
     position: relative;
     top: 10px;
-    left: 200px;
+    left: 255px;
     width: 1000px;
     height: 500px;
 }
@@ -101,7 +101,10 @@
         background: white;
         padding: 18px 0;
     }
-    .table-main-result {
+.table-row50{
+    color: #f6f4f4;
+    background: black;
+}    .table-main-result {
         width: 80%;
         position: relative;
         left: 41px;
