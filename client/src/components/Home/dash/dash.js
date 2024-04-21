@@ -54,11 +54,8 @@ export default function Dashboard() {
         <h1>Welcome to the Dashboard</h1>
         </div>
         <div className="user-dash-hor">
-        <div className="user-image">
-         <img src={dashimg} alt="User" 
-         width="350px"
-         /> 
-      </div>
+       
+      
         <div className="main-dash-info">
         <div className="profile-image">
          <img className="profile-pic-dash" src={profile} alt="User"/> 

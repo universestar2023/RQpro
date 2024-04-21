@@ -142,21 +142,71 @@
   margin-bottom: 22px;
   font-size: 20px;
 }
-@media screen and (max-width: 768px) {
-  .laws-button {
-    padding: .2em 1.7em;
-    width: 233px;
-    display: flex;
-    border: none;
-    border-radius: .1em;
-    font-size: 1.2em;
-    color: #202020;
-    text-decoration: none;
-    flex-direction: row;
-    top: 27px;
+@media screen and (max-width: 375px){
+  .title-laws {
+    font-weight: 1000;
+    font-size: 28px;
+    font-family: ui-sans-serif;
     position: relative;
-    column-gap: 43px;
-    /* background-color: #07b0e9; */
-    /* justify-content: space-between; */
-  }
+    right: 7px;
+    /* margin-bottom: -11px; */
+    text-align: center;
+    color: white;
+}
+.textToSpeechBtn {
+  display: block;
+  width: 171%;
+  height: 65px;
+  padding: 10px 0;
+  font-family: sans-serif;
+  font: bold;
+  font-weight: 700;
+  color: #050000;
+  right: 30px;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #3f8bdc;
+  margin-bottom: 22px;
+  text-align: center;
+  font-size: 15px;
+}
+.back-laws {
+  display: block;
+  width: 167%;
+  padding: 10px 0;
+  font-family: sans-serif;
+  /* border: 1px solid white; */
+  font: bold;
+  font-weight: 700;
+  color: #050000;
+  right: 30px;
+  position: relative;
+  box-shadow: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #3f8bdc;
+  margin-bottom: 22px;
+  font-size: 20px;
+}
+.header-law {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 9px;
+  column-gap: 45px;
+  margin-bottom: 20px;
+}
+
+.law-page-Main
+{
+  position: relative;
+  bottom: 42px;
+  width: 124%;
+}
+
 }
