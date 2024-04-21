@@ -72,9 +72,9 @@ export default function Dashboard() {
        
 </div>
 <div>
-      <table className="table-main-result ">
-        <thead className="table-header50">
-          <tr className="table-row50">
+      <table className="table-main-result22 ">
+        <thead className="table-header5022">
+          <tr className="table-row5022">
             <td>Name</td>
             <td>Attemps</td>
             <td>Earn Points</td>
@@ -84,7 +84,7 @@ export default function Dashboard() {
         <tbody>
           {!data ?? <div>No Data Found </div>}
           {data.map((v, i) => (
-            <tr className="table-body50" key={i}>
+            <tr className="table-body5022" key={i}>
               <td>{v?.username || ""}</td>
               <td>{v?.attempts || 0}</td>
               <td>{v?.points || 0}</td>
