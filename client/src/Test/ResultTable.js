@@ -7,7 +7,7 @@ export default function ResultTable() {
 
   useEffect(() => {
     getServerData(
-      `${process.env.REACT_APP_SERVER_HOSTNAME}/api/route/result`,
+      `https://rightsquest.onrender.com/api/route/result`,
       (res) => {
         // Filter out duplicate usernames
       const uniqueData = res.reduce((acc, current) => {

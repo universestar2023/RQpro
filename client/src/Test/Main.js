@@ -13,7 +13,7 @@ export default function Main() {
     const fetchData = async () => {
       try {
         const response = await axios.post(
-          `${process.env.REACT_APP_SERVER_HOSTNAME}/api/route/questions`
+          `https://rightsquest.onrender.com/api/route/questions`
         );
         // console.log(process.env.REACT_APP_SERVER_HOSTNAME);
         // Handle successful response here if needed
