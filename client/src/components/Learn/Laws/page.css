@@ -203,7 +203,8 @@
 }
 
 .law-page-Main
-{position: relative;
+{
+  position: relative;
   bottom: 42px;
   width: 124%;
 }
