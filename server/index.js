@@ -14,7 +14,7 @@ connection();
 
 // middlewares
 app.use(express.json());
-app.use(cors({ origin: "https://rightsq.vercel.app/" }));
+app.use(cors());
 config();
 
 // routes
