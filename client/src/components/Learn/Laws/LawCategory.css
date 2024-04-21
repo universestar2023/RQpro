@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   align-items: center;
   row-gap: 50px;
-  right: 102px;
+  right: 100px;
   position: relative; 
 }
 
@@ -68,7 +68,7 @@
   margin-top: 50px;
   display: flex;
   flex-direction: row;
-  column-gap: 60px;
+  column-gap: 25px;
   position: relative;
   left: 273px;
 }
@@ -76,7 +76,7 @@
 .bottom-law {
   display: flex;
   flex-direction: row;
-  column-gap: 60px;
+  column-gap: 25px;
   position: relative;
   left: 273px;
 }
