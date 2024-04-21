@@ -16,7 +16,7 @@ class Section extends React.Component {
                 children about their legal rights. <br /> Start your journey
                 with us today.
               </p>
-              <button className="custom-button" onClick={() => { window.location.href = '/signup'; }}>Sign Up</button>
+              <button className="custom-button" onClick={() => { window.location.href = '/home'; }}>Sign Up</button>
             </div>
             <div className="col-md-2 text-center">
               <img src={kid} alt="Kid" className="section-brand section-img" />

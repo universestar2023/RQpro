@@ -1,7 +1,8 @@
+/* Base styles */
 .questions .que{
     font-family: poppins;
     font-size: 30px;
-    font-weight: 200px;
+    font-weight: 200px; /* Typo? Should be font-weight: 200; */
 }
 .questions {
     display: flex;
@@ -19,13 +20,13 @@
 .options{
     font-size: 20px;
     color: rgb(9, 9, 9);
-    cursor:grab;
+    cursor: grab;
 }
 .options-que{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-        cursor:grab;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    cursor: grab;
 }
 .options-que li {
     display: flex;
@@ -35,109 +36,42 @@
     padding: 5px;
     border: 1px solid black;
     column-gap: 23px;
-    cursor:grab;
-    
+    cursor: grab;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 982px) {
+    .questions {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 50px auto; /* Center the element */
+        padding: 20px; /* Adjust padding */
+        height: auto; /* Allow height to adjust based on content */
+    }
+    .options-que li {
+        width: 100%; /* Full width for smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .questions .que {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+    .options {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+    .options-que {
+        row-gap: 20px; /* Adjust row gap for smaller screens */
+    }
 }
 
 @media screen and (max-width: 375px) {
-    .questions {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        box-shadow: grey 2px 2px 20px 2px;
-        margin-top: 100px;
-        left: 1px;
-        row-gap: 28px;
-        width: 400px;
-        height: 422px;
-        background-color: white;
-        padding: 30px;
-        border-radius: 10px;
+    .questions .que {
+        font-size: 20px; /* Adjust font size for smallest screens */
     }
     .options {
-        font-size: 15px;
-        color: rgb(9, 9, 9);
-        cursor: grab;
+        font-size: 16px; /* Adjust font size for smallest screens */
     }
-   
     .options-que {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        right: 33px;
-        row-gap: 32px;
-        cursor: grab;
-    }
-    .questions .que {
-        font-family: poppins;
-        font-size: 21px;
-        font-weight: 200px;
-    }
-    .options-que li {
-        display: flex;
-        flex-direction: row;
-        width: 286px;
-        border-radius: 28px;
-        padding: 5px;
-        border: 1px solid black;
-        column-gap: 23px;
-        cursor: grab;
-    }
-
-    
-}
-@media screen and (max-width: 768px) {
-    .table-main-result {
-        width: 80%;
-        position: relative;
-        left: 86px;
-        top: 10px;
-        border: 1px solid black;
-        border-collapse: collapse;
-        margin-bottom: 40px;
-    }
-    .result-flex-center {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        border: 1px solid black;
-        padding: 20px;
-        gap: 1em;
-        background: linear-gradient(180deg, #b6e390, rgb(244, 166, 244), rgb(238, 137, 238));
-        position: relative;
-        top: 10px;
-        left: 14px;
-        width: 96vw;
-        height: 500px;
-    }
-    .questions {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        box-shadow: grey 2px 2px 20px 2px;
-        margin-top: 100px;
-        row-gap: 28px;
-        width: 59vw;
-        height: 50vh;
-        background-color: white;
-        padding: 30px;
-        border-radius: 10px;
-    }
-    .container-que {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 100vh;
-        background-color: #ce93d8;
-    }
-    .options-que li {
-        display: flex;
-        flex-direction: row;
-        width: 357px;
-        border-radius: 28px;
-        padding: 5px;
-        border: 1px solid black;
-        column-gap: 23px;
-        cursor: grab;
+        row-gap: 16px; /* Adjust row gap for smallest screens */
     }
 }
