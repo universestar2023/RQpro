@@ -142,3 +142,28 @@
     
     
 }
+@media screen and (max-width: 786px) {
+    .table-main-result {
+        width: 80%;
+        position: relative;
+        left: 86px;
+        top: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin-bottom: 40px;
+    }
+    .result-flex-center {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid black;
+        padding: 20px;
+        gap: 1em;
+        background: linear-gradient(180deg, #b6e390, rgb(244, 166, 244), rgb(238, 137, 238));
+        position: relative;
+        top: 10px;
+        left: 14px;
+        width: 96vw;
+        height: 500px;
+    }
+}

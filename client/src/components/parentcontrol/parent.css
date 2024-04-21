@@ -77,7 +77,7 @@
 
   .feedback,
   .child-report {
-    width: calc(90% - 20px); /* Adjust width for smaller screens */
+    width: calc(107% - 20px); /* Adjust width for smaller screens */
   }
 
   .repoimg,

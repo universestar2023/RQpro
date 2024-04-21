@@ -37,8 +37,8 @@ export const FeedbackForm = () => {
       <img src={FeedbackImg} className="feedback-imger" />
       </div>
           <div className="form-main-containerer">
-            <h2>
-              <center>Feedback Form</center>
+            <h2 className="feedhead">
+              Feedback Form
             </h2>
       <form className="former" ref={form} onSubmit={sendEmail}>
         <label className="hello">Name</label>
