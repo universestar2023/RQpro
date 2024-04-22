@@ -14,7 +14,7 @@ connection();
 
 // middlewares
 app.use(express.json());
-app.use(cors("http://localhost:3000"));
+app.use(cors());
 config();
 
 // routes
