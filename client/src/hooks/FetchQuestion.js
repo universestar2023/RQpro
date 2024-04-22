@@ -20,7 +20,9 @@ export const useFetchQestion = () => {
     /** async function fetch backend data */
     (async () => {
       try {
-        const url = `${process.env.REACT_APP_SERVER_HOSTNAME}/api/route/questions`;
+
+        const url = "https://rightsquest.onrender.com/api/route/questions";
+
         const [{ questions, answers }] = await getServerData(
           url,
           (data) => data
