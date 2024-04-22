@@ -8,6 +8,15 @@
     position: relative;
     left: 202px;
 }
+.LeaderBoard22{
+  font-size: 30px;
+  font: bold;
+  border: 1px solid palevioletred;
+  width: 70%;
+  position: relative;
+  left: 14%;
+ 
+}
 .user-dash-hor {
   display: flex;
   flex-direction: row;

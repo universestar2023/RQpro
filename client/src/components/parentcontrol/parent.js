@@ -17,9 +17,9 @@ class Parent extends React.Component {
             <button className='custom-buttonw'><Link to='/feedbackform'>Give Feedback</Link></button>
           </div>
           <div className="child-report">
-            <h2>Child Report</h2>
+            <h2>LeaderBoard</h2>
             <img src={repo} className='repoimg' alt="Child Report" />
-            <button  className='custom-buttonw'><Link to="/childReport">View Report</Link></button>
+            <button  className='custom-buttonw'><Link to="/childReport">View Leaderboard</Link></button>
           </div>
         </div>
       </div>
