@@ -65,7 +65,15 @@
   white-space: normal; /* Allow text to wrap */
   word-wrap: break-word; /* Allow long words to break */
 }
+.item1 h6 {
+  margin-top: 5px; /* Adjust margin */
+  text-align: center;
+  font-size: 16px; /* Decrease font size */
+  overflow: hidden; /* Hide overflow text */
+  white-space: normal; /* Allow text to wrap */
+  word-wrap: break-word; /* Allow long words to break */
 
+}
 
 .item1 img {
   border-radius: 8px; /* Adjust border radius */
@@ -129,11 +137,20 @@
     font-size: 14px; /* Adjust font size */
 
   }
+  .item1 h6 {
+    font-size: 14px; /* Adjust font size */
+    margin-top: 13px;
+  }
+  
 }
 @media only screen and (max-width: 480px) {
   .item1 {
     width: 30%; /* Adjust as needed */
     flex: 0 0 calc(90% - 10px); /* Adjust based on width and margin */
+  }
+  .item1 h6 {
+    font-size: 9px; /* Adjust font size */
+    margin-top: 13px;
   }
 
   .item1 h5 {
@@ -157,8 +174,16 @@
   }
 
   .item1 h5 {
-    font-size: 10px; /* Adjust font size */
+    font-size: 15px; /* Adjust font size */
     margin-top: 5px;
+    font-weight: bolder;
+  }
+  .item1 h6 {
+    font-size: 14px; /* Adjust font size */
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bolder;
+
   }
 
   .custom-button {
