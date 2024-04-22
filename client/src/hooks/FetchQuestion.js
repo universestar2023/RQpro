@@ -21,7 +21,7 @@ export const useFetchQestion = () => {
     (async () => {
       try {
 
-        const url = "https://rightsquest.onrender.com/api/route/questions";
+        const url = "https://rightsquestkid.onrender.com/api/route/questions";
 
         const [{ questions, answers }] = await getServerData(
           url,
