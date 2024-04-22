@@ -44,6 +44,7 @@
     border: none;
     border-radius: 5px;
     font-size: 1.2em;
+    margin-bottom: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
@@ -92,12 +93,22 @@
     border: 1px solid black;
      
 }
+.LeaderBoard{
+    font-size: 30px;
+    font: bold;
+    border: 1px solid palevioletred;
+    width: 70%;
+    position: relative;
+    left: 14%;
+   
+}
+
 
 @media screen and (min-width: 376px) and (max-width: 982px){
     .table-main-result {
         width: 80%;
         position: relative;
-        left: 86px;
+        left: 38px;
         top: 10px;
         border: 1px solid black;
         border-collapse: collapse;
