@@ -6,7 +6,9 @@ import { useFetchQestion } from "../hooks/FetchQuestion";
 import { updateResult } from "../hooks/setResult";
 
 export default function Questions({ onChecked, questionNumber }) {
+  // A local state variable that stores the index of the user's selected answer for the current question.
   const [checked, setChecked] = useState(undefined);
+  // Tracks the current question index in the quiz.
   const { trace } = useSelector((state) => state.questions);
   const result = useSelector((state) => state.result.result);
   // eslint-disable-next-line no-unused-vars
@@ -17,15 +19,18 @@ export default function Questions({ onChecked, questionNumber }) {
   );
   const dispatch = useDispatch();
 
+  //Whenever answer is changed by user
   useEffect(() => {
     dispatch(updateResult({ trace, checked }));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [checked]);
 
+  //on selecting option 
   function onSelect(i) {
+    //marks parent check 
     onChecked(i);
+    //marks local ckeck
     setChecked(i);
-    dispatch(updateResult({ trace, checked }));
   }
 
   if (isLoading)
@@ -107,6 +112,7 @@ export default function Questions({ onChecked, questionNumber }) {
             <input
               type="radio"
               value={false}
+              // Groups all the radio buttons under the same name
               name="options"
               id={`q${i}-option`}
               onChange={() => onSelect(i)}
@@ -115,9 +121,6 @@ export default function Questions({ onChecked, questionNumber }) {
             <label className="options" htmlFor={`q${i}-option`}>
               {q}
             </label>
-            <div
-              className={`check ${result[trace] === i ? "checked" : ""}`}
-            ></div>
           </li>
         ))}
       </ul>

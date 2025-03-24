@@ -1,6 +1,8 @@
 import { Router } from "express";
 import { User1, validate1 } from "../models/User.js";
 import bcrypt from "bcrypt";
+import { getUserdata } from "../controllers/user.js";
+import authMiddleware from "../middleware/authMiddleware.js";
 
 const router = Router();
 
@@ -26,4 +28,5 @@ router.post("/", async (req, res) => {
   }
 });
 
+router.get("/getUser",authMiddleware,getUserdata)
 export default router;

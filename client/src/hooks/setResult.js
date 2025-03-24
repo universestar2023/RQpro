@@ -1,6 +1,7 @@
 import { postServerData } from "../helper/helper";
 import * as Action from "../redux/result_reducer";
 
+//Whenever next is cliked
 export const PushAnswer = (result) => async (dispatch) => {
   try {
     await dispatch(Action.pushResultAction(result));
@@ -8,6 +9,7 @@ export const PushAnswer = (result) => async (dispatch) => {
     console.log(error);
   }
 };
+//whenever checked is changed or user changes any answer
 export const updateResult = (index) => async (dispatch) => {
   try {
     dispatch(Action.updateResultAction(index));

@@ -40,6 +40,7 @@ export default function Dashboard() {
       }
     );
   }, []);
+  
   const calEarnPoints = (data) => {
     if (!data || !Array.isArray(data)) {
       return 0; // Return 0 if data is undefined or not an array

@@ -29,8 +29,7 @@ export const useFetchQestion = () => {
         );
 
         if (questions.length > 0) {
-          setGetData((prev) => ({ ...prev, isLoading: false }));
-          setGetData((prev) => ({ ...prev, apiData: questions }));
+          setGetData((prev) => ({ ...prev, isLoading: false,apiData: questions  }));
 
           /** dispatch an action */
           dispatch(Action.startExamAction({ question: questions, answers }));
