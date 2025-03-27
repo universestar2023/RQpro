@@ -156,9 +156,7 @@ const router = createBrowserRouter([
   {
     path: "/test/quiz",
     element: (
-      <CheckUserExist>
         <Quiz />
-      </CheckUserExist>
     ),
   },
   {
