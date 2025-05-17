@@ -17,16 +17,26 @@ export default function Dashboard() {
     getServerData(
       `${process.env.REACT_APP_SERVER_HOSTNAME}/api/route/result`,
       (res) => {
-        // Filter out duplicate usernames
-      const uniqueData = res.reduce((acc, current) => {
-        const existingUser = acc.find(user => user.username === current.username);
-        if (!existingUser) {
-          acc.push(current);
-        }
-        return acc;
-      }, []);
-      setData(uniqueData);
+        const updatedData = res.reduce((acc, current) => {
+          const existingUserIndex = acc.findIndex(user => user.username === current.username);
+          if (existingUserIndex !== -1) {
+            // Update existing entry
+            acc[existingUserIndex] = {
+              ...acc[existingUserIndex],
+              attempts: current.attempts, // Update attempts with new value
+              points: acc[existingUserIndex].points + current.points
+            };
+          } else {
+            // Add new entry
+            acc.push(current);
+          }
+          return acc;
+        }, []);
 
+        // Sort data based on earned points in descending order
+        const sortedData = updatedData.sort((a, b) => b.points - a.points);
+
+        setData(sortedData);
       }
     );
   }, []);
@@ -63,7 +73,7 @@ export default function Dashboard() {
         
           <div className="info-dash">
           <p> John Doe</p>
-          <p>Current Score:{calEarnPoints(data)}</p>
+          <p>Current Score:100</p>
           </div>
           </div>
           
@@ -71,36 +81,35 @@ export default function Dashboard() {
         </div>
        
 </div>
-<div>
-      <table className="table-main-result22 ">
+ <div>
+      <div className="LeaderBoard22"><center>LeaderBoard</center></div>
+      <table className="table-main-result22">
+        
         <thead className="table-header5022">
           <tr className="table-row5022">
             <td>Name</td>
-            <td>Attemps</td>
+            <td>Attempts</td>
             <td>Earn Points</td>
-            <td>Result</td>
           </tr>
         </thead>
         <tbody>
-          {!data ?? <div>No Data Found </div>}
+          {!data.length && <tr><td colSpan="3">No Data Found</td></tr>}
           {data.map((v, i) => (
             <tr className="table-body5022" key={i}>
               <td>{v?.username || ""}</td>
               <td>{v?.attempts || 0}</td>
               <td>{v?.points || 0}</td>
-              <td>{v?.achived || ""}</td>
             </tr>
           ))}
         </tbody>
       </table>
+    </div>
       <div className="back-dashb">
      <center> <button onClick={() => window.history.back()}>Back</button></center>
     </div>
-    </div>
+   
     
-    <div>
 
-    </div>
     </>
 
   );

@@ -40,7 +40,7 @@ function ExploreLearning() {
           </div>
           <div className="item1">
             <img src={Rights4} alt="child rights" />
-            <h5>Right to Health</h5>
+            <h6>Right to Health</h6>
             <center>
             <Link to='/learn/rights'><button className="custom-button">Learn</button></Link>
             </center>
