@@ -4,7 +4,7 @@ export const getUserdata=async(req,res)=>{
     try {
         // Use the user ID from the decoded token
         const user = await User1.findById(req.user._id).select("-password"); // Exclude the password field
-        console.log(user)
+        // console.log(user)
         if (!user) {
           return res.status(404).send({ message: "User not found!" });
         }
