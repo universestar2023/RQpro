@@ -21,16 +21,15 @@ export const useFetchQestion = () => {
     (async () => {
       try {
 
-        const url = "https://rightsquestkid.onrender.com/api/route/questions";
-
+        const url = `${process.env.REACT_APP_SERVER_HOSTNAME}/api/route/questions`;
+        console.log(url)
         const [{ questions, answers }] = await getServerData(
           url,
           (data) => data
         );
 
         if (questions.length > 0) {
-          setGetData((prev) => ({ ...prev, isLoading: false }));
-          setGetData((prev) => ({ ...prev, apiData: questions }));
+          setGetData((prev) => ({ ...prev, isLoading: false,apiData: questions  }));
 
           /** dispatch an action */
           dispatch(Action.startExamAction({ question: questions, answers }));

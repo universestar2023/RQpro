@@ -10,9 +10,12 @@ import { useSelector, useDispatch } from "react-redux";
 import { Navigate } from "react-router-dom";
 
 export default function Quiz() {
+  // A local state variable that stores the user's selected answer for the current question.
   const [check, setChecked] = useState(undefined);
 
+  // An array from the Redux store that holds the user's answers.
   const result = useSelector((state) => state.result.result);
+  // An array from the Redux store that contains the list of quiz questions.
   const { queue, trace } = useSelector((state) => state.questions);
   const dispatch = useDispatch();
 
@@ -22,7 +25,8 @@ export default function Quiz() {
       /** increase the trace value by one using MoveNextAction */
       dispatch(MoveNextQuestion());
 
-      /** insert a new result in the array.  */
+      /** insert a new result as option selected for current trace or index os question 
+       in the array.  */
       if (result.length <= trace) {
         dispatch(PushAnswer(check));
       }
@@ -40,6 +44,7 @@ export default function Quiz() {
     }
   }
 
+  //This is setted when user moves to next question
   function onChecked(check) {
     setChecked(check);
   }

@@ -10,7 +10,7 @@ export default function ResultTable() {
       `${process.env.REACT_APP_SERVER_HOSTNAME}/api/route/result`,
       (res) => {
         const updatedData = res.reduce((acc, current) => {
-          const existingUserIndex = acc.findIndex(user => user.username === current.username);
+          const existingUserIndex = acc.findIndex(user => user.username.toLowerCase() === current.username.toLowerCase());
           if (existingUserIndex !== -1) {
             // Update existing entry
             acc[existingUserIndex] = {

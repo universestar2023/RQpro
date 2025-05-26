@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -156,9 +155,7 @@ const router = createBrowserRouter([
   {
     path: "/test/quiz",
     element: (
-      <CheckUserExist>
         <Quiz />
-      </CheckUserExist>
     ),
   },
   {
