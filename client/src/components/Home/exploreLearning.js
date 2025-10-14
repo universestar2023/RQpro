@@ -13,7 +13,7 @@ function ExploreLearning() {
         className="heading-container1 "
         
       >
-        <h3 className="explore-heading1">Explore Learning</h3>
+        <h3 className="explore-heading1">EXPLORE Learning</h3>
       </div>
       <div className="container-explore1">
         <div className="scrollable1">
