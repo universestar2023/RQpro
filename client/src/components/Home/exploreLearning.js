@@ -48,7 +48,7 @@ function ExploreLearning() {
         </div>
       </div>
 
-      <div className="small-rectangle-box">
+      {/* <div className="small-rectangle-box">
         <div className="small-rectangle-box2">
         <button className="btn-chatbot">
         
@@ -68,7 +68,7 @@ function ExploreLearning() {
           </Link>
             </button>
         </div>
-      </div>
+      </div> */}
 
     </div>
   );
