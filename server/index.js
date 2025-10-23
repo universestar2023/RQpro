@@ -15,7 +15,7 @@ connection();
 // middlewares
 app.use(express.json());
 app.use(cors());
-config();
+
 
 // routes
 app.use("/api/users", userRoutes);
