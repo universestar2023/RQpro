@@ -16,7 +16,8 @@ connection();
 app.use(express.json());
 app.use(
     cors({
-      origin: ["https://rightsquest-two.vercel.app"],  // your frontend URL
+      //origin: ["https://rightsquest-two.vercel.app"],  // your frontend URL
+      origin:"*",
       methods: ["GET", "POST", "PUT", "DELETE"],
       credentials: true,
     })
