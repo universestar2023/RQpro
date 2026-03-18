@@ -61,7 +61,7 @@ export default function Main() {
   
   function startQuiz() {
     const enteredFirstName = inputRef.current?.value.trim(); // Trim whitespace and convert to lowercase
-    const loggedInName = loggedInFirstName?.toLowerCase(); // Convert logged-in name to lowercase
+    const loggedInName = loggedInFirstName?.toLowerCase().trim(); // Convert logged-in name to lowercase
 
     console.log("Entered First Name:", enteredFirstName);
     console.log("Logged-In First Name:", loggedInName);
