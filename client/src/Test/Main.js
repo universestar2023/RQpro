@@ -70,7 +70,7 @@ export default function Main() {
       setError("Please enter your FirstName");
     } else if (!loggedInFirstName) {
       setError("Logged-in user data is not available. Please try again.");
-    } else if (enteredName.trim().toLowerCase() !== loggedInName.trim().toLowerCase()) {
+    } else if (enteredFirstName.trim().toLowerCase() !== loggedInName.trim().toLowerCase()) {
       setError("Entered FirstName does not match the logged-in user");
     } else {
       dispatch(setUserId(enteredFirstName)); // Save the user's first name in Redux
