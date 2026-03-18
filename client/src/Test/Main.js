@@ -60,22 +60,19 @@ export default function Main() {
 
   
   function startQuiz() {
-    const enteredFirstName = inputRef.current?.value.trim(); // Trim whitespace and convert to lowercase
-    const loggedInName = loggedInFirstName?.toLowerCase().trim(); // Convert logged-in name to lowercase
+    const enteredFirstName = inputRef.current?.value.trim().toLowerCase(); // ✅ add toLowerCase
+const loggedInName = loggedInFirstName?.trim().toLowerCase(); // ✅ same order
 
-    console.log("Entered First Name:", enteredFirstName);
-    console.log("Logged-In First Name:", loggedInName);
-
-    if (!enteredFirstName) {
-      setError("Please enter your FirstName");
-    } else if (!loggedInFirstName) {
-      setError("Logged-in user data is not available. Please try again.");
-    } else if (enteredFirstName.trim().toLowerCase() !== loggedInName.trim().toLowerCase()) {
-      setError("Entered FirstName does not match the logged-in user");
-    } else {
-      dispatch(setUserId(enteredFirstName)); // Save the user's first name in Redux
-      navigate("/test/quiz"); // Navigate to the quiz page
-    }
+if (!enteredFirstName) {
+  setError("Please enter your FirstName");
+} else if (!loggedInName) {  // ✅ check loggedInName, not loggedInFirstName
+  setError("Logged-in user data is not available. Please try again.");
+} else if (enteredFirstName !== loggedInName) {  // ✅ clean simple comparison
+  setError("Entered FirstName does not match the logged-in user");
+} else {
+  dispatch(setUserId(enteredFirstName));
+  navigate("/test/quiz");
+}
   }
 
   return (
